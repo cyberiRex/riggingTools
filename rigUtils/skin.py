@@ -8,6 +8,17 @@ import sys
 
 # todo: reduce data file size by removing 0 weights and recreating them in setWeights process
 
+# Example: 
+# import skin
+#
+# Export skin weights:
+# file_path = "path/to/weights_file_v001.json"
+# geo = "Caharacter_GEO"
+# skin.export_skin(path=file_path, node=geo)
+#
+# Import skin weights:
+# skin.import_skin(path=file_path)
+
 
 def export_skin(path=None, node=None):
     """
