@@ -36,7 +36,7 @@ def export_skin(path=None, node=None):
 
 def import_skin(path=None):
     """
-    Exports skin data
+    Imports skin data
     :param path: full path of json file
     :return:
     """
