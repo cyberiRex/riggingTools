@@ -7,15 +7,18 @@ def aaf2fcp(deleteFile=bool(), df=bool(), dstPath=str(), dst=str(), getFileName=
 def about(apiVersion=bool(), api=bool(), application=bool(), a=bool(), batch=bool(), b=bool(), buildDirectory=bool(),
           bd=bool(), buildVariant=bool(), bv=bool(), codeset=bool(), cs=bool(), compositingManager=bool(), cm=bool(),
           connected=bool(), cnt=bool(), ctime=bool(), cti=bool(), currentDate=bool(), cd=bool(), currentTime=bool(),
-          ct=bool(), cutIdentifier=bool(), c=bool(), date=bool(), d=bool(), environmentFile=bool(), env=bool(),
-          evalVersion=bool(), ev=bool(), file=bool(), f=bool(), fontInfo=bool(), foi=bool(), helpDataDirectory=bool(),
-          hdd=bool(), installedVersion=bool(), iv=bool(), ioVersion=bool(), io=bool(), irix=bool(), ir=bool(),
-          is64=bool(), x64=bool(), languageResources=bool(), lr=bool(), linux=bool(), li=bool(), linux64=bool(),
-          l64=bool(), liveUpdate=bool(), lu=bool(), localizedResourceLocation=bool(), lrl=bool(), ltVersion=bool(),
-          lt=bool(), macOS=bool(), mac=bool(), macOSppc=bool(), ppc=bool(), macOSx86=bool(), x86=bool(), ntOS=bool(),
-          nt=bool(), operatingSystem=bool(), os=bool(), operatingSystemVersion=bool(), osv=bool(), preferences=bool(),
-          pd=bool(), product=bool(), p=bool(), qtVersion=bool(), qt=bool(), tablet=bool(), tab=bool(),
-          tabletMode=bool(), tm=bool(), uiLanguage=bool(), uil=bool(), uiLanguageForStartup=bool(), uis=bool(),
+          ct=bool(), customVersion=bool(), cv=bool(), customVersionClient=bool(), cvc=bool(), customVersionMajor=bool(),
+          cvm=bool(), customVersionMinor=bool(), cvn=bool(), customVersionString=bool(), cvs=bool(),
+          cutIdentifier=bool(), c=bool(), date=bool(), d=bool(), environmentFile=bool(), env=bool(), evalVersion=bool(),
+          ev=bool(), file=bool(), f=bool(), fontInfo=bool(), foi=bool(), helpDataDirectory=bool(), hdd=bool(),
+          installedVersion=bool(), iv=bool(), ioVersion=bool(), io=bool(), irix=bool(), ir=bool(), is64=bool(),
+          x64=bool(), languageResources=bool(), lr=bool(), linux=bool(), li=bool(), linux64=bool(), l64=bool(),
+          liveUpdate=bool(), lu=bool(), localizedResourceLocation=bool(), lrl=bool(), ltVersion=bool(), lt=bool(),
+          macOS=bool(), mac=bool(), macOSppc=bool(), ppc=bool(), macOSx86=bool(), x86=bool(), majorVersion=bool(),
+          mjv=bool(), minorVersion=bool(), mnv=bool(), ntOS=bool(), nt=bool(), operatingSystem=bool(), os=bool(),
+          operatingSystemVersion=bool(), osv=bool(), patchVersion=bool(), pv=bool(), preferences=bool(), pd=bool(),
+          product=bool(), p=bool(), qtVersion=bool(), qt=bool(), tablet=bool(), tab=bool(), tabletMode=bool(),
+          tm=bool(), uiLanguage=bool(), uil=bool(), uiLanguageForStartup=bool(), uis=bool(),
           uiLanguageIsLocalized=bool(), uii=bool(), uiLocaleLanguage=bool(), ull=bool(), version=bool(), v=bool(),
           win64=bool(), w64=bool(), windowManager=bool(), wm=bool(), windows=bool(), win=bool(), *args, **kwargs):
     pass
@@ -31,7 +34,7 @@ def addAttr(attributeType=str(), at=str(), binaryTag=str(), bt=str(), cachedInte
             nc=int(), parent=str(), p=str(), proxy=str(), pxy=str(), readable=bool(), r=bool(), shortName=str(),
             sn=str(), softMaxValue=float(), smx=float(), softMinValue=float(), smn=float(), storable=bool(), s=bool(),
             usedAsColor=bool(), uac=bool(), usedAsFilename=bool(), uaf=bool(), usedAsProxy=bool(), uap=bool(),
-            writable=bool(), w=bool(), *args, **kwargs):
+            worldSpace=bool(), ws=bool(), writable=bool(), w=bool(), *args, **kwargs):
     pass
 
 
@@ -49,8 +52,8 @@ def addExtension(attributeType=str(), at=str(), binaryTag=str(), bt=str(), cache
                  nn=str(), nodeType=str(), nt=str(), numberOfChildren=int(), nc=int(), parent=str(), p=str(),
                  proxy=str(), pxy=str(), readable=bool(), r=bool(), shortName=str(), sn=str(), softMaxValue=float(),
                  smx=float(), softMinValue=float(), smn=float(), storable=bool(), s=bool(), usedAsColor=bool(),
-                 uac=bool(), usedAsFilename=bool(), uaf=bool(), usedAsProxy=bool(), uap=bool(), writable=bool(),
-                 w=bool(), *args, **kwargs):
+                 uac=bool(), usedAsFilename=bool(), uaf=bool(), usedAsProxy=bool(), uap=bool(), worldSpace=bool(),
+                 ws=bool(), writable=bool(), w=bool(), *args, **kwargs):
     pass
 
 
@@ -63,7 +66,7 @@ def addPP(attribute=str(), atr=str(), *args, **kwargs):
     pass
 
 
-def affectedNet(name=str(), n=str(), type=str(), t=str(), *args, **kwargs):
+def affectedNet(type=str(), t=str(), *args, **kwargs):
     pass
 
 
@@ -146,26 +149,30 @@ def angleBetween(caching=bool(), cch=bool(), constructionHistory=bool(), ch=bool
     pass
 
 
-def animCurveEditor(areCurvesSelected=bool(), acs=bool(), autoFit=str(), af=str(), classicMode=bool(), cm=bool(),
-                    clipTime=str(), ct=str(), constrainDrag=int(), cd=int(), control=bool(), ctl=bool(),
-                    curvesShown=bool(), cs=bool(), curvesShownForceUpdate=bool(), csf=bool(), defineTemplate=str(),
-                    dt=str(), denormalizeCurvesCommand=str(), dcc=str(), displayActiveKeyTangents=str(), dat=str(),
-                    displayActiveKeys=str(), dak=str(), displayInfinities=str(), di=str(), displayKeys=str(), dk=str(),
-                    displayNormalized=bool(), dn=bool(), displayTangents=str(), dtn=str(), displayValues=str(),
-                    dv=str(), docTag=str(), dtg=str(), exists=bool(), ex=bool(), filter=str(), f=str(),
-                    forceMainConnection=str(), fmc=str(), highlightConnection=str(), hlc=str(), keyingTime=str(),
-                    kt=str(), lockMainConnection=bool(), lck=bool(), lookAt=str(), la=str(), mainListConnection=str(),
-                    mlc=str(), menu=str(), m=str(), normalizeCurvesCommand=str(), ncc=str(), outliner=str(), o=str(),
-                    panel=str(), pnl=str(), parent=str(), p=str(), preSelectionHighlight=bool(), psh=bool(),
-                    renormalizeCurves=bool(), rnc=bool(), resultSamples=float(), rs=float(), resultScreenSamples=int(),
-                    rss=int(), resultUpdate=str(), ru=str(), selectionConnection=str(), slc=str(),
-                    showActiveCurveNames=bool(), acn=bool(), showBufferCurves=str(), sb=str(), showCurveNames=bool(),
-                    scn=bool(), showResults=str(), sr=str(), showUpstreamCurves=bool(), suc=bool(), smoothness=str(),
-                    s=str(), snapTime=str(), st=str(), snapValue=str(), sv=str(), stackedCurves=bool(), sc=bool(),
-                    stackedCurvesMax=float(), scx=float(), stackedCurvesMin=float(), scm=float(),
-                    stackedCurvesSpace=float(), scs=float(), stateString=bool(), sts=bool(), unParent=bool(), up=bool(),
-                    unlockMainConnection=bool(), ulk=bool(), updateMainConnection=bool(), upd=bool(), useTemplate=str(),
-                    ut=str(), valueLinesToggle=str(), vlt=str(), *args, **kwargs):
+def animCurveEditor(areCurvesSelected=bool(), acs=bool(), autoFit=str(), af=str(), autoFitTime=str(), aft=str(),
+                    classicMode=bool(), cm=bool(), clipTime=str(), ct=str(), constrainDrag=int(), cd=int(),
+                    control=bool(), ctl=bool(), curvesShown=bool(), cs=bool(), curvesShownForceUpdate=bool(),
+                    csf=bool(), defineTemplate=str(), dt=str(), denormalizeCurvesCommand=str(), dcc=str(),
+                    displayActiveKeyTangents=str(), dat=str(), displayActiveKeys=str(), dak=str(),
+                    displayInfinities=str(), di=str(), displayKeys=str(), dk=str(), displayNormalized=bool(), dn=bool(),
+                    displayTangents=str(), dtn=str(), displayValues=str(), dv=str(), docTag=str(), dtg=str(),
+                    exists=bool(), ex=bool(), filter=str(), f=str(), forceMainConnection=str(), fmc=str(),
+                    highlightAffectedCurves=bool(), hac=bool(), highlightConnection=str(), hlc=str(),
+                    keyMinScale=float(), kms=float(), keyScale=float(), ksc=float(), keyingTime=str(), kt=str(),
+                    lockMainConnection=bool(), lck=bool(), lockPlayRangeShades=str(), lpr=str(), lookAt=str(), la=str(),
+                    mainListConnection=str(), mlc=str(), menu=str(), m=str(), normalizeCurvesCommand=str(), ncc=str(),
+                    outliner=str(), o=str(), panel=str(), pnl=str(), parent=str(), p=str(),
+                    preSelectionHighlight=bool(), psh=bool(), renormalizeCurves=bool(), rnc=bool(),
+                    resultSamples=float(), rs=float(), resultScreenSamples=int(), rss=int(), resultUpdate=str(),
+                    ru=str(), selectionConnection=str(), slc=str(), showActiveCurveNames=bool(), acn=bool(),
+                    showBufferCurves=str(), sb=str(), showCurveNames=bool(), scn=bool(), showPlayRangeShades=str(),
+                    spr=str(), showResults=str(), sr=str(), showUpstreamCurves=bool(), suc=bool(), simpleKeyView=bool(),
+                    skv=bool(), smoothness=str(), s=str(), snapTime=str(), st=str(), snapValue=str(), sv=str(),
+                    stackedCurves=bool(), sc=bool(), stackedCurvesMax=float(), scx=float(), stackedCurvesMin=float(),
+                    scm=float(), stackedCurvesSpace=float(), scs=float(), stateString=bool(), sts=bool(),
+                    timelinePositionTop=bool(), tlp=bool(), unParent=bool(), up=bool(), unlockMainConnection=bool(),
+                    ulk=bool(), updateMainConnection=bool(), upd=bool(), useTemplate=str(), ut=str(),
+                    valueLinesToggle=str(), vlt=str(), *args, **kwargs):
     pass
 
 
@@ -197,6 +204,11 @@ def animView(endTime=float(), et=float(), maxValue=float(), max=float(), minValu
 
 
 def annotate(point=list, p=list, text=str(), tx=str(), *args, **kwargs):
+    pass
+
+
+def appHome(instrument=str(), i=str(), setTab=str(), t=str(), toggleVisibility=bool(), tv=bool(),
+            updateRecentFiles=bool(), urf=bool(), visible=bool(), v=bool(), *args, **kwargs):
     pass
 
 
@@ -238,13 +250,10 @@ def art3dPaintCtx(accopacity=bool(), aco=bool(), afterStrokeCmd=str(), asc=str()
                   brushalignment=bool(), bra=bool(), brushdepth=float(), bd=float(), brushfeedback=bool(), brf=bool(),
                   brushtype=str(), brt=str(), clear=bool(), clr=bool(), commonattr=str(), cat=str(), dragSlider=str(),
                   dsl=str(), dynclonemode=bool(), dcm=bool(), exists=bool(), ex=bool(), expandfilename=bool(),
-                  eef=bool(), exportaspectratio=float(), ear=float(), exportfilemode=str(), efm=str(),
-                  exportfilesave=str(), esf=str(), exportfilesizex=int(), fsx=int(), exportfilesizey=int(), fsy=int(),
-                  exportfiletype=str(), eft=str(), extendFillColor=bool(), efc=bool(), fileformat=str(), eff=str(),
+                  eef=bool(), extendFillColor=bool(), efc=bool(), fileformat=str(), eff=str(),
                   filetxtaspectratio=float(), far=float(), filetxtsizex=int(), ftx=int(), filetxtsizey=int(), fty=int(),
                   floodOpacity=float(), fop=float(), floodall=bool(), fal=bool(), floodselect=bool(), fsl=bool(),
                   history=bool(), ch=bool(), image1=str(), i1=str(), image2=str(), i2=str(), image3=str(), i3=str(),
-                  importfileload=str(), ifl=str(), importfilemode=str(), ifm=str(), importreassign=bool(), irm=bool(),
                   keepaspectratio=bool(), kar=bool(), lastRecorderCmd=str(), lrc=str(), lastStampName=str(), lsn=str(),
                   lowerradius=float(), lr=float(), makeStroke=int(), mst=int(), mappressure=str(), mp=str(), name=str(),
                   n=str(), opacity=float(), op=float(), outline=bool(), o=bool(), outwhilepaint=bool(), owp=bool(),
@@ -640,39 +649,34 @@ def attrColorSliderGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(
                        columnWidth2=list, cw2=list, columnWidth3=list, cw3=list, columnWidth4=list, cw4=list,
                        columnWidth5=list, cw5=list, columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(),
                        docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(),
-                       enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                       fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                       hsvValue=list, hsv=list, isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(),
-                       m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
-                       p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rgbValue=list,
-                       rgb=list, rowAttach=list, rat=list, showButton=bool(), sb=bool(), statusBarMessage=str(),
-                       sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
-                       vcc=str(), width=int(), w=int(), *args, **kwargs):
-    pass
-
-
-def attrCompatibility(addAttr=bool(), a=bool(), clear=bool(), clr=bool(), dumpTable=bool(), dmp=bool(), enable=bool(),
-                      e=bool(), nodeRename=str(), nr=str(), pluginNode=str(), pn=str(), removeAttr=bool(), rm=bool(),
-                      renameAttr=str(), r=str(), type=str(), typ=str(), version=str(), v=str(), *args, **kwargs):
+                       enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                       ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                       highlightColor=list, hlc=list, hsvValue=list, hsv=list, isObscured=bool(), io=bool(),
+                       label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                       numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                       preventOverride=bool(), po=bool(), rgbValue=list, rgb=list, rowAttach=list, rat=list,
+                       showButton=bool(), sb=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+                       visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
+                       **kwargs):
     pass
 
 
 def attrControlGrp(annotation=str(), ann=str(), attribute=str(), a=str(), changeCommand=str(), cc=str(), enable=bool(),
-                   en=bool(), handlesAttribute=str(), ha=str(), hideMapButton=bool(), hmb=bool(), label=str(), l=str(),
-                   preventOverride=bool(), po=bool(), *args, **kwargs):
+                   en=bool(), exists=bool(), ex=bool(), handlesAttribute=str(), ha=str(), hideMapButton=bool(),
+                   hmb=bool(), label=str(), l=str(), preventOverride=bool(), po=bool(), *args, **kwargs):
     pass
 
 
 def attrEnumOptionMenu(annotation=str(), ann=str(), attribute=str(), at=str(), backgroundColor=list, bgc=list,
                        changeCommand=str(), cc=str(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                        dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                       enableBackground=bool(), ebg=bool(), enumeratedItem=list, ei=list, exists=bool(), ex=bool(),
-                       fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                       isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(),
-                       nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
-                       pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(),
-                       useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-                       width=int(), w=int(), *args, **kwargs):
+                       enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), enumeratedItem=list,
+                       ei=list, exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                       highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(),
+                       m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
+                       p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
+                       statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+                       visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -689,14 +693,14 @@ def attrEnumOptionMenuGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=i
                           cw1=int(), columnWidth2=list, cw2=list, columnWidth3=list, cw3=list, columnWidth4=list,
                           cw4=list, columnWidth5=list, cw5=list, columnWidth6=list, cw6=list, defineTemplate=str(),
                           dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(),
-                          dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enumeratedItem=list,
-                          ei=list, exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
-                          highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(),
-                          manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
-                          npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(),
-                          po=bool(), rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(), useTemplate=str(),
-                          ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(),
-                          w=int(), *args, **kwargs):
+                          dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
+                          enableKeyboardFocus=bool(), ekf=bool(), enumeratedItem=list, ei=list, exists=bool(),
+                          ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
+                          hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(),
+                          noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                          popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rowAttach=list,
+                          rat=list, statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(),
+                          vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -713,14 +717,14 @@ def attrFieldGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(), ad2
                  columnWidth2=list, cw2=list, columnWidth3=list, cw3=list, columnWidth4=list, cw4=list,
                  columnWidth5=list, cw5=list, columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), docTag=str(),
                  dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                 enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), extraButton=bool(), eb=bool(),
-                 extraButtonCommand=str(), ebc=str(), extraButtonIcon=str(), ebi=str(), extraLabel=str(), el=str(),
-                 forceAddMapButton=bool(), fmb=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
-                 hideMapButton=bool(), hmb=bool(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
-                 label=str(), l=str(), manage=bool(), m=bool(), maxValue=float(), max=float(), minValue=float(),
-                 min=float(), noBackground=bool(), nbg=bool(), numberOfFields=int(), nf=int(),
-                 numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                 precision=int(), pre=int(), preventOverride=bool(), po=bool(), rowAttach=list, rat=list,
+                 enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+                 extraButton=bool(), eb=bool(), extraButtonCommand=str(), ebc=str(), extraButtonIcon=str(), ebi=str(),
+                 extraLabel=str(), el=str(), forceAddMapButton=bool(), fmb=bool(), fullPathName=bool(), fpn=bool(),
+                 height=int(), h=int(), hideMapButton=bool(), hmb=bool(), highlightColor=list, hlc=list,
+                 isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(), maxValue=float(),
+                 max=float(), minValue=float(), min=float(), noBackground=bool(), nbg=bool(), numberOfFields=int(),
+                 nf=int(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
+                 pma=bool(), precision=int(), pre=int(), preventOverride=bool(), po=bool(), rowAttach=list, rat=list,
                  statusBarMessage=str(), sbm=str(), step=float(), s=float(), useTemplate=str(), ut=str(),
                  visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
                  **kwargs):
@@ -740,19 +744,19 @@ def attrFieldSliderGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(
                        columnWidth2=list, cw2=list, columnWidth3=list, cw3=list, columnWidth4=list, cw4=list,
                        columnWidth5=list, cw5=list, columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(),
                        docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(),
-                       enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                       extraButton=bool(), eb=bool(), extraButtonCommand=str(), ebc=str(), extraButtonIcon=str(),
-                       ebi=str(), fieldMaxValue=float(), fmx=float(), fieldMinValue=float(), fmn=float(),
-                       fieldStep=float(), fs=float(), forceAddMapButton=bool(), fmb=bool(), fullPathName=bool(),
-                       fpn=bool(), height=int(), h=int(), hideMapButton=bool(), hmb=bool(), highlightColor=list,
-                       hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(),
-                       maxValue=float(), max=float(), minValue=float(), min=float(), noBackground=bool(), nbg=bool(),
-                       numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                       precision=int(), pre=int(), preventOverride=bool(), po=bool(), rowAttach=list, rat=list,
-                       sliderMaxValue=float(), smx=float(), sliderMinValue=float(), smn=float(), sliderStep=float(),
-                       ss=float(), statusBarMessage=str(), sbm=str(), step=float(), s=float(), useTemplate=str(),
-                       ut=str(), vertical=bool(), vr=bool(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
-                       vcc=str(), width=int(), w=int(), *args, **kwargs):
+                       enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                       ekf=bool(), exists=bool(), ex=bool(), extraButton=bool(), eb=bool(), extraButtonCommand=str(),
+                       ebc=str(), extraButtonIcon=str(), ebi=str(), fieldMaxValue=float(), fmx=float(),
+                       fieldMinValue=float(), fmn=float(), fieldStep=float(), fs=float(), forceAddMapButton=bool(),
+                       fmb=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), hideMapButton=bool(),
+                       hmb=bool(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(),
+                       manage=bool(), m=bool(), maxValue=float(), max=float(), minValue=float(), min=float(),
+                       noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                       popupMenuArray=bool(), pma=bool(), precision=int(), pre=int(), preventOverride=bool(), po=bool(),
+                       rowAttach=list, rat=list, sliderMaxValue=float(), smx=float(), sliderMinValue=float(),
+                       smn=float(), sliderStep=float(), ss=float(), statusBarMessage=str(), sbm=str(), step=float(),
+                       s=float(), useTemplate=str(), ut=str(), vertical=bool(), vr=bool(), visible=bool(), vis=bool(),
+                       visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -780,11 +784,11 @@ def attributeQuery(affectsAppearance=bool(), aa=bool(), affectsWorldspace=bool()
                    hidden=bool(), h=bool(), indeterminant=bool(), idt=bool(), indexMatters=bool(), im=bool(),
                    internal=bool(), i=bool(), internalGet=bool(), ig=bool(), internalSet=bool(), keyable=bool(),
                    k=bool(), listChildren=bool(), lc=bool(), listDefault=bool(), ld=bool(), listEnum=bool(), le=bool(),
-                   listParent=bool(), lp=bool(), listSiblings=bool(), ls=bool(), longName=bool(), ln=bool(),
-                   maxExists=bool(), mxe=bool(), maximum=bool(), max=bool(), message=bool(), msg=bool(),
-                   minExists=bool(), mne=bool(), minimum=bool(), min=bool(), multi=bool(), m=bool(), niceName=bool(),
-                   nn=bool(), node=str(), n=str(), numberOfChildren=bool(), nc=bool(), range=bool(), r=bool(),
-                   rangeExists=bool(), re=bool(), readable=bool(), rd=bool(), renderSource=bool(), rs=bool(),
+                   listParent=bool(), lp=bool(), listSiblings=bool(), ls=bool(), localizedListEnum=bool(), lz=bool(),
+                   longName=bool(), ln=bool(), maxExists=bool(), mxe=bool(), maximum=bool(), max=bool(), message=bool(),
+                   msg=bool(), minExists=bool(), mne=bool(), minimum=bool(), min=bool(), multi=bool(), m=bool(),
+                   niceName=bool(), nn=bool(), node=str(), n=str(), numberOfChildren=bool(), nc=bool(), range=bool(),
+                   r=bool(), rangeExists=bool(), re=bool(), readable=bool(), rd=bool(), renderSource=bool(), rs=bool(),
                    shortName=bool(), sn=bool(), softMax=bool(), smx=bool(), softMaxExists=bool(), sxe=bool(),
                    softMin=bool(), smn=bool(), softMinExists=bool(), sme=bool(), softRange=bool(), s=bool(),
                    softRangeExists=bool(), se=bool(), storable=bool(), st=bool(), type=str(), typ=str(),
@@ -810,17 +814,17 @@ def attrNavigationControlGrp(adjustableColumn=int(), adj=int(), adjustableColumn
                              connectToExisting=str(), ce=str(), createNew=str(), cn=str(), defaultTraversal=str(),
                              dtv=str(), defineTemplate=str(), dt=str(), delete=str(), disconnect=str(), d=str(),
                              docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(),
-                             enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                             extraButton=bool(), eb=bool(), extraButtonCommand=str(), ebc=str(), extraButtonIcon=str(),
-                             ebi=str(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
-                             hlc=list, ignore=str(), i=str(), ignoreNotSupported=bool(), ins=bool(), isObscured=bool(),
-                             io=bool(), label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-                             noIgnorableMenu=bool(), nim=bool(), noKeyableMenu=bool(), nkm=bool(),
-                             numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
-                             pma=bool(), preventOverride=bool(), po=bool(), relatedNodes=str(), ren=str(),
-                             rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(), unignore=str(), u=str(),
-                             useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
-                             vcc=str(), width=int(), w=int(), *args, **kwargs):
+                             enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                             ekf=bool(), exists=bool(), ex=bool(), extraButton=bool(), eb=bool(),
+                             extraButtonCommand=str(), ebc=str(), extraButtonIcon=str(), ebi=str(), fullPathName=bool(),
+                             fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, ignore=str(), i=str(),
+                             ignoreNotSupported=bool(), ins=bool(), isObscured=bool(), io=bool(), label=str(), l=str(),
+                             manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), noIgnorableMenu=bool(),
+                             nim=bool(), noKeyableMenu=bool(), nkm=bool(), numberOfPopupMenus=bool(), npm=bool(),
+                             parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(),
+                             po=bool(), relatedNodes=str(), ren=str(), rowAttach=list, rat=list, statusBarMessage=str(),
+                             sbm=str(), unignore=str(), u=str(), useTemplate=str(), ut=str(), visible=bool(),
+                             vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -845,12 +849,19 @@ def autoSave(destination=int(), dst=int(), destinationFolder=bool(), df=bool(), 
     pass
 
 
+def backgroundEvaluationManager(interrupt=bool(), i=bool(), mode=str(), m=str(), pause=bool(), p=bool(), resume=bool(),
+                                r=bool(), *args, **kwargs):
+    pass
+
+
 def bakeClip(blend=list, b=list, clipIndex=int(), ci=int(), keepOriginals=bool(), k=bool(), name=str(), n=str(), *args,
              **kwargs):
     pass
 
 
-def bakeDeformer(dstMeshName=str(), dm=str(), dstSkeletonName=str(), ds=str(), maxInfluences=int(), mi=int(),
+def bakeDeformer(colorizeSkeleton=bool(), cs=bool(), customRangeOfMotion=tuple(), rom=tuple(), dstMeshName=str(),
+                 dm=str(), dstSkeletonName=str(), ds=str(), hierarchy=bool(), hi=bool(), influences=list, i=list,
+                 maxInfluences=int(), mi=int(), pruneWeights=float(), pw=float(), smoothWeights=int(), sw=int(),
                  srcMeshName=str(), sm=str(), srcSkeletonName=str(), ss=str(), *args, **kwargs):
     pass
 
@@ -967,10 +978,11 @@ def blendShape(after=bool(), af=bool(), afterReference=bool(), ar=bool(), automa
                ihs=bool(), ip=str(), mergeSource=int(), mgs=int(), mergeTarget=int(), mgt=int(), mirrorDirection=int(),
                md=int(), mirrorTarget=list, mt=list, name=str(), n=str(), normalizationGroups=bool(), ng=bool(),
                origin=str(), o=str(), parallel=bool(), par=bool(), prune=bool(), pr=bool(), remove=bool(), rm=bool(),
-               resetTargetDelta=list, rtd=list, split=bool(), sp=bool(), symmetryAxis=str(), sa=str(),
-               symmetryEdge=str(), se=str(), symmetrySpace=int(), ss=int(), tangentSpace=bool(), ts=bool(), target=list,
-               t=list, topologyCheck=bool(), tc=bool(), transform=str(), tr=str(), weight=list, w=list,
-               weightCount=int(), wc=int(), *args, **kwargs):
+               resetTargetDelta=list, rtd=list, split=bool(), sp=bool(), suppressDialog=bool(), sd=bool(),
+               symmetryAxis=str(), sa=str(), symmetryEdge=str(), se=str(), symmetrySpace=int(), ss=int(),
+               tangentSpace=bool(), ts=bool(), target=list, t=list, topologyCheck=bool(), tc=bool(), transform=str(),
+               tr=str(), useComponentTags=bool(), uct=bool(), weight=list, w=list, weightCount=int(), wc=int(), *args,
+               **kwargs):
     pass
 
 
@@ -1013,7 +1025,8 @@ def boneLattice(after=bool(), af=bool(), afterReference=bool(), ar=bool(), befor
                 includeHiddenSelections=bool(), ihs=bool(), joint=str(), j=str(), lengthIn=float(), li=float(),
                 lengthOut=float(), lo=float(), name=str(), n=str(), parallel=bool(), par=bool(), prune=bool(),
                 pr=bool(), remove=bool(), rm=bool(), split=bool(), sp=bool(), transform=str(), t=str(), tricep=float(),
-                tr=float(), widthLeft=float(), wl=float(), widthRight=float(), wr=float(), *args, **kwargs):
+                tr=float(), useComponentTags=bool(), uct=bool(), widthLeft=float(), wl=float(), widthRight=float(),
+                wr=float(), *args, **kwargs):
     pass
 
 
@@ -1052,16 +1065,35 @@ def buildKeyframeMenu(*args, **kwargs):
 def button(actOnPress=bool(), aop=bool(), actionIsSubstitute=bool(), ais=bool(), align=str(), al=str(),
            annotation=str(), ann=str(), backgroundColor=list, bgc=list, command=str(), c=str(), defineTemplate=str(),
            dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(),
-           enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
-           fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(),
-           l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
-           parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-           recomputeSize=bool(), rs=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
-           visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+           enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(),
+           exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
+           hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(),
+           nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+           preventOverride=bool(), po=bool(), recomputeSize=bool(), rs=bool(), statusBarMessage=str(), sbm=str(),
+           useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(),
+           w=int(), *args, **kwargs):
     pass
 
 
 def buttonManip(icon=str(), i=str(), *args, **kwargs):
+    pass
+
+
+def cacheEvaluator(cacheFillMode=str(), cfm=str(), cacheFillOrder=str(), cfo=str(), cacheInvalidate=tuple(), ci=tuple(),
+                   cacheName=str(), cn=str(), cachedFrames=bool(), cfs=bool(), cachingPoints=bool(), cps=bool(),
+                   creationParameters=bool(), cp=bool(), delegateEvaluation=bool(), de=bool(),
+                   dynamicsAsyncRefresh=bool(), dar=bool(), dynamicsSupportActive=bool(), dsa=bool(),
+                   dynamicsSupportEnabled=bool(), dse=bool(), flushCache=str(), fc=str(), flushCacheRange=list,
+                   fcr=list, flushCacheSync=bool(), fcs=bool(), flushCacheWait=bool(), fcw=bool(),
+                   hybridCacheMode=str(), hcm=str(), layeredEvaluationActive=bool(), lea=bool(),
+                   layeredEvaluationCachingPoints=bool(), lec=bool(), layeredEvaluationEnabled=bool(), lee=bool(),
+                   listCacheNames=bool(), lcn=bool(), listCachedNodes=bool(), lcd=bool(), listValueNames=bool(),
+                   lvn=bool(), newAction=str(), na=str(), newActionParam=str(), nap=str(), newFilter=str(), nf=str(),
+                   newFilterParam=str(), nfp=str(), newRule=str(), nr=str(), newRuleParam=str(), nrp=str(),
+                   pauseInvalidation=bool(), pi=bool(), preventFrameSkip=bool(), pfs=bool(), resetRules=bool(),
+                   rr=bool(), resourceUsage=bool(), ru=bool(), resumeInvalidation=bool(), ri=bool(), safeMode=bool(),
+                   sf=bool(), safeModeMessages=bool(), sfm=bool(), safeModeTriggered=bool(), sft=bool(),
+                   valueName=str(), vn=str(), waitForCache=float(), wfc=float(), *args, **kwargs):
     pass
 
 
@@ -1155,12 +1187,13 @@ def canCreateManip(*args, **kwargs):
 
 def canvas(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(), docTag=str(),
            dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-           enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(),
-           h=int(), highlightColor=list, hlc=list, hsvValue=list, hsv=list, isObscured=bool(), io=bool(), manage=bool(),
-           m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-           popupMenuArray=bool(), pma=bool(), pressCommand=str(), pc=str(), preventOverride=bool(), po=bool(),
-           rgbValue=list, rgb=list, statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(),
-           vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+           enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+           fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, hsvValue=list,
+           hsv=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+           numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+           pressCommand=str(), pc=str(), preventOverride=bool(), po=bool(), rgbValue=list, rgb=list,
+           statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+           visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -1176,17 +1209,18 @@ def channelBox(annotation=str(), ann=str(), attrBgColor=list, bc=list, attrColor
                af=str(), attrRegex=str(), ar=str(), attributeEditorMode=bool(), aem=bool(), backgroundColor=list,
                bgc=list, containerAtTop=bool(), cat=bool(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-               enableBackground=bool(), ebg=bool(), enableLabelSelection=bool(), els=bool(), execute=list, exe=list,
-               exists=bool(), ex=bool(), fieldWidth=int(), fw=int(), fixedAttrList=list, fal=list, fullPathName=bool(),
-               fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, historyObjectList=bool(), hol=bool(),
-               hyperbolic=bool(), hyp=bool(), inputs=bool(), isObscured=bool(), io=bool(), labelWidth=int(), lw=int(),
-               longNames=bool(), ln=bool(), mainListConnection=str(), mlc=str(), mainObjectList=bool(), mol=bool(),
-               manage=bool(), m=bool(), maxHeight=int(), mh=int(), maxWidth=int(), mw=int(), niceNames=bool(),
-               nn=bool(), noBackground=bool(), nbg=bool(), nodeRegex=str(), nr=str(), numberOfPopupMenus=bool(),
-               npm=bool(), outputObjectList=bool(), ool=bool(), outputs=bool(), out=bool(), parent=str(), p=str(),
-               popupMenuArray=bool(), pma=bool(), precision=int(), pre=int(), preventOverride=bool(), po=bool(),
-               select=str(), s=str(), selectedHistoryAttributes=bool(), sha=bool(), selectedMainAttributes=bool(),
-               sma=bool(), selectedOutputAttributes=bool(), soa=bool(), selectedShapeAttributes=bool(), ssa=bool(),
+               enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), enableLabelSelection=bool(),
+               els=bool(), execute=list, exe=list, exists=bool(), ex=bool(), fieldWidth=int(), fw=int(),
+               fixedAttrList=list, fal=list, fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+               highlightColor=list, hlc=list, historyObjectList=bool(), hol=bool(), hyperbolic=bool(), hyp=bool(),
+               inputs=bool(), isObscured=bool(), io=bool(), labelWidth=int(), lw=int(), longNames=bool(), ln=bool(),
+               mainListConnection=str(), mlc=str(), mainObjectList=bool(), mol=bool(), manage=bool(), m=bool(),
+               maxHeight=int(), mh=int(), maxWidth=int(), mw=int(), niceNames=bool(), nn=bool(), noBackground=bool(),
+               nbg=bool(), nodeRegex=str(), nr=str(), numberOfPopupMenus=bool(), npm=bool(), outputObjectList=bool(),
+               ool=bool(), outputs=bool(), out=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+               precision=int(), pre=int(), preventOverride=bool(), po=bool(), select=str(), s=str(),
+               selectedHistoryAttributes=bool(), sha=bool(), selectedMainAttributes=bool(), sma=bool(),
+               selectedOutputAttributes=bool(), soa=bool(), selectedShapeAttributes=bool(), ssa=bool(),
                shapeObjectList=bool(), sol=bool(), shapes=bool(), shp=bool(), showNamespace=bool(), sn=bool(),
                showTransforms=bool(), st=bool(), speed=float(), spd=float(), statusBarMessage=str(), sbm=str(),
                takeFocus=bool(), tf=bool(), update=bool(), u=bool(), useManips=str(), mnp=str(), useTemplate=str(),
@@ -1195,15 +1229,16 @@ def channelBox(annotation=str(), ann=str(), attrBgColor=list, bc=list, attrColor
     pass
 
 
-def character(addElement=str(), add=str(), addOffsetObject=str(), aoo=str(), characterPlug=bool(), cp=bool(),
-              clear=str(), cl=str(), empty=bool(), em=bool(), excludeDynamic=bool(), ed=bool(), excludeRotate=bool(),
-              er=bool(), excludeScale=bool(), es=bool(), excludeTranslate=bool(), et=bool(), excludeVisibility=bool(),
-              ev=bool(), flatten=str(), fl=str(), forceElement=str(), fe=str(), include=str(), intersection=str(),
-              int=str(), isIntersecting=str(), ii=str(), isMember=str(), im=str(), library=bool(), lib=bool(),
-              memberIndex=int(), mi=int(), name=str(), n=str(), noWarnings=bool(), nw=bool(), nodesOnly=bool(),
-              no=bool(), offsetNode=bool(), ofs=bool(), remove=str(), rm=str(), removeOffsetObject=str(), roo=str(),
-              root=str(), rt=str(), scheduler=bool(), sc=bool(), split=str(), sp=str(), subtract=str(), sub=str(),
-              text=str(), t=str(), union=str(), un=str(), userAlias=str(), ua=str(), *args, **kwargs):
+def character(addElement=str(), add=str(), addOffsetObject=str(), aoo=str(), anyMember=str(), am=str(),
+              characterPlug=bool(), cp=bool(), clear=str(), cl=str(), empty=bool(), em=bool(), excludeDynamic=bool(),
+              ed=bool(), excludeRotate=bool(), er=bool(), excludeScale=bool(), es=bool(), excludeTranslate=bool(),
+              et=bool(), excludeVisibility=bool(), ev=bool(), flatten=str(), fl=str(), forceElement=str(), fe=str(),
+              include=str(), intersection=str(), int=str(), isIntersecting=str(), ii=str(), isMember=str(), im=str(),
+              library=bool(), lib=bool(), memberIndex=int(), mi=int(), name=str(), n=str(), noWarnings=bool(),
+              nw=bool(), nodesOnly=bool(), no=bool(), offsetNode=bool(), ofs=bool(), remove=str(), rm=str(),
+              removeOffsetObject=str(), roo=str(), root=str(), rt=str(), scheduler=bool(), sc=bool(), split=str(),
+              sp=str(), subtract=str(), sub=str(), text=str(), t=str(), union=str(), un=str(), userAlias=str(),
+              ua=str(), *args, **kwargs):
     pass
 
 
@@ -1225,13 +1260,14 @@ def characterMap(mapAttr=list, ma=list, mapMethod=str(), mm=str(), mapNode=list,
 def checkBox(align=str(), al=str(), annotation=str(), ann=str(), backgroundColor=list, bgc=list, changeCommand=str(),
              cc=str(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
              dropCallback=str(), dpc=str(), editable=bool(), ed=bool(), enable=bool(), en=bool(),
-             enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-             height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(),
-             manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
-             offCommand=str(), ofc=str(), onCommand=str(), onc=str(), parent=str(), p=str(), popupMenuArray=bool(),
-             pma=bool(), preventOverride=bool(), po=bool(), recomputeSize=bool(), rs=bool(), statusBarMessage=str(),
-             sbm=str(), useTemplate=str(), ut=str(), value=bool(), v=bool(), visible=bool(), vis=bool(),
-             visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+             enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+             fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
+             io=bool(), label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+             numberOfPopupMenus=bool(), npm=bool(), offCommand=str(), ofc=str(), onCommand=str(), onc=str(),
+             parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
+             recomputeSize=bool(), rs=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+             value=bool(), v=bool(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(),
+             w=int(), *args, **kwargs):
     pass
 
 
@@ -1250,20 +1286,21 @@ def checkBoxGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(), ad2=
                 columnWidth5=list, cw5=list, columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), docTag=str(),
                 dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), editable=bool(), ed=bool(),
                 enable=bool(), en=bool(), enable1=bool(), en1=bool(), enable2=bool(), en2=bool(), enable3=bool(),
-                en3=bool(), enable4=bool(), en4=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                isObscured=bool(), io=bool(), label=str(), l=str(), label1=str(), l1=str(), label2=str(), l2=str(),
-                label3=str(), l3=str(), label4=str(), l4=str(), labelArray2=list, la2=list, labelArray3=list, la3=list,
-                labelArray4=list, la4=list, manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-                numberOfCheckBoxes=int(), ncb=int(), numberOfPopupMenus=bool(), npm=bool(), offCommand=str(), ofc=str(),
-                offCommand1=str(), of1=str(), offCommand2=str(), of2=str(), offCommand3=str(), of3=str(),
-                offCommand4=str(), of4=str(), onCommand=str(), onc=str(), onCommand1=str(), on1=str(), onCommand2=str(),
-                on2=str(), onCommand3=str(), on3=str(), onCommand4=str(), on4=str(), parent=str(), p=str(),
-                popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rowAttach=list, rat=list,
-                statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), value1=bool(), v1=bool(), value2=bool(),
-                v2=bool(), value3=bool(), v3=bool(), value4=bool(), v4=bool(), valueArray2=list, va2=list,
-                valueArray3=list, va3=list, valueArray4=list, va4=list, vertical=bool(), vr=bool(), visible=bool(),
-                vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                en3=bool(), enable4=bool(), en4=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(), label1=str(),
+                l1=str(), label2=str(), l2=str(), label3=str(), l3=str(), label4=str(), l4=str(), labelArray2=list,
+                la2=list, labelArray3=list, la3=list, labelArray4=list, la4=list, manage=bool(), m=bool(),
+                noBackground=bool(), nbg=bool(), numberOfCheckBoxes=int(), ncb=int(), numberOfPopupMenus=bool(),
+                npm=bool(), offCommand=str(), ofc=str(), offCommand1=str(), of1=str(), offCommand2=str(), of2=str(),
+                offCommand3=str(), of3=str(), offCommand4=str(), of4=str(), onCommand=str(), onc=str(),
+                onCommand1=str(), on1=str(), onCommand2=str(), on2=str(), onCommand3=str(), on3=str(), onCommand4=str(),
+                on4=str(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
+                rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), value1=bool(),
+                v1=bool(), value2=bool(), v2=bool(), value3=bool(), v3=bool(), value4=bool(), v4=bool(),
+                valueArray2=list, va2=list, valueArray3=list, va3=list, valueArray4=list, va4=list, vertical=bool(),
+                vr=bool(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(),
+                *args, **kwargs):
     pass
 
 
@@ -1310,18 +1347,18 @@ def clip(absolute=bool(), abs=bool(), absoluteRotations=bool(), abr=bool(), acti
     pass
 
 
-def clipEditor(allTrackHeights=int(), th=int(), autoFit=str(), af=str(), clipDropCmd=str(), cd=str(), clipStyle=int(),
-               cs=int(), control=bool(), ctl=bool(), defineTemplate=str(), dt=str(), deleteCmd=str(), dc=str(),
-               deselectAll=bool(), da=bool(), displayActiveKeyTangents=str(), dat=str(), displayActiveKeys=str(),
-               dak=str(), displayInfinities=str(), di=str(), displayKeys=str(), dk=str(), displayTangents=str(),
-               dtn=str(), displayValues=str(), dv=str(), docTag=str(), dtg=str(), exists=bool(), ex=bool(),
-               filter=str(), f=str(), forceMainConnection=str(), fmc=str(), frameAll=bool(), fa=bool(), frameRange=list,
-               fr=list, highlightConnection=str(), hlc=str(), highlightedBlend=list, hb=list, highlightedClip=list,
-               hc=list, initialized=bool(), it=bool(), listAllCharacters=bool(), lac=bool(),
-               listCurrentCharacters=bool(), lc=bool(), lockMainConnection=bool(), lck=bool(), lookAt=str(), la=str(),
-               mainListConnection=str(), mlc=str(), manageSequencer=bool(), ms=bool(), menuContext=str(), mc=str(),
-               panel=str(), pnl=str(), parent=str(), p=str(), selectBlend=list, sb=list, selectClip=list, sc=list,
-               selectionConnection=str(), slc=str(), snapTime=str(), st=str(), snapValue=str(), sv=str(),
+def clipEditor(allTrackHeights=int(), th=int(), autoFit=str(), af=str(), autoFitTime=str(), aft=str(),
+               clipDropCmd=str(), cd=str(), clipStyle=int(), cs=int(), control=bool(), ctl=bool(), defineTemplate=str(),
+               dt=str(), deleteCmd=str(), dc=str(), deselectAll=bool(), da=bool(), displayActiveKeyTangents=str(),
+               dat=str(), displayActiveKeys=str(), dak=str(), displayInfinities=str(), di=str(), displayKeys=str(),
+               dk=str(), displayTangents=str(), dtn=str(), displayValues=str(), dv=str(), docTag=str(), dtg=str(),
+               exists=bool(), ex=bool(), filter=str(), f=str(), forceMainConnection=str(), fmc=str(), frameAll=bool(),
+               fa=bool(), frameRange=list, fr=list, highlightConnection=str(), hlc=str(), highlightedBlend=list,
+               hb=list, highlightedClip=list, hc=list, initialized=bool(), it=bool(), listAllCharacters=bool(),
+               lac=bool(), listCurrentCharacters=bool(), lc=bool(), lockMainConnection=bool(), lck=bool(), lookAt=str(),
+               la=str(), mainListConnection=str(), mlc=str(), manageSequencer=bool(), ms=bool(), menuContext=str(),
+               mc=str(), panel=str(), pnl=str(), parent=str(), p=str(), selectBlend=list, sb=list, selectClip=list,
+               sc=list, selectionConnection=str(), slc=str(), snapTime=str(), st=str(), snapValue=str(), sv=str(),
                stateString=bool(), sts=bool(), unParent=bool(), up=bool(), unlockMainConnection=bool(), ulk=bool(),
                updateMainConnection=bool(), upd=bool(), useTemplate=str(), ut=str(), *args, **kwargs):
     pass
@@ -1355,12 +1392,13 @@ def clipSchedule(allAbsolute=bool(), aa=bool(), allRelative=bool(), ar=bool(), b
 def clipSchedulerOutliner(annotation=str(), ann=str(), backgroundColor=list, bgc=list, clipScheduler=str(), cs=str(),
                           defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                           dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-                          exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
-                          highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(),
-                          noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-                          popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(),
-                          sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-                          visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                          enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
+                          fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
+                          io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                          numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
+                          pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(),
+                          useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
+                          vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -1383,7 +1421,8 @@ def cluster(after=bool(), af=bool(), afterReference=bool(), ar=bool(), before=bo
             frontOfChain=bool(), foc=bool(), geometry=str(), g=str(), geometryIndices=bool(), gi=bool(),
             ignoreSelected=bool(), includeHiddenSelections=bool(), ihs=bool(), name=str(), n=str(), parallel=bool(),
             par=bool(), prune=bool(), pr=bool(), relative=bool(), rel=bool(), remove=bool(), rm=bool(),
-            resetGeometry=bool(), rg=bool(), split=bool(), sp=bool(), weightedNode=list, wn=list, *args, **kwargs):
+            resetGeometry=bool(), rg=bool(), split=bool(), sp=bool(), useComponentTags=bool(), uct=bool(),
+            weightedNode=list, wn=list, *args, **kwargs):
     pass
 
 
@@ -1397,27 +1436,28 @@ def cmdScrollFieldExecuter(annotation=str(), ann=str(), appendText=str(), at=str
                            cco=bool(), copySelection=bool(), cp=bool(), currentLine=int(), cl=int(),
                            cutSelection=bool(), ct=bool(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                            dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                           enableBackground=bool(), ebg=bool(), execute=bool(), exc=bool(), executeAll=bool(),
-                           exa=bool(), exists=bool(), ex=bool(), fileChangedCommand=str(), fcc=str(), filename=bool(),
-                           fn=bool(), filterKeyPress=str(), fkp=str(), fullPathName=bool(), fpn=bool(), hasFocus=bool(),
-                           hf=bool(), hasSelection=bool(), hsl=bool(), height=int(), h=int(), highlightColor=list,
-                           hlc=list, insertText=str(), it=str(), isObscured=bool(), io=bool(), load=bool(), ld=bool(),
-                           loadContents=str(), ldc=str(), loadFile=str(), ldf=str(), manage=bool(), m=bool(),
-                           modificationChangedCommand=str(), mcc=str(), modified=bool(), mod=bool(),
-                           noBackground=bool(), nbg=bool(), numberOfLines=int(), nl=int(), numberOfPopupMenus=bool(),
-                           npm=bool(), objectPathCompletion=bool(), opc=bool(), parent=str(), p=str(),
-                           pasteSelection=bool(), pst=bool(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(),
-                           po=bool(), redo=bool(), rd=bool(), removeStoredContents=str(), rsc=str(), replaceAll=list,
-                           rpa=list, saveFile=str(), svf=str(), saveSelection=str(), sv=str(),
-                           saveSelectionToShelf=bool(), svs=bool(), searchAndSelect=bool(), sas=bool(),
+                           enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), execute=bool(),
+                           exc=bool(), executeAll=bool(), exa=bool(), exists=bool(), ex=bool(),
+                           fileChangedCommand=str(), fcc=str(), filename=bool(), fn=bool(), filterKeyPress=str(),
+                           fkp=str(), fullPathName=bool(), fpn=bool(), hasFocus=bool(), hf=bool(), hasSelection=bool(),
+                           hsl=bool(), height=int(), h=int(), highlightColor=list, hlc=list, insertText=str(), it=str(),
+                           isObscured=bool(), io=bool(), load=bool(), ld=bool(), loadContents=str(), ldc=str(),
+                           loadFile=str(), ldf=str(), manage=bool(), m=bool(), modificationChangedCommand=str(),
+                           mcc=str(), modified=bool(), mod=bool(), noBackground=bool(), nbg=bool(), numberOfLines=int(),
+                           nl=int(), numberOfPopupMenus=bool(), npm=bool(), objectPathCompletion=bool(), opc=bool(),
+                           parent=str(), p=str(), pasteSelection=bool(), pst=bool(), popupMenuArray=bool(), pma=bool(),
+                           preventOverride=bool(), po=bool(), redo=bool(), rd=bool(), removeStoredContents=str(),
+                           rsc=str(), replaceAll=list, rpa=list, saveFile=str(), svf=str(), saveSelection=str(),
+                           sv=str(), saveSelectionToShelf=bool(), svs=bool(), searchAndSelect=bool(), sas=bool(),
                            searchDown=bool(), sd=bool(), searchMatchCase=bool(), smc=bool(), searchString=str(),
                            ss=str(), searchWraps=bool(), sw=bool(), select=list, sl=list, selectAll=bool(), sla=bool(),
-                           selectedText=bool(), slt=bool(), showLineNumbers=bool(), sln=bool(), showTooltipHelp=bool(),
-                           sth=bool(), source=bool(), src=bool(), sourceType=str(), st=str(), spacesPerTab=int(),
-                           spt=int(), statusBarMessage=str(), sbm=str(), storeContents=str(), stc=str(),
-                           tabsForIndent=bool(), tfi=bool(), text=str(), t=str(), textLength=bool(), tl=bool(),
-                           undo=bool(), ud=bool(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-                           visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                           selectedText=bool(), slt=bool(), showLineNumbers=bool(), sln=bool(),
+                           showTabsAndSpaces=bool(), sts=bool(), showTooltipHelp=bool(), sth=bool(), source=bool(),
+                           src=bool(), sourceType=str(), st=str(), spacesPerTab=int(), spt=int(),
+                           statusBarMessage=str(), sbm=str(), storeContents=str(), stc=str(), tabsForIndent=bool(),
+                           tfi=bool(), text=str(), t=str(), textLength=bool(), tl=bool(), undo=bool(), ud=bool(),
+                           useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
+                           vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -1425,31 +1465,33 @@ def cmdScrollFieldReporter(annotation=str(), ann=str(), backgroundColor=list, bg
                            copySelection=bool(), cp=bool(), cutSelection=bool(), ct=bool(), defineTemplate=str(),
                            dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(),
                            dpc=str(), echoAllCommands=bool(), eac=bool(), enable=bool(), en=bool(),
-                           enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), filterSourceType=str(),
-                           fst=str(), fullPathName=bool(), fpn=bool(), hasFocus=bool(), hf=bool(), height=int(),
-                           h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), lineNumbers=bool(),
-                           ln=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-                           numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), pasteSelection=bool(),
-                           pst=bool(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                           receiveFocusCommand=str(), rfc=str(), saveSelection=str(), sv=str(),
-                           saveSelectionToShelf=bool(), svs=bool(), select=list, sl=list, selectAll=bool(), sla=bool(),
-                           stackTrace=bool(), st=bool(), statusBarMessage=str(), sbm=str(), suppressErrors=bool(),
-                           se=bool(), suppressInfo=bool(), si=bool(), suppressResults=bool(), sr=bool(),
-                           suppressStackTrace=bool(), sst=bool(), suppressWarnings=bool(), sw=bool(), text=str(),
-                           t=str(), textLength=bool(), tl=bool(), useTemplate=str(), ut=str(), visible=bool(),
-                           vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                           enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                           ex=bool(), filterSourceType=str(), fst=str(), fullPathName=bool(), fpn=bool(),
+                           hasFocus=bool(), hf=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                           isObscured=bool(), io=bool(), lineNumbers=bool(), ln=bool(), manage=bool(), m=bool(),
+                           noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
+                           p=str(), pasteSelection=bool(), pst=bool(), popupMenuArray=bool(), pma=bool(),
+                           preventOverride=bool(), po=bool(), receiveFocusCommand=str(), rfc=str(), saveSelection=str(),
+                           sv=str(), saveSelectionToShelf=bool(), svs=bool(), select=list, sl=list, selectAll=bool(),
+                           sla=bool(), stackTrace=bool(), st=bool(), statusBarMessage=str(), sbm=str(),
+                           suppressErrors=bool(), se=bool(), suppressInfo=bool(), si=bool(), suppressResults=bool(),
+                           sr=bool(), suppressStackTrace=bool(), sst=bool(), suppressWarnings=bool(), sw=bool(),
+                           text=str(), t=str(), textLength=bool(), tl=bool(), useTemplate=str(), ut=str(),
+                           visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(),
+                           *args, **kwargs):
     pass
 
 
 def cmdShell(annotation=str(), ann=str(), backgroundColor=list, bgc=list, clear=bool(), cl=bool(), command=str(),
              c=str(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
              dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-             exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
-             hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-             numberOfHistoryLines=int(), nhl=int(), numberOfPopupMenus=bool(), npm=bool(), numberOfSavedLines=int(),
-             nsl=int(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-             prompt=str(), pr=str(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(),
-             vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+             enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
+             height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(),
+             m=bool(), noBackground=bool(), nbg=bool(), numberOfHistoryLines=int(), nhl=int(),
+             numberOfPopupMenus=bool(), npm=bool(), numberOfSavedLines=int(), nsl=int(), parent=str(), p=str(),
+             popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), prompt=str(), pr=str(),
+             statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+             visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -1495,15 +1537,16 @@ def colorIndexSliderGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int
                         columnWidth3=list, cw3=list, columnWidth4=list, cw4=list, columnWidth5=list, cw5=list,
                         columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                         dragCallback=str(), dgc=str(), dragCommand=str(), dc=str(), dropCallback=str(), dpc=str(),
-                        enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                        extraLabel=str(), el=str(), forceDragRefresh=bool(), fdr=bool(), fullPathName=bool(),
-                        fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, invisible=int(), inv=int(),
-                        isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(), maxValue=int(),
-                        max=int(), minValue=int(), min=int(), noBackground=bool(), nbg=bool(),
-                        numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                        preventOverride=bool(), po=bool(), rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(),
-                        useTemplate=str(), ut=str(), value=int(), v=int(), visible=bool(), vis=bool(),
-                        visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                        enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                        ekf=bool(), exists=bool(), ex=bool(), extraLabel=str(), el=str(), forceDragRefresh=bool(),
+                        fdr=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
+                        hlc=list, invisible=int(), inv=int(), isObscured=bool(), io=bool(), label=str(), l=str(),
+                        manage=bool(), m=bool(), maxValue=int(), max=int(), minValue=int(), min=int(),
+                        noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                        popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rowAttach=list, rat=list,
+                        statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), value=int(), v=int(),
+                        visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
+                        **kwargs):
     pass
 
 
@@ -1520,14 +1563,14 @@ def colorInputWidgetGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int
                         columnWidth3=list, cw3=list, columnWidth4=list, cw4=list, columnWidth5=list, cw5=list,
                         columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                         dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                        enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), forceDragRefresh=bool(),
-                        fdr=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
-                        hlc=list, hsvValue=list, hsv=list, isObscured=bool(), io=bool(), label=str(), l=str(),
-                        manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
-                        parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                        rgbValue=list, rgb=list, rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(),
-                        useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-                        width=int(), w=int(), *args, **kwargs):
+                        enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                        ex=bool(), forceDragRefresh=bool(), fdr=bool(), fullPathName=bool(), fpn=bool(), height=int(),
+                        h=int(), highlightColor=list, hlc=list, hsvValue=list, hsv=list, isObscured=bool(), io=bool(),
+                        label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                        numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                        preventOverride=bool(), po=bool(), rgbValue=list, rgb=list, rowAttach=list, rat=list,
+                        statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+                        visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -1542,26 +1585,33 @@ def colorManagementConvert(toDisplaySpace=list, tds=list, *args, **kwargs):
     pass
 
 
-def colorManagementFileRules(addRule=str(), add=str(), colorSpace=str(), cs=str(), down=str(), dwn=str(),
-                             evaluate=str(), ev=str(), extension=str(), ext=str(), listRules=bool(), lsr=bool(),
-                             load=bool(), ld=bool(), moveUp=str(), up=str(), pattern=str(), pat=str(), remove=str(),
-                             rm=str(), restoreDefaults=bool(), rde=bool(), save=bool(), sav=bool(), *args, **kwargs):
+def colorManagementFileRules(addRule=str(), add=str(), colorSpace=str(), cs=str(), colorSpaceDescription=str(),
+                             csd=str(), colorSpaceFamilies=str(), csf=str(), colorSpaceNames=bool(), csn=bool(),
+                             down=str(), dwn=str(), enabled=bool(), ena=bool(), evaluate=str(), ev=str(),
+                             extension=str(), ext=str(), listRules=bool(), lsr=bool(), load=bool(), ld=bool(),
+                             moveUp=str(), up=str(), pattern=str(), pat=str(), remove=str(), rm=str(),
+                             restoreDefaults=bool(), rde=bool(), save=bool(), sav=bool(), *args, **kwargs):
     pass
 
 
-def colorManagementPrefs(cmConfigFileEnabled=bool(), cfe=bool(), cmEnabled=bool(), cme=bool(), colorManagePots=bool(),
-                         cmp=bool(), colorManagedNodes=bool(), cmn=bool(), colorManagementSDKVersion=str(), cmv=str(),
-                         configFilePath=str(), cfp=str(), defaultInputSpaceName=str(), din=str(),
-                         equalsToPolicyFile=str(), etp=str(), exportPolicy=str(), epy=str(), inputSpaceNames=bool(),
-                         iss=bool(), loadPolicy=str(), lpy=str(), loadedDefaultInputSpaceName=str(), ldn=str(),
+def colorManagementPrefs(cmConfigFileEnabled=bool(), cfe=bool(), cmEnabled=bool(), cme=bool(),
+                         colorManageAllNodes=bool(), cma=bool(), colorManagePots=bool(), cmp=bool(),
+                         colorManagedNodes=bool(), cmn=bool(), colorManagementSDKVersion=str(), cmv=str(),
+                         configFilePath=str(), cfp=str(), configFileVersion=str(), cfv=str(),
+                         defaultInputSpaceName=str(), din=str(), displayName=str(), dn=str(), displayNames=bool(),
+                         dns=bool(), equalsToPolicyFile=str(), etp=str(), exportPolicy=str(), epy=str(),
+                         inhibitEvents=bool(), ie=bool(), inputSpaceDescription=str(), isd=str(),
+                         inputSpaceFamilies=str(), isf=str(), inputSpaceNames=bool(), iss=bool(), loadPolicy=str(),
+                         lpy=str(), loadedDefaultInputSpaceName=str(), ldn=str(), loadedDisplayName=str(), ld=str(),
                          loadedOutputTransformName=str(), lon=str(), loadedRenderingSpaceName=str(), lrn=str(),
-                         loadedViewTransformName=str(), lvn=str(), missingColorSpaceNodes=bool(), mcn=bool(),
-                         ocioRulesEnabled=bool(), ore=bool(), outputTarget=str(), ott=str(),
-                         outputTransformEnabled=bool(), ote=bool(), outputTransformName=str(), otn=str(),
-                         outputTransformNames=bool(), ots=bool(), outputTransformUseColorConversion=bool(), otc=bool(),
-                         outputUseViewTransform=bool(), ovt=bool(), policyFileName=str(), pfn=str(),
-                         popupOnError=bool(), poe=bool(), refresh=bool(), rfr=bool(), renderingSpaceName=str(),
-                         rsn=str(), renderingSpaceNames=bool(), rss=bool(), restoreDefaults=bool(), rde=bool(),
+                         loadedViewName=str(), lv=str(), loadedViewTransformName=str(), lvn=str(),
+                         missingColorSpaceNodes=bool(), mcn=bool(), ocioRulesEnabled=bool(), ore=bool(),
+                         ociov2Enabled=bool(), oci=bool(), outputTarget=str(), ott=str(), outputTransformEnabled=bool(),
+                         ote=bool(), outputTransformName=str(), otn=str(), outputTransformNames=bool(), ots=bool(),
+                         outputTransformUseColorConversion=bool(), otc=bool(), outputUseViewTransform=bool(),
+                         ovt=bool(), policyFileName=str(), pfn=str(), popupOnError=bool(), poe=bool(), refresh=bool(),
+                         rfr=bool(), renderingSpaceName=str(), rsn=str(), renderingSpaceNames=bool(), rss=bool(),
+                         restoreDefaults=bool(), rde=bool(), viewName=str(), vn=str(), viewNames=bool(), vns=bool(),
                          viewTransformName=str(), vtn=str(), viewTransformNames=bool(), vts=bool(), *args, **kwargs):
     pass
 
@@ -1580,14 +1630,14 @@ def colorSliderButtonGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=in
                          columnWidth4=list, cw4=list, columnWidth5=list, cw5=list, columnWidth6=list, cw6=list,
                          defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                          dragCommand=str(), dc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                         enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), forceDragRefresh=bool(),
-                         fdr=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
-                         hlc=list, hsvValue=list, hsv=list, image=str(), i=str(), isObscured=bool(), io=bool(),
-                         label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-                         numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
-                         pma=bool(), preventOverride=bool(), po=bool(), rgbValue=list, rgb=list, rowAttach=list,
-                         rat=list, statusBarMessage=str(), sbm=str(), symbolButtonCommand=str(), sbc=str(),
-                         symbolButtonDisplay=bool(), sbd=bool(), useTemplate=str(), ut=str(), visible=bool(),
+                         enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                         ex=bool(), forceDragRefresh=bool(), fdr=bool(), fullPathName=bool(), fpn=bool(), height=int(),
+                         h=int(), highlightColor=list, hlc=list, hsvValue=list, hsv=list, image=str(), i=str(),
+                         isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(),
+                         noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                         popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rgbValue=list, rgb=list,
+                         rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(), symbolButtonCommand=str(),
+                         sbc=str(), symbolButtonDisplay=bool(), sbd=bool(), useTemplate=str(), ut=str(), visible=bool(),
                          vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
@@ -1605,14 +1655,14 @@ def colorSliderGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(), a
                    columnWidth3=list, cw3=list, columnWidth4=list, cw4=list, columnWidth5=list, cw5=list,
                    columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                    dragCallback=str(), dgc=str(), dragCommand=str(), dc=str(), dropCallback=str(), dpc=str(),
-                   enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                   forceDragRefresh=bool(), fdr=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
-                   highlightColor=list, hlc=list, hsvValue=list, hsv=list, isObscured=bool(), io=bool(), label=str(),
-                   l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
-                   npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(),
-                   po=bool(), rgbValue=list, rgb=list, rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(),
-                   useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-                   width=int(), w=int(), *args, **kwargs):
+                   enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                   ekf=bool(), exists=bool(), ex=bool(), forceDragRefresh=bool(), fdr=bool(), fullPathName=bool(),
+                   fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, hsvValue=list, hsv=list,
+                   isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(),
+                   nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
+                   pma=bool(), preventOverride=bool(), po=bool(), rgbValue=list, rgb=list, rowAttach=list, rat=list,
+                   statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+                   visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -1620,13 +1670,13 @@ def columnLayout(adjustableColumn=bool(), adj=bool(), annotation=str(), ann=str(
                  childArray=bool(), ca=bool(), columnAlign=str(), cal=str(), columnAttach=list, cat=list,
                  columnOffset=list, co=list, columnWidth=int(), cw=int(), defineTemplate=str(), dt=str(), docTag=str(),
                  dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                 enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-                 height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(),
-                 m=bool(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(),
-                 numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                 preventOverride=bool(), po=bool(), rowSpacing=int(), rs=int(), statusBarMessage=str(), sbm=str(),
-                 useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-                 width=int(), w=int(), *args, **kwargs):
+                 enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+                 fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                 isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                 numberOfChildren=bool(), nch=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                 popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rowSpacing=int(), rs=int(),
+                 statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+                 visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -1645,14 +1695,14 @@ def commandEcho(addFilter=list, af=list, filter=list, f=list, lineNumbers=bool()
 def commandLine(annotation=str(), ann=str(), backgroundColor=list, bgc=list, command=str(), c=str(),
                 defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                 dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-                enterCommand=str(), ec=str(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(),
-                h=int(), highlightColor=list, hlc=list, holdFocus=bool(), hf=bool(), inputAnnotation=str(), ian=str(),
-                isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-                numberOfHistoryLines=int(), nhl=int(), numberOfPopupMenus=bool(), npm=bool(), outputAnnotation=str(),
-                oan=str(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                sourceType=str(), st=str(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
-                visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
-                **kwargs):
+                enableKeyboardFocus=bool(), ekf=bool(), enterCommand=str(), ec=str(), exists=bool(), ex=bool(),
+                fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, holdFocus=bool(),
+                hf=bool(), inputAnnotation=str(), ian=str(), isObscured=bool(), io=bool(), manage=bool(), m=bool(),
+                noBackground=bool(), nbg=bool(), numberOfHistoryLines=int(), nhl=int(), numberOfPopupMenus=bool(),
+                npm=bool(), outputAnnotation=str(), oan=str(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                preventOverride=bool(), po=bool(), sourceType=str(), st=str(), statusBarMessage=str(), sbm=str(),
+                useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+                width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -1670,28 +1720,30 @@ def commandPort(bufferSize=int(), bs=int(), close=bool(), cl=bool(), echoOutput=
 
 def componentBox(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(),
                  docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(),
-                 en=bool(), enableBackground=bool(), ebg=bool(), execute=list, exe=list, exists=bool(), ex=bool(),
-                 fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                 isObscured=bool(), io=bool(), labelWidth=int(), lw=int(), manage=bool(), m=bool(), maxHeight=int(),
-                 mh=int(), maxWidth=int(), mw=int(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
-                 npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), precision=int(), pre=int(),
-                 preventOverride=bool(), po=bool(), rowHeight=int(), rh=int(), selectedAttr=bool(), sla=bool(),
-                 statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-                 visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                 en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), execute=list,
+                 exe=list, exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                 highlightColor=list, hlc=list, isObscured=bool(), io=bool(), labelWidth=int(), lw=int(), manage=bool(),
+                 m=bool(), maxHeight=int(), mh=int(), maxWidth=int(), mw=int(), noBackground=bool(), nbg=bool(),
+                 numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                 precision=int(), pre=int(), preventOverride=bool(), po=bool(), rowHeight=int(), rh=int(),
+                 selectedAttr=bool(), sla=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+                 visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
+                 **kwargs):
     pass
 
 
 def componentEditor(control=bool(), ctl=bool(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), exists=bool(),
                     ex=bool(), filter=str(), f=str(), floatField=str(), ff=str(), floatSlider=str(), fs=str(),
                     forceMainConnection=str(), fmc=str(), hidePathName=bool(), hpn=bool(), hideZeroColumns=bool(),
-                    hzc=bool(), highlightConnection=str(), hlc=str(), lockInput=bool(), li=bool(),
-                    lockMainConnection=bool(), lck=bool(), mainListConnection=str(), mlc=str(), newTab=list, nt=list,
-                    operationCount=bool(), oc=bool(), operationLabels=bool(), ol=bool(), operationType=int(), ot=int(),
-                    panel=str(), pnl=str(), parent=str(), p=str(), precision=int(), pre=int(), removeTab=str(),
-                    rt=str(), selected=bool(), sl=bool(), selectionConnection=str(), slc=str(), setOperationLabel=list,
-                    sol=list, showObjects=bool(), so=bool(), showSelected=bool(), ss=bool(), sortAlpha=bool(),
-                    sa=bool(), stateString=bool(), sts=bool(), unParent=bool(), up=bool(), unlockMainConnection=bool(),
-                    ulk=bool(), updateMainConnection=bool(), upd=bool(), useTemplate=str(), ut=str(), *args, **kwargs):
+                    hzc=bool(), highlightConnection=str(), hlc=str(), justifyHeaders=int(), jh=int(), lockInput=bool(),
+                    li=bool(), lockMainConnection=bool(), lck=bool(), mainListConnection=str(), mlc=str(), newTab=list,
+                    nt=list, operationCount=bool(), oc=bool(), operationLabels=bool(), ol=bool(), operationType=int(),
+                    ot=int(), panel=str(), pnl=str(), parent=str(), p=str(), precision=int(), pre=int(),
+                    removeTab=str(), rt=str(), selected=bool(), sl=bool(), selectionConnection=str(), slc=str(),
+                    setOperationLabel=list, sol=list, showNamespaces=bool(), sn=bool(), showObjects=bool(), so=bool(),
+                    showSelected=bool(), ss=bool(), sortAlpha=bool(), sa=bool(), stateString=bool(), sts=bool(),
+                    unParent=bool(), up=bool(), unlockMainConnection=bool(), ulk=bool(), updateMainConnection=bool(),
+                    upd=bool(), useTemplate=str(), ut=str(), *args, **kwargs):
     pass
 
 
@@ -1823,12 +1875,12 @@ def contextInfo(c=bool(), escapeContext=bool(), esc=bool(), exists=bool(), ex=bo
 
 def control(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(), docTag=str(),
             dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-            enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-            height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(),
-            noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-            popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(),
-            useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(),
-            w=int(), *args, **kwargs):
+            enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+            fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
+            io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
+            parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
+            statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+            visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -2099,14 +2151,14 @@ def dbtrace(filter=str(), f=str(), info=bool(), i=bool(), keyword=str(), k=str()
 
 def defaultLightListCheckBox(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(),
                              dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(),
-                             dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(),
-                             ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
-                             hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(),
-                             noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
-                             p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                             shadingGroup=str(), sg=str(), statusBarMessage=str(), sbm=str(), useTemplate=str(),
-                             ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(),
-                             w=int(), *args, **kwargs):
+                             dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
+                             enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
+                             fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
+                             io=bool(), label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                             numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
+                             pma=bool(), preventOverride=bool(), po=bool(), shadingGroup=str(), sg=str(),
+                             statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+                             visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -2129,23 +2181,38 @@ def defineVirtualDevice(axis=int(), ax=int(), channel=str(), c=str(), clear=bool
     pass
 
 
+def deformableShape(chain=bool(), ch=bool(), createOriginalGeometry=bool(), cog=bool(), createTweakNode=bool(),
+                    ctw=bool(), createUpstreamTagInjectionNode=bool(), cti=bool(), frontOfChain=bool(), foc=bool(),
+                    localShapeInAttr=bool(), lsi=bool(), localShapeOutAttr=bool(), lso=bool(), nodeChain=bool(),
+                    nch=bool(), originalGeometry=bool(), og=bool(), outputPlugChain=bool(), och=bool(),
+                    plugChain=bool(), pch=bool(), tagInjectionList=bool(), til=bool(), tagInjectionNode=bool(),
+                    ti=bool(), tweakNode=bool(), tw=bool(), upstreamTagInjectionNode=bool(), uti=bool(),
+                    worldShapeOutAttr=bool(), wso=bool(), *args, **kwargs):
+    pass
+
+
 def deformer(after=bool(), af=bool(), afterReference=bool(), ar=bool(), before=bool(), bf=bool(), deformerTools=bool(),
              dt=bool(), exclusive=str(), ex=str(), frontOfChain=bool(), foc=bool(), geometry=str(), g=str(),
              geometryIndices=bool(), gi=bool(), ignoreSelected=bool(), includeHiddenSelections=bool(), ihs=bool(),
              name=str(), n=str(), parallel=bool(), par=bool(), prune=bool(), pr=bool(), remove=bool(), rm=bool(),
-             split=bool(), sp=bool(), type=str(), typ=str(), *args, **kwargs):
+             split=bool(), sp=bool(), type=str(), typ=str(), useComponentTags=bool(), uct=bool(), *args, **kwargs):
     pass
 
 
-def deformerEvaluator(chains=bool(), c=bool(), meshes=bool(), m=bool(), *args, **kwargs):
+def deformerEvaluator(active=bool(), act=bool(), asNodeName=bool(), nm=bool(), asText=bool(), txt=bool(), chains=bool(),
+                      c=bool(), deformerChain=bool(), dch=bool(), deformers=bool(), d=bool(), dumpInfo=bool(),
+                      di=bool(), list=bool(), ls=bool(), members=bool(), mbr=bool(), meshes=bool(), m=bool(),
+                      message=bool(), msg=bool(), nodeError=bool(), ner=bool(), nodeState=bool(), ns=bool(),
+                      verbose=bool(), v=bool(), *args, **kwargs):
     pass
 
 
 def deformerWeights(attribute=str(), at=str(), defaultValue=float(), dv=float(), deformer=str(), df=str(),
-                    export=bool(), ex=bool(), ignoreName=bool(), ig=bool(), im=bool(), method=str(), m=str(),
-                    path=str(), p=str(), positionTolerance=float(), pt=float(), remap=str(), r=str(), shape=str(),
-                    sh=str(), skip=str(), sk=str(), vertexConnections=bool(), vc=bool(), weightPrecision=int(),
-                    wp=int(), weightTolerance=float(), wt=float(), worldSpace=bool(), ws=bool(), *args, **kwargs):
+                    export=bool(), ex=bool(), format=str(), fm=str(), ignoreName=bool(), ig=bool(), im=bool(),
+                    method=str(), m=str(), path=str(), p=str(), positionTolerance=float(), pt=float(), remap=str(),
+                    r=str(), shape=str(), sh=str(), skip=str(), sk=str(), vertexConnections=bool(), vc=bool(),
+                    weightPrecision=int(), wp=int(), weightTolerance=float(), wt=float(), worldSpace=bool(), ws=bool(),
+                    *args, **kwargs):
     pass
 
 
@@ -2157,7 +2224,7 @@ def delete(all=bool(), attribute=str(), at=str(), channels=bool(), c=bool(), con
     pass
 
 
-def deleteAttr(attribute=str(), at=str(), name=str(), n=str(), *args, **kwargs):
+def deleteAttr(attribute=str(), at=str(), *args, **kwargs):
     pass
 
 
@@ -2184,7 +2251,8 @@ def deltaMush(after=bool(), af=bool(), afterReference=bool(), ar=bool(), before=
               includeHiddenSelections=bool(), ihs=bool(), inwardConstraint=float(), iwc=float(), name=str(), n=str(),
               outwardConstraint=float(), owc=float(), parallel=bool(), par=bool(), pinBorderVertices=bool(), pbv=bool(),
               prune=bool(), pr=bool(), remove=bool(), rm=bool(), smoothingIterations=int(), si=int(),
-              smoothingStep=float(), ss=float(), split=bool(), sp=bool(), *args, **kwargs):
+              smoothingStep=float(), ss=float(), split=bool(), sp=bool(), useComponentTags=bool(), uct=bool(), *args,
+              **kwargs):
     pass
 
 
@@ -2262,6 +2330,10 @@ def dgtimer(combineType=bool(), ct=bool(), hide=str(), hi=str(), hierarchy=bool(
             st=str(), threshold=float(), th=float(), timerOff=bool(), off=bool(), timerOn=bool(), on=bool(),
             trace=bool(), tr=bool(), type=str(), t=str(), uniqueName=bool(), un=bool(), updateHeatMap=int(), uhm=int(),
             *args, **kwargs):
+    pass
+
+
+def dgValidateCurve(allCurves=bool(), a=bool(), verbose=bool(), v=bool(), *args, **kwargs):
     pass
 
 
@@ -2385,16 +2457,16 @@ def doBlur(colorFile=str(), c=str(), length=float(), l=float(), memCapSize=float
 def dockControl(allowedArea=str(), aa=str(), annotation=str(), ann=str(), area=str(), a=str(), backgroundColor=list,
                 bgc=list, closeCommand=str(), cc=str(), content=str(), con=str(), defineTemplate=str(), dt=str(),
                 docTag=str(), dtg=str(), dockStation=str(), ds=str(), dragCallback=str(), dgc=str(), dropCallback=str(),
-                dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enablePopupOption=bool(),
-                epo=bool(), exists=bool(), ex=bool(), fixedHeight=bool(), fh=bool(), fixedWidth=bool(), fw=bool(),
-                floatChangeCommand=str(), fcc=str(), floating=bool(), fl=bool(), fullPathName=bool(), fpn=bool(),
-                height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(),
-                l=str(), manage=bool(), m=bool(), moveable=bool(), mov=bool(), noBackground=bool(), nbg=bool(),
-                numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                preventOverride=bool(), po=bool(), r=bool(), retain=bool(), ret=bool(), sizeable=bool(), s=bool(),
-                splitLayout=str(), sl=str(), state=str(), st=str(), statusBarMessage=str(), sbm=str(),
-                useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-                width=int(), w=int(), *args, **kwargs):
+                dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                ekf=bool(), enablePopupOption=bool(), epo=bool(), exists=bool(), ex=bool(), fixedHeight=bool(),
+                fh=bool(), fixedWidth=bool(), fw=bool(), floatChangeCommand=str(), fcc=str(), floating=bool(),
+                fl=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(), moveable=bool(),
+                mov=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
+                p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), r=bool(), retain=bool(),
+                ret=bool(), sizeable=bool(), s=bool(), splitLayout=str(), sl=str(), state=str(), st=str(),
+                statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+                visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -2410,11 +2482,11 @@ def dollyCtx(alternateContext=bool(), ac=bool(), boxDollyType=str(), bdt=str(), 
     pass
 
 
-def dopeSheetEditor(autoFit=str(), af=str(), control=bool(), ctl=bool(), defineTemplate=str(), dt=str(),
-                    displayActiveKeyTangents=str(), dat=str(), displayActiveKeys=str(), dak=str(),
-                    displayInfinities=str(), di=str(), displayKeys=str(), dk=str(), displayTangents=str(), dtn=str(),
-                    displayValues=str(), dv=str(), docTag=str(), dtg=str(), exists=bool(), ex=bool(), filter=str(),
-                    f=str(), forceMainConnection=str(), fmc=str(), hierarchyBelow=bool(), hb=bool(),
+def dopeSheetEditor(autoFit=str(), af=str(), autoFitTime=str(), aft=str(), control=bool(), ctl=bool(),
+                    defineTemplate=str(), dt=str(), displayActiveKeyTangents=str(), dat=str(), displayActiveKeys=str(),
+                    dak=str(), displayInfinities=str(), di=str(), displayKeys=str(), dk=str(), displayTangents=str(),
+                    dtn=str(), displayValues=str(), dv=str(), docTag=str(), dtg=str(), exists=bool(), ex=bool(),
+                    filter=str(), f=str(), forceMainConnection=str(), fmc=str(), hierarchyBelow=bool(), hb=bool(),
                     highlightConnection=str(), hlc=str(), lockMainConnection=bool(), lck=bool(), lookAt=str(), la=str(),
                     mainListConnection=str(), mlc=str(), outliner=str(), o=str(), panel=str(), pnl=str(), parent=str(),
                     p=str(), selectionConnection=str(), slc=str(), selectionWindow=list, sel=list, showScene=bool(),
@@ -2462,10 +2534,10 @@ def dropoffLocator(*args, **kwargs):
     pass
 
 
-def duplicate(inputConnections=bool(), ic=bool(), instanceLeaf=bool(), ilf=bool(), name=str(), n=str(),
-              parentOnly=bool(), po=bool(), renameChildren=bool(), rc=bool(), returnRootsOnly=bool(), rr=bool(),
-              smartTransform=bool(), st=bool(), transformsOnly=bool(), to=bool(), upstreamNodes=bool(), un=bool(),
-              *args, **kwargs):
+def duplicate(fullPath=bool(), f=bool(), inputConnections=bool(), ic=bool(), instanceLeaf=bool(), ilf=bool(),
+              name=str(), n=str(), parentOnly=bool(), po=bool(), renameChildren=bool(), rc=bool(),
+              returnRootsOnly=bool(), rr=bool(), smartTransform=bool(), st=bool(), transformsOnly=bool(), to=bool(),
+              upstreamNodes=bool(), un=bool(), *args, **kwargs):
     pass
 
 
@@ -2497,8 +2569,8 @@ def dynExport(allObjects=bool(), all=bool(), attribute=str(), atr=str(), format=
     pass
 
 
-def dynExpression(creation=bool(), c=bool(), name=str(), n=str(), runtime=bool(), r=bool(), runtimeAfterDynamics=bool(),
-                  rad=bool(), runtimeBeforeDynamics=bool(), rbd=bool(), string=str(), s=str(), *args, **kwargs):
+def dynExpression(creation=bool(), c=bool(), runtime=bool(), r=bool(), runtimeAfterDynamics=bool(), rad=bool(),
+                  runtimeBeforeDynamics=bool(), rbd=bool(), string=str(), s=str(), *args, **kwargs):
     pass
 
 
@@ -2571,13 +2643,13 @@ def editor(control=bool(), ctl=bool(), defineTemplate=str(), dt=str(), docTag=st
     pass
 
 
-def editorTemplate(addAdskAssetControls=bool(), aac=bool(), addComponents=bool(), acp=bool(), addControl=bool(),
-                   ac=bool(), addDynamicControl=bool(), adc=bool(), addExtraControls=bool(), aec=bool(),
-                   addSeparator=bool(), annotateFieldOnly=bool(), afo=bool(), annotation=str(), ann=str(),
-                   beginLayout=str(), bl=str(), beginNoOptimize=bool(), bn=bool(), beginScrollLayout=bool(), bsl=bool(),
-                   callCustom=bool(), ccu=bool(), collapse=bool(), cl=bool(), debugMode=bool(), dbm=bool(),
-                   dimControl=list, dc=list, endLayout=bool(), el=bool(), endNoOptimize=bool(), en=bool(),
-                   endScrollLayout=bool(), esl=bool(), extraControlsLabel=str(), ecl=str(), interruptOptimize=bool(),
+def editorTemplate(addAdskAssetControls=bool(), aac=bool(), addComponents=bool(), acp=bool(), addControl=list, ac=list,
+                   addDynamicControl=list, adc=list, addExtraControls=bool(), aec=bool(), addSeparator=bool(),
+                   annotateFieldOnly=bool(), afo=bool(), annotation=str(), ann=str(), beginLayout=str(), bl=str(),
+                   beginNoOptimize=bool(), bn=bool(), beginScrollLayout=bool(), bsl=bool(), callCustom=list, ccu=list,
+                   collapse=bool(), cl=bool(), debugMode=bool(), dbm=bool(), dimControl=list, dc=list, endLayout=bool(),
+                   el=bool(), endNoOptimize=bool(), en=bool(), endScrollLayout=bool(), esl=bool(),
+                   extraControlsLabel=str(), ecl=str(), forceRebuild=bool(), fr=bool(), interruptOptimize=bool(),
                    io=bool(), label=str(), l=str(), listExtraAttributes=str(), lea=str(), preventOverride=bool(),
                    po=bool(), queryControl=list, qc=list, queryLabel=list, ql=list, queryName=list, qn=list,
                    removeControl=list, rc=list, suppress=str(), s=str(), *args, **kwargs):
@@ -2643,11 +2715,14 @@ def evalDeferred(evaluateNext=bool(), en=bool(), list=bool(), ls=bool(), lowPrio
     pass
 
 
-def evaluationManager(cycleCluster=str(), ccl=str(), downstreamFrom=str(), dst=str(), enabled=bool(), e=bool(),
-                      idleBuild=bool(), ib=bool(), invalidate=bool(), inv=bool(), manipulation=bool(), man=bool(),
-                      mode=str(), m=str(), nodeTypeGloballySerialize=bool(), ntg=bool(), nodeTypeParallel=bool(),
-                      ntp=bool(), nodeTypeSerialize=bool(), nts=bool(), nodeTypeUntrusted=bool(), ntu=bool(),
-                      safeMode=bool(), sfm=bool(), upstreamFrom=str(), ust=str(), *args, **kwargs):
+def evaluationManager(cycleCluster=str(), ccl=str(), disableInfo=str(), di=str(), downstreamFrom=str(), dst=str(),
+                      empty=bool(), mt=bool(), enabled=bool(), e=bool(), fallbackTriggered=bool(), ft=bool(),
+                      idleAction=int(), ia=int(), idleBuild=bool(), ib=bool(), invalidate=bool(), inv=bool(),
+                      manipulation=bool(), man=bool(), manipulationPrevalidation=bool(), mp=bool(),
+                      manipulationReady=bool(), mr=bool(), mode=str(), m=str(), nodeTypeGloballySerialize=bool(),
+                      ntg=bool(), nodeTypeParallel=bool(), ntp=bool(), nodeTypeSerialize=bool(), nts=bool(),
+                      nodeTypeUntrusted=bool(), ntu=bool(), reduceGraphRebuild=bool(), rgr=bool(), safeMode=bool(),
+                      sfm=bool(), upstreamFrom=str(), ust=str(), *args, **kwargs):
     pass
 
 
@@ -2670,13 +2745,18 @@ def exactWorldBoundingBox(calculateExactly=bool(), ce=bool(), ignoreInvisible=bo
 
 def exclusiveLightCheckBox(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(),
                            docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(),
-                           enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                           fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                           isObscured=bool(), io=bool(), label=str(), l=str(), light=str(), lt=str(), manage=bool(),
-                           m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
-                           parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                           statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-                           visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                           enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                           ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                           highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(),
+                           light=str(), lt=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                           numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
+                           pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(),
+                           useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
+                           vcc=str(), width=int(), w=int(), *args, **kwargs):
+    pass
+
+
+def expandedSelection(depth=int(), d=int(), expansionType=str(), et=str(), *args, **kwargs):
     pass
 
 
@@ -2733,9 +2813,9 @@ def falloffCurve(addControlVertex=str(), acv=str(), annotation=str(), ann=str(),
                  bgc=list, changeCommand=str(), cc=str(), currentKey=int(), ck=int(), currentKeyValue=list, ckv=list,
                  customCurveWidget=bool(), ccw=bool(), defineTemplate=str(), dt=str(), deleteControlVertex=int(),
                  dcv=int(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(),
-                 enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                 fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                 isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                 enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(),
+                 exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
+                 hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
                  numberOfPopupMenus=bool(), npm=bool(), optionVar=str(), ov=str(), parent=str(), p=str(),
                  popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), readOnly=bool(), ro=bool(),
                  snapToGrid=bool(), stg=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
@@ -2749,13 +2829,14 @@ def falloffCurveAttr(addControlVertex=str(), acv=str(), annotation=str(), ann=st
                      ck=int(), currentKeyValue=list, ckv=list, customCurveWidget=int(), ccw=int(), defineTemplate=str(),
                      dt=str(), deleteControlVertex=int(), dcv=int(), docTag=str(), dtg=str(), dragCallback=str(),
                      dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(),
-                     ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
-                     highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(),
-                     noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-                     popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), readOnly=int(), ro=int(),
-                     selectedPositionControl=str(), spc=str(), selectedValueControl=str(), svc=str(), snapToGrid=int(),
-                     stg=int(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(),
-                     vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                     ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
+                     fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
+                     manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
+                     parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
+                     readOnly=int(), ro=int(), selectedPositionControl=str(), spc=str(), selectedValueControl=str(),
+                     svc=str(), snapToGrid=int(), stg=int(), statusBarMessage=str(), sbm=str(), useTemplate=str(),
+                     ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(),
+                     *args, **kwargs):
     pass
 
 
@@ -2763,42 +2844,44 @@ def fcheck(*args, **kwargs):
     pass
 
 
-def file(activate=bool(), a=bool(), activeProxy=bool(), ap=bool(), add=bool(), anyModified=bool(), amf=bool(),
-         applyTo=str(), at=str(), buildLoadSettings=bool(), bls=bool(), channels=bool(), chn=bool(),
-         cleanReference=str(), cr=str(), command=list, c=list, compress=bool(), cmp=bool(), constraints=bool(),
-         con=bool(), constructionHistory=bool(), ch=bool(), copyNumberList=bool(), cnl=bool(), defaultExtensions=bool(),
-         de=bool(), defaultNamespace=bool(), dns=bool(), deferReference=bool(), dr=bool(), editCommand=str(), ec=str(),
-         errorStatus=bool(), err=bool(), executeScriptNodes=bool(), esn=bool(), exists=bool(), ex=bool(),
-         expandName=bool(), exn=bool(), exportAll=bool(), ea=bool(), exportAnim=bool(), ean=bool(),
-         exportAnimFromReference=bool(), ear=bool(), exportAsReference=bool(), er=bool(), exportAsSegment=bool(),
-         exs=bool(), exportSelected=bool(), es=bool(), exportSelectedAnim=bool(), eas=bool(),
+def file(absoluteName=bool(), an=bool(), activate=bool(), a=bool(), activeProxy=bool(), ap=bool(), add=bool(),
+         anyModified=bool(), amf=bool(), applyTo=str(), at=str(), buildLoadSettings=bool(), bls=bool(), channels=bool(),
+         chn=bool(), cleanReference=str(), cr=str(), command=list, c=list, compress=bool(), cmp=bool(),
+         constraints=bool(), con=bool(), constructionHistory=bool(), ch=bool(), copyNumberList=bool(), cnl=bool(),
+         defaultExtensions=bool(), de=bool(), defaultNamespace=bool(), dns=bool(), deferReference=bool(), dr=bool(),
+         editCommand=str(), ec=str(), errorStatus=bool(), err=bool(), executeScriptNodes=bool(), esn=bool(),
+         exists=bool(), ex=bool(), expandName=bool(), exn=bool(), exportAll=bool(), ea=bool(), exportAnim=bool(),
+         ean=bool(), exportAnimFromReference=bool(), ear=bool(), exportAsReference=bool(), er=bool(),
+         exportAsSegment=bool(), exs=bool(), exportSelected=bool(), es=bool(), exportSelectedAnim=bool(), eas=bool(),
          exportSelectedAnimFromReference=bool(), esa=bool(), exportSelectedNoReference=bool(), esr=bool(),
-         exportSelectedStrict=bool(), ess=bool(), exportUnloadedReferences=bool(), eur=bool(), expressions=bool(),
-         exp=bool(), fileMetaData=bool(), fmd=bool(), flushReference=str(), fr=str(), force=bool(), f=bool(),
-         groupLocator=bool(), gl=bool(), groupName=str(), gn=str(), groupReference=bool(), gr=bool(), i=bool(),
-         ignoreVersion=bool(), iv=bool(), importFrameRate=bool(), ifr=bool(), importReference=bool(), ir=bool(),
-         importTimeRange=str(), itr=str(), lastFileOption=bool(), lfo=bool(), lastTempFile=bool(), ltf=bool(),
-         list=bool(), l=bool(), loadAllDeferred=bool(), lad=bool(), loadAllReferences=bool(), lar=bool(),
-         loadNoReferences=bool(), lnr=bool(), loadReference=str(), lr=str(), loadReferenceDepth=str(), lrd=str(),
-         loadReferencePreview=str(), lrp=str(), loadSettings=str(), ls=str(), location=bool(), loc=bool(),
-         lockContainerUnpublished=bool(), lcu=bool(), lockFile=bool(), lf=bool(), lockReference=bool(), lck=bool(),
-         mapPlaceHolderNamespace=list, mns=list, mergeNamespaceWithParent=bool(), mnp=bool(),
-         mergeNamespaceWithRoot=bool(), mnr=bool(), mergeNamespacesOnClash=bool(), mnc=bool(), modified=bool(),
-         mf=bool(), moveSelected=bool(), ms=bool(), namespace=str(), ns=str(), newFile=bool(), new=bool(), open=bool(),
-         o=bool(), options=str(), op=str(), parentNamespace=bool(), pns=bool(), postSaveScript=str(), pos=str(),
-         preSaveScript=str(), prs=str(), preserveName=bool(), pn=bool(), preserveReferences=bool(), pr=bool(),
-         preview=bool(), pv=bool(), prompt=bool(), pmt=bool(), proxyManager=str(), pm=str(), proxyTag=str(), pt=str(),
-         reference=bool(), r=bool(), referenceDepthInfo=int(), rdi=int(), referenceNode=str(), rfn=str(),
-         relativeNamespace=str(), rns=str(), removeDuplicateNetworks=bool(), rdn=bool(), removeReference=bool(),
-         rr=bool(), rename=str(), rn=str(), renameAll=bool(), ra=bool(), renameToSave=bool(), rts=bool(),
-         renamingPrefix=str(), rpr=str(), renamingPrefixList=bool(), rpl=bool(), replaceName=list, rep=list,
+         exportSelectedStrict=bool(), ess=bool(), exportSnapshotCallback=list, esc=list,
+         exportUnloadedReferences=bool(), eur=bool(), expressions=bool(), exp=bool(), fileMetaData=bool(), fmd=bool(),
+         flushReference=str(), fr=str(), force=bool(), f=bool(), groupLocator=bool(), gl=bool(), groupName=str(),
+         gn=str(), groupReference=bool(), gr=bool(), i=bool(), ignoreVersion=bool(), iv=bool(), importFrameRate=bool(),
+         ifr=bool(), importReference=bool(), ir=bool(), importTimeRange=str(), itr=str(), lastFileOption=bool(),
+         lfo=bool(), lastTempFile=bool(), ltf=bool(), list=bool(), l=bool(), loadAllDeferred=bool(), lad=bool(),
+         loadAllReferences=bool(), lar=bool(), loadNoReferences=bool(), lnr=bool(), loadReference=str(), lr=str(),
+         loadReferenceDepth=str(), lrd=str(), loadReferencePreview=str(), lrp=str(), loadSettings=str(), ls=str(),
+         location=bool(), loc=bool(), lockContainerUnpublished=bool(), lcu=bool(), lockFile=bool(), lf=bool(),
+         lockReference=bool(), lck=bool(), mapPlaceHolderNamespace=list, mns=list, mergeBaseAnimLayer=bool(),
+         mbl=bool(), mergeNamespaceWithParent=bool(), mnp=bool(), mergeNamespaceWithRoot=bool(), mnr=bool(),
+         mergeNamespacesOnClash=bool(), mnc=bool(), modified=bool(), mf=bool(), moveSelected=bool(), ms=bool(),
+         namespace=str(), ns=str(), newFile=bool(), new=bool(), open=bool(), o=bool(), options=str(), op=str(),
+         parentNamespace=bool(), pns=bool(), postSaveScript=str(), pos=str(), preSaveScript=str(), prs=str(),
+         preserveName=bool(), pn=bool(), preserveReferences=bool(), pr=bool(), preview=bool(), pv=bool(), prompt=bool(),
+         pmt=bool(), proxyManager=str(), pm=str(), proxyTag=str(), pt=str(), reference=bool(), r=bool(),
+         referenceDepthInfo=int(), rdi=int(), referenceNode=str(), rfn=str(), relativeNamespace=str(), rns=str(),
+         removeDuplicateNetworks=bool(), rdn=bool(), removeReference=bool(), rr=bool(), rename=str(), rn=str(),
+         renameAll=bool(), ra=bool(), renameToSave=bool(), rts=bool(), renamingPrefix=str(), rpr=str(),
+         renamingPrefixList=bool(), rpl=bool(), replaceName=list, rep=list, reserveNamespaces=bool(), rvn=bool(),
          resetError=bool(), rer=bool(), returnNewNodes=bool(), rnn=bool(), save=bool(), s=bool(), saveDiskCache=str(),
          sdc=str(), saveReference=bool(), sr=bool(), saveReferencesUnloaded=bool(), sru=bool(), saveTextures=str(),
          stx=str(), sceneName=bool(), sn=bool(), segment=str(), seg=str(), selectAll=bool(), sa=bool(), shader=bool(),
          sh=bool(), sharedNodes=str(), shd=str(), sharedReferenceFile=bool(), srf=bool(), shortName=bool(), shn=bool(),
          strict=bool(), str=bool(), swapNamespace=list, sns=list, type=str(), typ=str(), uiConfiguration=bool(),
-         uc=bool(), unloadReference=str(), ur=str(), unresolvedName=bool(), un=bool(), usingNamespaces=bool(),
-         uns=bool(), withoutCopyNumber=bool(), wcn=bool(), writable=bool(), w=bool(), *args, **kwargs):
+         uc=bool(), uiLoadConfiguration=bool(), ulc=bool(), unloadReference=str(), ur=str(), unresolvedName=bool(),
+         un=bool(), usingNamespaces=bool(), uns=bool(), withoutCopyNumber=bool(), wcn=bool(), writable=bool(), w=bool(),
+         *args, **kwargs):
     pass
 
 
@@ -2818,13 +2901,13 @@ def fileDialog2(buttonBoxOrientation=int(), bbo=int(), cancelCaption=str(), cc=s
                 dialogStyle=int(), ds=int(), fileFilter=str(), ff=str(), fileMode=int(), fm=int(),
                 fileTypeChanged=str(), ftc=str(), hideNameEdit=bool(), hne=bool(), okCaption=str(), okc=str(),
                 optionsUICancel=str(), oca=str(), optionsUICommit=str(), ocm=str(), optionsUICommit2=str(), oc2=str(),
-                optionsUICreate=str(), ocr=str(), optionsUIInit=str(), oin=str(), returnFilter=bool(), rf=bool(),
-                selectFileFilter=str(), sff=str(), selectionChanged=str(), sc=str(), setProjectBtnEnabled=bool(),
-                spe=bool(), startingDirectory=str(), dir=str(), *args, **kwargs):
+                optionsUICreate=str(), ocr=str(), optionsUIInit=str(), oin=str(), optionsUITitle=str(), oti=str(),
+                returnFilter=bool(), rf=bool(), selectFileFilter=str(), sff=str(), selectionChanged=str(), sc=str(),
+                setProjectBtnEnabled=bool(), spe=bool(), startingDirectory=str(), dir=str(), *args, **kwargs):
     pass
 
 
-def fileInfo(remove=str(), rm=str(), *args, **kwargs):
+def fileInfo(referenceNode=str(), rfn=str(), remove=str(), rm=str(), *args, **kwargs):
     pass
 
 
@@ -2851,15 +2934,46 @@ def filter(name=str(), n=str(), type=str(), t=str(), *args, **kwargs):
     pass
 
 
-def filterCurve(endTime=float(), e=float(), filter=str(), f=str(), kernel=str(), ker=str(), maxTimeStep=float(),
-                mxs=float(), minTimeStep=float(), mns=float(), period=float(), per=float(), startTime=float(),
-                s=float(), timeTolerance=float(), tto=float(), tolerance=float(), tol=float(), *args, **kwargs):
+def filterButterworthCtx(apply=bool(), a=bool(), cutoffFrequency=float(), cof=float(), endTime=float(), e=float(),
+                         exists=bool(), ex=bool(), history=bool(), ch=bool(), image1=str(), i1=str(), image2=str(),
+                         i2=str(), image3=str(), i3=str(), keepKeysOnFrame=bool(), kof=bool(), name=str(), n=str(),
+                         samplingRate=float(), sr=float(), selectedKeys=bool(), sk=bool(), startTime=float(), s=float(),
+                         *args, **kwargs):
+    pass
+
+
+def filterCurve(cutoffFrequency=float(), cof=float(), endTime=float(), e=float(), filter=str(), f=str(),
+                keepKeysOnFrame=bool(), kof=bool(), kernel=str(), ker=str(), keySync=bool(), ks=bool(),
+                maxTimeStep=float(), mxs=float(), minTimeStep=float(), mns=float(), period=float(), per=float(),
+                precision=float(), pre=float(), precisionMode=int(), pm=int(), preserveKeyTangent=str(), pkt=str(),
+                sampleCount=int(), sc=int(), samplingRate=float(), sr=float(), selectedKeys=bool(), sk=bool(),
+                startTime=float(), s=float(), timeTolerance=float(), tto=float(), tolerance=float(), tol=float(),
+                useQuaternion=bool(), uq=bool(), width=float(), w=float(), *args, **kwargs):
     pass
 
 
 def filterExpand(expand=bool(), ex=bool(), fullPath=bool(), fp=bool(), selectionMask=int(), sm=int(), symActive=bool(),
                  sma=bool(), symNegative=bool(), smn=bool(), symPositive=bool(), smp=bool(), symSeam=bool(), sms=bool(),
                  *args, **kwargs):
+    pass
+
+
+def filterGaussianCtx(apply=bool(), a=bool(), endTime=float(), e=float(), exists=bool(), ex=bool(), history=bool(),
+                      ch=bool(), image1=str(), i1=str(), image2=str(), i2=str(), image3=str(), i3=str(), name=str(),
+                      n=str(), sampleCount=int(), sc=int(), selectedKeys=bool(), sk=bool(), startTime=float(),
+                      s=float(), useQuaternion=bool(), uq=bool(), width=float(), w=float(), *args, **kwargs):
+    pass
+
+
+def filterInstances(shapes=bool(), s=bool(), *args, **kwargs):
+    pass
+
+
+def filterKeyReducerCtx(apply=bool(), a=bool(), endTime=float(), e=float(), exists=bool(), ex=bool(), history=bool(),
+                        ch=bool(), image1=str(), i1=str(), image2=str(), i2=str(), image3=str(), i3=str(),
+                        keySync=bool(), ks=bool(), name=str(), n=str(), precision=float(), pre=float(),
+                        precisionMode=int(), pm=int(), preserveKeyTangent=str(), pkt=str(), selectedKeys=bool(),
+                        sk=bool(), startTime=float(), s=float(), *args, **kwargs):
     pass
 
 
@@ -2898,15 +3012,15 @@ def flexor(atBones=bool(), ab=bool(), atJoints=bool(), aj=bool(), deformerComman
 def floatField(annotation=str(), ann=str(), backgroundColor=list, bgc=list, changeCommand=str(), cc=str(),
                defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                dragCommand=str(), dc=str(), dropCallback=str(), dpc=str(), editable=bool(), ed=bool(), enable=bool(),
-               en=bool(), enableBackground=bool(), ebg=bool(), enterCommand=str(), ec=str(), exists=bool(), ex=bool(),
-               fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
-               io=bool(), manage=bool(), m=bool(), maxValue=float(), max=float(), minValue=float(), min=float(),
-               noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-               popupMenuArray=bool(), pma=bool(), precision=int(), pre=int(), preventOverride=bool(), po=bool(),
-               receiveFocusCommand=str(), rfc=str(), showTrailingZeros=bool(), tze=bool(), statusBarMessage=str(),
-               sbm=str(), step=float(), s=float(), useTemplate=str(), ut=str(), value=float(), v=float(),
-               visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
-               **kwargs):
+               en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(),
+               enterCommand=str(), ec=str(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(),
+               h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(),
+               maxValue=float(), max=float(), minValue=float(), min=float(), noBackground=bool(), nbg=bool(),
+               numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+               precision=int(), pre=int(), preventOverride=bool(), po=bool(), receiveFocusCommand=str(), rfc=str(),
+               showTrailingZeros=bool(), tze=bool(), statusBarMessage=str(), sbm=str(), step=float(), s=float(),
+               useTemplate=str(), ut=str(), value=float(), v=float(), visible=bool(), vis=bool(),
+               visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -2924,57 +3038,61 @@ def floatFieldGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(), ad
                   columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                   dragCallback=str(), dgc=str(), dragCommand=str(), dc=str(), dropCallback=str(), dpc=str(),
                   enable=bool(), en=bool(), enable1=bool(), en1=bool(), enable2=bool(), en2=bool(), enable3=bool(),
-                  en3=bool(), enable4=bool(), en4=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                  extraLabel=str(), el=str(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
-                  highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(),
-                  m=bool(), noBackground=bool(), nbg=bool(), numberOfFields=int(), nf=int(), numberOfPopupMenus=bool(),
-                  npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), precision=int(), pre=int(),
-                  preventOverride=bool(), po=bool(), rowAttach=list, rat=list, showTrailingZeros=bool(), tze=bool(),
-                  statusBarMessage=str(), sbm=str(), step=float(), s=float(), useTemplate=str(), ut=str(), value=list,
-                  v=list, value1=float(), v1=float(), value2=float(), v2=float(), value3=float(), v3=float(),
-                  value4=float(), v4=float(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-                  width=int(), w=int(), *args, **kwargs):
+                  en3=bool(), enable4=bool(), en4=bool(), enableBackground=bool(), ebg=bool(),
+                  enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), extraLabel=str(), el=str(),
+                  fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                  isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(),
+                  nbg=bool(), numberOfFields=int(), nf=int(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
+                  p=str(), popupMenuArray=bool(), pma=bool(), precision=int(), pre=int(), preventOverride=bool(),
+                  po=bool(), rowAttach=list, rat=list, showTrailingZeros=bool(), tze=bool(), statusBarMessage=str(),
+                  sbm=str(), step=float(), s=float(), useTemplate=str(), ut=str(), value=list, v=list, value1=float(),
+                  v1=float(), value2=float(), v2=float(), value3=float(), v3=float(), value4=float(), v4=float(),
+                  visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
+                  **kwargs):
     pass
 
 
 def floatScrollBar(annotation=str(), ann=str(), backgroundColor=list, bgc=list, changeCommand=str(), cc=str(),
                    defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                    dragCommand=str(), dc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                   enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-                   height=int(), h=int(), highlightColor=list, hlc=list, horizontal=bool(), hr=bool(),
-                   isObscured=bool(), io=bool(), largeStep=float(), ls=float(), manage=bool(), m=bool(),
-                   maxValue=float(), max=float(), minValue=float(), min=float(), noBackground=bool(), nbg=bool(),
-                   numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                   preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), step=float(), s=float(),
-                   useTemplate=str(), ut=str(), value=float(), v=float(), visible=bool(), vis=bool(),
-                   visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                   enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                   ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                   horizontal=bool(), hr=bool(), isObscured=bool(), io=bool(), largeStep=float(), ls=float(),
+                   manage=bool(), m=bool(), maxValue=float(), max=float(), minValue=float(), min=float(),
+                   noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                   popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(),
+                   sbm=str(), step=float(), s=float(), useTemplate=str(), ut=str(), value=float(), v=float(),
+                   visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
+                   **kwargs):
     pass
 
 
 def floatSlider(annotation=str(), ann=str(), backgroundColor=list, bgc=list, changeCommand=str(), cc=str(),
                 defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                 dragCommand=str(), dc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-                height=int(), h=int(), highlightColor=list, hlc=list, horizontal=bool(), hr=bool(), isObscured=bool(),
-                io=bool(), manage=bool(), m=bool(), maxValue=float(), max=float(), minValue=float(), min=float(),
-                noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-                popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(),
-                step=float(), s=float(), useTemplate=str(), ut=str(), value=float(), v=float(), visible=bool(),
-                vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+                fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                horizontal=bool(), hr=bool(), isObscured=bool(), io=bool(), manage=bool(), m=bool(), maxValue=float(),
+                max=float(), minValue=float(), min=float(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
+                npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
+                statusBarMessage=str(), sbm=str(), step=float(), s=float(), useTemplate=str(), ut=str(), value=float(),
+                v=float(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(),
+                *args, **kwargs):
     pass
 
 
 def floatSlider2(annotation=str(), ann=str(), backgroundColor=list, bgc=list, changeCommand1=str(), cc1=str(),
                  changeCommand2=str(), cc2=str(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                  dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                 enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-                 height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(),
-                 m=bool(), maximum=float(), max=float(), minimum=float(), min=float(), noBackground=bool(), nbg=bool(),
-                 numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), polarity=int(), pol=int(),
-                 popupMenuArray=bool(), pma=bool(), positionControl1=str(), pc1=str(), positionControl2=str(),
-                 pc2=str(), preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(),
-                 ut=str(), value1=float(), v1=float(), value2=float(), v2=float(), values=list, vs=list, visible=bool(),
-                 vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                 enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+                 fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                 isObscured=bool(), io=bool(), manage=bool(), m=bool(), maximum=float(), max=float(), minimum=float(),
+                 min=float(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
+                 p=str(), polarity=int(), pol=int(), popupMenuArray=bool(), pma=bool(), positionControl1=str(),
+                 pc1=str(), positionControl2=str(), pc2=str(), preventOverride=bool(), po=bool(),
+                 statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), value1=float(), v1=float(),
+                 value2=float(), v2=float(), values=list, vs=list, visible=bool(), vis=bool(),
+                 visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -2992,12 +3110,13 @@ def floatSliderButtonGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=in
                          columnWidth4=list, cw4=list, columnWidth5=list, cw5=list, columnWidth6=list, cw6=list,
                          defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                          dragCommand=str(), dc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                         enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), extraLabel=str(), el=str(),
-                         field=bool(), f=bool(), fieldMaxValue=float(), fmx=float(), fieldMinValue=float(), fmn=float(),
-                         fieldStep=float(), fs=float(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
-                         highlightColor=list, hlc=list, image=str(), i=str(), isObscured=bool(), io=bool(), label=str(),
-                         l=str(), manage=bool(), m=bool(), maxValue=float(), max=float(), minValue=float(), min=float(),
-                         noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                         enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                         ex=bool(), extraLabel=str(), el=str(), field=bool(), f=bool(), fieldMaxValue=float(),
+                         fmx=float(), fieldMinValue=float(), fmn=float(), fieldStep=float(), fs=float(),
+                         fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                         image=str(), i=str(), isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(),
+                         m=bool(), maxValue=float(), max=float(), minValue=float(), min=float(), noBackground=bool(),
+                         nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
                          popupMenuArray=bool(), pma=bool(), precision=int(), pre=int(), preventOverride=bool(),
                          po=bool(), rowAttach=list, rat=list, sliderStep=float(), ss=float(), statusBarMessage=str(),
                          sbm=str(), step=float(), s=float(), symbolButtonCommand=str(), sbc=str(),
@@ -3020,16 +3139,17 @@ def floatSliderGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(), a
                    columnWidth3=list, cw3=list, columnWidth4=list, cw4=list, columnWidth5=list, cw5=list,
                    columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                    dragCallback=str(), dgc=str(), dragCommand=str(), dc=str(), dropCallback=str(), dpc=str(),
-                   enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                   extraLabel=str(), el=str(), field=bool(), f=bool(), fieldMaxValue=float(), fmx=float(),
-                   fieldMinValue=float(), fmn=float(), fieldStep=float(), fs=float(), fullPathName=bool(), fpn=bool(),
-                   height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(),
-                   l=str(), manage=bool(), m=bool(), maxValue=float(), max=float(), minValue=float(), min=float(),
-                   noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-                   popupMenuArray=bool(), pma=bool(), precision=int(), pre=int(), preventOverride=bool(), po=bool(),
-                   rowAttach=list, rat=list, sliderStep=float(), ss=float(), statusBarMessage=str(), sbm=str(),
-                   step=float(), s=float(), useTemplate=str(), ut=str(), value=float(), v=float(), visible=bool(),
-                   vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                   enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                   ekf=bool(), exists=bool(), ex=bool(), extraLabel=str(), el=str(), field=bool(), f=bool(),
+                   fieldMaxValue=float(), fmx=float(), fieldMinValue=float(), fmn=float(), fieldStep=float(),
+                   fs=float(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                   isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(), maxValue=float(),
+                   max=float(), minValue=float(), min=float(), noBackground=bool(), nbg=bool(),
+                   numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                   precision=int(), pre=int(), preventOverride=bool(), po=bool(), rowAttach=list, rat=list,
+                   sliderStep=float(), ss=float(), statusBarMessage=str(), sbm=str(), step=float(), s=float(),
+                   useTemplate=str(), ut=str(), value=float(), v=float(), visible=bool(), vis=bool(),
+                   visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -3041,13 +3161,13 @@ def flow(divisions=list, dv=list, localCompute=bool(), lc=bool(), localDivisions
 def flowLayout(annotation=str(), ann=str(), backgroundColor=list, bgc=list, childArray=bool(), ca=bool(),
                columnSpacing=int(), cs=int(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-               enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-               height=int(), h=int(), highlightColor=list, hlc=list, horizontal=bool(), hr=bool(), isObscured=bool(),
-               io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(),
-               numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-               preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
-               vertical=bool(), v=bool(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-               width=int(), w=int(), wrap=bool(), wr=bool(), *args, **kwargs):
+               enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+               fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, horizontal=bool(),
+               hr=bool(), isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+               numberOfChildren=bool(), nch=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+               popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(),
+               useTemplate=str(), ut=str(), vertical=bool(), v=bool(), visible=bool(), vis=bool(),
+               visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), wrap=bool(), wr=bool(), *args, **kwargs):
     pass
 
 
@@ -3088,13 +3208,13 @@ def formLayout(annotation=str(), ann=str(), attachControl=list, ac=list, attachF
                an=list, attachOppositeControl=list, aoc=list, attachOppositeForm=list, aof=list, attachPosition=list,
                ap=list, backgroundColor=list, bgc=list, childArray=bool(), ca=bool(), defineTemplate=str(), dt=str(),
                docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(),
-               en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
-               fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
-               manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(),
-               numberOfDivisions=int(), nd=int(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-               popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(),
-               useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-               width=int(), w=int(), *args, **kwargs):
+               en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+               ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+               isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+               numberOfChildren=bool(), nch=bool(), numberOfDivisions=int(), nd=int(), numberOfPopupMenus=bool(),
+               npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
+               statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+               visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -3108,15 +3228,21 @@ def frameLayout(annotation=str(), ann=str(), backgroundColor=list, bgc=list, bac
                 collapsable=bool(), cll=bool(), collapse=bool(), cl=bool(), collapseCommand=str(), cc=str(),
                 defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                 dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-                exists=bool(), ex=bool(), expandCommand=str(), ec=str(), font=str(), fn=str(), fullPathName=bool(),
-                fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
-                label=str(), l=str(), labelAlign=str(), la=str(), labelIndent=int(), li=int(), labelVisible=bool(),
-                lv=bool(), labelWidth=int(), lw=int(), manage=bool(), m=bool(), marginHeight=int(), mh=int(),
-                marginWidth=int(), mw=int(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(),
-                numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                preCollapseCommand=str(), pcc=str(), preExpandCommand=str(), pec=str(), preventOverride=bool(),
-                po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-                visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), expandCommand=str(), ec=str(),
+                font=str(), fn=str(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
+                hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(), labelAlign=str(), la=str(),
+                labelIndent=int(), li=int(), labelVisible=bool(), lv=bool(), labelWidth=int(), lw=int(), manage=bool(),
+                m=bool(), marginHeight=int(), mh=int(), marginWidth=int(), mw=int(), noBackground=bool(), nbg=bool(),
+                numberOfChildren=bool(), nch=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                popupMenuArray=bool(), pma=bool(), preCollapseCommand=str(), pcc=str(), preExpandCommand=str(),
+                pec=str(), preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(),
+                ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(),
+                *args, **kwargs):
+    pass
+
+
+def framelessDialog(button=str(), b=str(), message=str(), m=str(), parent=str(), p=str(), path=str(), pat=str(),
+                    primary=str(), pr=str(), title=str(), t=str(), *args, **kwargs):
     pass
 
 
@@ -3141,6 +3267,18 @@ def freezeOptions(displayLayers=bool(), dl=bool(), downstream=str(), dn=str(), e
 
 def geomBind(bindMethod=int(), bm=int(), falloff=float(), fo=float(), geodesicVoxelParams=list, gvp=list,
              maxInfluences=int(), mi=int(), *args, **kwargs):
+    pass
+
+
+def geometryAttrInfo(boundingBox=bool(), bb=bool(), castToEdges=bool(), cte=bool(), castToFaces=bool(), ctf=bool(),
+                     castToVerts=bool(), ctv=bool(), componentTagCategory=bool(), ccy=bool(),
+                     componentTagExpression=str(), cex=str(), componentTagHash=bool(), hsh=bool(),
+                     componentTagHistory=bool(), cth=bool(), componentTagHistoryHash=bool(), chh=bool(),
+                     componentTagNames=bool(), cnm=bool(), components=bool(), cmp=bool(), deformerChain=bool(),
+                     dch=bool(), elementCount=bool(), ec=bool(), groupId=int(), gid=int(), matrix=bool(), mtx=bool(),
+                     nodeChain=bool(), nch=bool(), originalGeometry=bool(), og=bool(), outputPlugChain=bool(),
+                     och=bool(), plugChain=bool(), pch=bool(), pointCount=bool(), pc=bool(), pointIndices=bool(),
+                     pi=bool(), points=bool(), pnt=bool(), subsetState=bool(), sbs=bool(), *args, **kwargs):
     pass
 
 
@@ -3220,6 +3358,16 @@ def getRenderTasks(camera=str(), c=str(), renderLayer=str(), rl=str(), *args, **
     pass
 
 
+def ghosting(action=str(), act=str(), allGhostedObjects=bool(), ago=bool(), allInRange=bool(), a=bool(),
+             customFrames=int(), cf=int(), enable=bool(), en=bool(), farOpacity=float(), fo=float(), frames=bool(),
+             f=bool(), geometryFilter=bool(), gf=bool(), ghostedObjects=bool(), go=bool(), ghostsStep=int(), gs=int(),
+             hierarchy=bool(), h=bool(), jointFilter=bool(), jf=bool(), locatorFilter=bool(), lf=bool(), mode=str(),
+             m=str(), nearOpacity=float(), no=float(), postColor=list, poc=list, postFrames=int(), pof=int(),
+             preColor=list, prc=list, preFrames=int(), prf=int(), preset=str(), p=str(), resetAll=bool(), r=bool(),
+             useDriver=bool(), ud=bool(), *args, **kwargs):
+    pass
+
+
 def globalStitch(caching=bool(), cch=bool(), constructionHistory=bool(), ch=bool(), lockSurface=bool(), lk=bool(),
                  maxSeparation=float(), ms=float(), modificationResistance=float(), mr=float(), name=str(), n=str(),
                  nodeState=int(), nds=int(), object=bool(), o=bool(), sampling=int(), sam=int(), stitchCorners=int(),
@@ -3264,16 +3412,16 @@ def grabColor(hsvValue=bool(), hsv=bool(), rgbValue=bool(), rgb=bool(), *args, *
 def gradientControl(adaptiveScaling=bool(), annotation=str(), ann=str(), attribute=str(), at=str(),
                     backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                     dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                    enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-                    height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(),
-                    m=bool(), noBackground=bool(), nbg=bool(), numberOfControls=int(), nc=int(),
-                    numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                    preventOverride=bool(), po=bool(), refreshOnRelease=int(), ror=int(), selectedColorControl=str(),
-                    scc=str(), selectedInterpControl=str(), sic=str(), selectedPositionControl=str(), spc=str(),
-                    staticNumberOfControls=bool(), snc=bool(), staticPositions=bool(), sp=bool(),
-                    statusBarMessage=str(), sbm=str(), upperLimitControl=str(), ulc=str(), useTemplate=str(), ut=str(),
-                    verticalLayout=bool(), vl=bool(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-                    width=int(), w=int(), *args, **kwargs):
+                    enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                    ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                    isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                    numberOfControls=int(), nc=int(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                    popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), refreshOnRelease=int(),
+                    ror=int(), selectedColorControl=str(), scc=str(), selectedInterpControl=str(), sic=str(),
+                    selectedPositionControl=str(), spc=str(), staticNumberOfControls=bool(), snc=bool(),
+                    staticPositions=bool(), sp=bool(), statusBarMessage=str(), sbm=str(), upperLimitControl=str(),
+                    ulc=str(), useTemplate=str(), ut=str(), verticalLayout=bool(), vl=bool(), visible=bool(),
+                    vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -3282,14 +3430,15 @@ def gradientControlNoAttr(annotation=str(), ann=str(), asString=str(), backgroun
                           currentKeyColorValue=list, clv=list, currentKeyCurveValue=bool(), cvv=bool(),
                           currentKeyInterpValue=int(), civ=int(), defineTemplate=str(), dt=str(), docTag=str(),
                           dtg=str(), dragCallback=str(), dgc=str(), dragCommand=str(), dc=str(), dropCallback=str(),
-                          dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(),
-                          ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
-                          hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(),
-                          nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), optionVar=str(), ov=str(), parent=str(),
-                          p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                          rampAsColor=bool(), rac=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(),
-                          ut=str(), valueAtPoint=float(), vap=float(), visible=bool(), vis=bool(),
-                          visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                          dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
+                          enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
+                          fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
+                          io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                          numberOfPopupMenus=bool(), npm=bool(), optionVar=str(), ov=str(), parent=str(), p=str(),
+                          popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rampAsColor=bool(),
+                          rac=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+                          valueAtPoint=float(), vap=float(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
+                          vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -3327,10 +3476,16 @@ def greasePencilCtx(autoCreateFrames=bool(), acf=bool(), canDraw=bool(), cd=bool
 
 def grid(default=bool(), df=bool(), displayAxes=bool(), da=bool(), displayAxesBold=bool(), dab=bool(),
          displayDivisionLines=bool(), ddl=bool(), displayGridLines=bool(), dgl=bool(), displayOrthographicLabels=bool(),
-         dol=bool(), displayPerspectiveLabels=bool(), dpl=bool(), divisions=int(), d=int(),
-         orthographicLabelPosition=str(), olp=str(), perspectiveLabelPosition=str(), plp=str(), reset=bool(), r=bool(),
-         size=float(), s=float(), spacing=float(), sp=float(), style=int(), st=int(), toggle=bool(), tgl=bool(), *args,
-         **kwargs):
+         dol=bool(), displayPerspectiveLabels=bool(), dpl=bool(), divisions=int(), d=int(), drawInfiniteGrid=bool(),
+         dig=bool(), drawMinimumCameraDistance=float(), dmd=float(), fogBase=float(), fb=float(), fogEnabled=bool(),
+         fog=bool(), fogMinimumCameraDistance=float(), fmd=float(), fogPower=float(), fp=float(),
+         gridSizeCameraDistanceFactor=float(), cdf=float(), gridSizeFixed=bool(), gsf=bool(),
+         gridSizeLogFactorAdjustment=float(), lfa=float(), gridSizeMinimum=float(), gsm=float(), gridSizeVarying=bool(),
+         gsv=bool(), lineWidth=float(), lw=float(), majorColor=list, mac=list, minorColor=list, mic=list,
+         normalAxis=int(), na=int(), orthographicLabelPosition=str(), olp=str(), perspectiveLabelPosition=str(),
+         plp=str(), reset=bool(), r=bool(), size=float(), s=float(), spacing=float(), sp=float(), style=int(), st=int(),
+         toggle=bool(), tgl=bool(), xAxisColor=list, xac=list, yAxisColor=list, yac=list, zAxisColor=list, zac=list,
+         *args, **kwargs):
     pass
 
 
@@ -3339,14 +3494,14 @@ def gridLayout(allowEmptyCells=bool(), aec=bool(), annotation=str(), ann=str(), 
                cellWidthHeight=list, cwh=list, childArray=bool(), ca=bool(), columnsResizable=bool(), cr=bool(),
                defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-               exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), gridOrder=bool(), go=bool(), height=int(),
-               h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(),
-               noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(), numberOfColumns=int(), nc=int(),
-               numberOfPopupMenus=bool(), npm=bool(), numberOfRows=int(), nr=int(), numberOfRowsColumns=list, nrc=list,
-               parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), position=list, pos=list,
-               preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
-               visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
-               **kwargs):
+               enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
+               gridOrder=bool(), go=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
+               io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(),
+               numberOfColumns=int(), nc=int(), numberOfPopupMenus=bool(), npm=bool(), numberOfRows=int(), nr=int(),
+               numberOfRowsColumns=list, nrc=list, parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+               position=list, pos=list, preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(),
+               useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+               width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -3416,12 +3571,12 @@ def help(documentation=bool(), doc=bool(), language=str(), lng=str(), list=bool(
 
 def helpLine(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(), docTag=str(),
              dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-             enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-             height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(),
-             m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-             popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(),
-             useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-             width=int(), w=int(), *args, **kwargs):
+             enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+             fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
+             io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
+             parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
+             statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+             visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -3483,13 +3638,13 @@ def hotkeyCtx(addClient=str(), ac=str(), clientArray=bool(), ca=bool(), currentC
 
 def hotkeyEditorPanel(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(),
                       docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(),
-                      enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                      fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                      isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-                      numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                      preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
-                      visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
-                      **kwargs):
+                      enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                      ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                      highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(),
+                      noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                      popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(),
+                      sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
+                      vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -3630,40 +3785,41 @@ def iconTextButton(align=str(), al=str(), annotation=str(), ann=str(), backgroun
                    c=str(), commandRepeatable=bool(), rpt=bool(), defineTemplate=str(), dt=str(), disabledImage=str(),
                    di=str(), docTag=str(), dtg=str(), doubleClickCommand=str(), dcc=str(), dragCallback=str(),
                    dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(),
-                   ebg=bool(), exists=bool(), ex=bool(), flat=bool(), fla=bool(), flipX=bool(), fx=bool(), flipY=bool(),
-                   fy=bool(), font=str(), fn=str(), fullPathName=bool(), fpn=bool(), handleNodeDropCallback=str(),
-                   hnd=str(), height=int(), h=int(), highlightColor=list, hlc=list, highlightImage=str(), hi=str(),
-                   image=str(), i=str(), image1=str(), i1=str(), image2=str(), i2=str(), image3=str(), i3=str(),
-                   imageOverlayLabel=str(), iol=str(), isObscured=bool(), io=bool(), label=str(), l=str(),
-                   labelEditingCallback=str(), lec=str(), labelOffset=int(), lo=int(), ltVersion=str(), lt=str(),
-                   manage=bool(), m=bool(), marginHeight=int(), mh=int(), marginWidth=int(), mw=int(),
-                   noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), overlayLabelBackColor=list,
-                   olb=list, overlayLabelColor=list, olc=list, parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                   preventOverride=bool(), po=bool(), rotation=float(), rot=float(), scaleIcon=bool(), sic=bool(),
-                   selectionImage=str(), si=str(), sourceType=str(), stp=str(), statusBarMessage=str(), sbm=str(),
-                   style=str(), st=str(), useAlpha=bool(), ua=bool(), useTemplate=str(), ut=str(), version=str(),
-                   ver=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(),
-                   *args, **kwargs):
+                   ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), flat=bool(),
+                   fla=bool(), flipX=bool(), fx=bool(), flipY=bool(), fy=bool(), font=str(), fn=str(),
+                   fullPathName=bool(), fpn=bool(), handleNodeDropCallback=str(), hnd=str(), height=int(), h=int(),
+                   highlightColor=list, hlc=list, highlightImage=str(), hi=str(), image=str(), i=str(), image1=str(),
+                   i1=str(), image2=str(), i2=str(), image3=str(), i3=str(), imageOverlayLabel=str(), iol=str(),
+                   isObscured=bool(), io=bool(), label=str(), l=str(), labelEditingCallback=str(), lec=str(),
+                   labelOffset=int(), lo=int(), ltVersion=str(), lt=str(), manage=bool(), m=bool(), marginHeight=int(),
+                   mh=int(), marginWidth=int(), mw=int(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
+                   npm=bool(), overlayLabelBackColor=list, olb=list, overlayLabelColor=list, olc=list, parent=str(),
+                   p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rotation=float(),
+                   rot=float(), scaleIcon=bool(), sic=bool(), selectionImage=str(), si=str(), sourceType=str(),
+                   stp=str(), statusBarMessage=str(), sbm=str(), style=str(), st=str(), useAlpha=bool(), ua=bool(),
+                   useTemplate=str(), ut=str(), version=str(), ver=str(), visible=bool(), vis=bool(),
+                   visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
 def iconTextCheckBox(align=str(), al=str(), annotation=str(), ann=str(), backgroundColor=list, bgc=list,
                      changeCommand=str(), cc=str(), defineTemplate=str(), dt=str(), disabledImage=str(), di=str(),
                      docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(),
-                     enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                     flat=bool(), fla=bool(), flipX=bool(), fx=bool(), flipY=bool(), fy=bool(), font=str(), fn=str(),
-                     fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                     highlightImage=str(), hi=str(), image=str(), i=str(), image1=str(), i1=str(), image2=str(),
-                     i2=str(), image3=str(), i3=str(), imageOverlayLabel=str(), iol=str(), isObscured=bool(), io=bool(),
-                     label=str(), l=str(), labelOffset=int(), lo=int(), ltVersion=str(), lt=str(), manage=bool(),
-                     m=bool(), marginHeight=int(), mh=int(), marginWidth=int(), mw=int(), noBackground=bool(),
-                     nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), offCommand=str(), ofc=str(), onCommand=str(),
-                     onc=str(), overlayLabelBackColor=list, olb=list, overlayLabelColor=list, olc=list, parent=str(),
-                     p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rotation=float(),
-                     rot=float(), selectionHighlightImage=str(), shi=str(), selectionImage=str(), si=str(),
-                     statusBarMessage=str(), sbm=str(), style=str(), st=str(), useAlpha=bool(), ua=bool(),
-                     useTemplate=str(), ut=str(), value=bool(), v=bool(), version=str(), ver=str(), visible=bool(),
-                     vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                     enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                     ekf=bool(), exists=bool(), ex=bool(), flat=bool(), fla=bool(), flipX=bool(), fx=bool(),
+                     flipY=bool(), fy=bool(), font=str(), fn=str(), fullPathName=bool(), fpn=bool(), height=int(),
+                     h=int(), highlightColor=list, hlc=list, highlightImage=str(), hi=str(), image=str(), i=str(),
+                     image1=str(), i1=str(), image2=str(), i2=str(), image3=str(), i3=str(), imageOverlayLabel=str(),
+                     iol=str(), isObscured=bool(), io=bool(), label=str(), l=str(), labelOffset=int(), lo=int(),
+                     ltVersion=str(), lt=str(), manage=bool(), m=bool(), marginHeight=int(), mh=int(),
+                     marginWidth=int(), mw=int(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
+                     npm=bool(), offCommand=str(), ofc=str(), onCommand=str(), onc=str(), overlayLabelBackColor=list,
+                     olb=list, overlayLabelColor=list, olc=list, parent=str(), p=str(), popupMenuArray=bool(),
+                     pma=bool(), preventOverride=bool(), po=bool(), rotation=float(), rot=float(),
+                     selectionHighlightImage=str(), shi=str(), selectionImage=str(), si=str(), statusBarMessage=str(),
+                     sbm=str(), style=str(), st=str(), useAlpha=bool(), ua=bool(), useTemplate=str(), ut=str(),
+                     value=bool(), v=bool(), version=str(), ver=str(), visible=bool(), vis=bool(),
+                     visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -3671,20 +3827,21 @@ def iconTextRadioButton(align=str(), al=str(), annotation=str(), ann=str(), back
                         changeCommand=str(), cc=str(), collection=str(), cl=str(), defineTemplate=str(), dt=str(),
                         disabledImage=str(), di=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                         dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-                        exists=bool(), ex=bool(), flat=bool(), fla=bool(), flipX=bool(), fx=bool(), flipY=bool(),
-                        fy=bool(), font=str(), fn=str(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
-                        highlightColor=list, hlc=list, highlightImage=str(), hi=str(), image=str(), i=str(),
-                        image1=str(), i1=str(), image2=str(), i2=str(), image3=str(), i3=str(), imageOverlayLabel=str(),
-                        iol=str(), isObscured=bool(), io=bool(), label=str(), l=str(), labelOffset=int(), lo=int(),
-                        ltVersion=str(), lt=str(), manage=bool(), m=bool(), marginHeight=int(), mh=int(),
-                        marginWidth=int(), mw=int(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
-                        npm=bool(), offCommand=str(), ofc=str(), onCommand=str(), onc=str(), overlayLabelBackColor=list,
-                        olb=list, overlayLabelColor=list, olc=list, parent=str(), p=str(), popupMenuArray=bool(),
-                        pma=bool(), preventOverride=bool(), po=bool(), rotation=float(), rot=float(), select=bool(),
-                        sl=bool(), selectionHighlightImage=str(), shi=str(), selectionImage=str(), si=str(),
-                        statusBarMessage=str(), sbm=str(), style=str(), st=str(), useAlpha=bool(), ua=bool(),
-                        useTemplate=str(), ut=str(), version=str(), ver=str(), visible=bool(), vis=bool(),
-                        visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                        enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), flat=bool(), fla=bool(),
+                        flipX=bool(), fx=bool(), flipY=bool(), fy=bool(), font=str(), fn=str(), fullPathName=bool(),
+                        fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, highlightImage=str(),
+                        hi=str(), image=str(), i=str(), image1=str(), i1=str(), image2=str(), i2=str(), image3=str(),
+                        i3=str(), imageOverlayLabel=str(), iol=str(), isObscured=bool(), io=bool(), label=str(),
+                        l=str(), labelOffset=int(), lo=int(), ltVersion=str(), lt=str(), manage=bool(), m=bool(),
+                        marginHeight=int(), mh=int(), marginWidth=int(), mw=int(), noBackground=bool(), nbg=bool(),
+                        numberOfPopupMenus=bool(), npm=bool(), offCommand=str(), ofc=str(), onCommand=str(), onc=str(),
+                        overlayLabelBackColor=list, olb=list, overlayLabelColor=list, olc=list, parent=str(), p=str(),
+                        popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rotation=float(),
+                        rot=float(), select=bool(), sl=bool(), selectionHighlightImage=str(), shi=str(),
+                        selectionImage=str(), si=str(), statusBarMessage=str(), sbm=str(), style=str(), st=str(),
+                        useAlpha=bool(), ua=bool(), useTemplate=str(), ut=str(), version=str(), ver=str(),
+                        visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
+                        **kwargs):
     pass
 
 
@@ -3700,35 +3857,35 @@ def iconTextScrollList(allowMultiSelection=bool(), ams=bool(), annotation=str(),
                        deselectAll=bool(), da=bool(), docTag=str(), dtg=str(), doubleClickCommand=str(), dcc=str(),
                        dragCallback=str(), dgc=str(), dragFeedbackVisible=bool(), dfv=bool(), dropCallback=str(),
                        dpc=str(), dropRectCallback=str(), drc=str(), editIndexed=int(), ei=int(), editable=bool(),
-                       ed=bool(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(),
-                       ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                       isObscured=bool(), io=bool(), itemAt=list, ia=list, itemTextColor=list, itc=list, manage=bool(),
-                       m=bool(), noBackground=bool(), nbg=bool(), numberOfIcons=int(), nic=int(),
-                       numberOfPopupMenus=bool(), npm=bool(), numberOfRows=bool(), nr=bool(), parent=str(), p=str(),
-                       popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), removeAll=bool(),
-                       ra=bool(), selectCommand=str(), sc=str(), selectIndexedItem=int(), sii=int(), selectItem=str(),
-                       si=str(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(),
-                       vis=bool(), visibleChangeCommand=str(), vcc=str(), visualRectAt=list, vra=list, width=int(),
-                       w=int(), *args, **kwargs):
+                       ed=bool(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
+                       enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
+                       fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
+                       itemAt=list, ia=list, itemTextColor=list, itc=list, manage=bool(), m=bool(), noBackground=bool(),
+                       nbg=bool(), numberOfIcons=int(), nic=int(), numberOfPopupMenus=bool(), npm=bool(),
+                       numberOfRows=bool(), nr=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                       preventOverride=bool(), po=bool(), removeAll=bool(), ra=bool(), selectCommand=str(), sc=str(),
+                       selectIndexedItem=int(), sii=int(), selectItem=str(), si=str(), statusBarMessage=str(),
+                       sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
+                       vcc=str(), visualRectAt=list, vra=list, width=int(), w=int(), *args, **kwargs):
     pass
 
 
 def iconTextStaticLabel(align=str(), al=str(), annotation=str(), ann=str(), backgroundColor=list, bgc=list,
                         defineTemplate=str(), dt=str(), disabledImage=str(), di=str(), docTag=str(), dtg=str(),
                         dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                        enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), flipX=bool(), fx=bool(),
-                        flipY=bool(), fy=bool(), font=str(), fn=str(), fullPathName=bool(), fpn=bool(), height=int(),
-                        h=int(), highlightColor=list, hlc=list, image=str(), i=str(), image1=str(), i1=str(),
-                        image2=str(), i2=str(), image3=str(), i3=str(), imageOverlayLabel=str(), iol=str(),
-                        isObscured=bool(), io=bool(), label=str(), l=str(), labelOffset=int(), lo=int(),
-                        ltVersion=str(), lt=str(), manage=bool(), m=bool(), marginHeight=int(), mh=int(),
-                        marginWidth=int(), mw=int(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
-                        npm=bool(), overlayLabelBackColor=list, olb=list, overlayLabelColor=list, olc=list,
-                        parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                        rotation=float(), rot=float(), statusBarMessage=str(), sbm=str(), style=str(), st=str(),
-                        useAlpha=bool(), ua=bool(), useTemplate=str(), ut=str(), version=str(), ver=str(),
-                        visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
-                        **kwargs):
+                        enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                        ex=bool(), flipX=bool(), fx=bool(), flipY=bool(), fy=bool(), font=str(), fn=str(),
+                        fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                        image=str(), i=str(), image1=str(), i1=str(), image2=str(), i2=str(), image3=str(), i3=str(),
+                        imageOverlayLabel=str(), iol=str(), isObscured=bool(), io=bool(), label=str(), l=str(),
+                        labelOffset=int(), lo=int(), ltVersion=str(), lt=str(), manage=bool(), m=bool(),
+                        marginHeight=int(), mh=int(), marginWidth=int(), mw=int(), noBackground=bool(), nbg=bool(),
+                        numberOfPopupMenus=bool(), npm=bool(), overlayLabelBackColor=list, olb=list,
+                        overlayLabelColor=list, olc=list, parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                        preventOverride=bool(), po=bool(), rotation=float(), rot=float(), statusBarMessage=str(),
+                        sbm=str(), style=str(), st=str(), useAlpha=bool(), ua=bool(), useTemplate=str(), ut=str(),
+                        version=str(), ver=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+                        width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -3797,12 +3954,12 @@ def illustratorCurves(caching=bool(), cch=bool(), constructionHistory=bool(), ch
 
 def image(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(), docTag=str(),
           dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-          enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(),
-          h=int(), highlightColor=list, hlc=list, image=str(), i=str(), isObscured=bool(), io=bool(), manage=bool(),
-          m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-          popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(),
-          useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(),
-          w=int(), *args, **kwargs):
+          enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+          fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, image=str(), i=str(),
+          isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+          numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+          preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+          visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -3835,7 +3992,8 @@ def insertJointCtx(exists=bool(), ex=bool(), image1=str(), i1=str(), image2=str(
 
 
 def insertKeyCtx(breakdown=bool(), bd=bool(), exists=bool(), ex=bool(), history=bool(), ch=bool(), image1=str(),
-                 i1=str(), image2=str(), i2=str(), image3=str(), i3=str(), name=str(), n=str(), *args, **kwargs):
+                 i1=str(), image2=str(), i2=str(), image3=str(), i3=str(), name=str(), n=str(), preserveTangent=bool(),
+                 pt=bool(), *args, **kwargs):
     pass
 
 
@@ -3869,10 +4027,10 @@ def instancer(addObject=bool(), a=bool(), cycle=str(), c=str(), cycleStep=float(
     pass
 
 
-def internalVar(userAppDir=bool(), uad=bool(), userBitmapsDir=bool(), ubd=bool(), userHotkeyDir=bool(), uhk=bool(),
-                userMarkingMenuDir=bool(), umm=bool(), userPrefDir=bool(), upd=bool(), userPresetsDir=bool(),
-                ups=bool(), userScriptDir=bool(), usd=bool(), userShelfDir=bool(), ush=bool(), userTmpDir=bool(),
-                utd=bool(), userWorkspaceDir=bool(), uwd=bool(), *args, **kwargs):
+def internalVar(mayaInstallDir=bool(), mid=bool(), userAppDir=bool(), uad=bool(), userBitmapsDir=bool(), ubd=bool(),
+                userHotkeyDir=bool(), uhk=bool(), userMarkingMenuDir=bool(), umm=bool(), userPrefDir=bool(), upd=bool(),
+                userPresetsDir=bool(), ups=bool(), userScriptDir=bool(), usd=bool(), userShelfDir=bool(), ush=bool(),
+                userTmpDir=bool(), utd=bool(), userWorkspaceDir=bool(), uwd=bool(), *args, **kwargs):
     pass
 
 
@@ -3885,10 +4043,10 @@ def intersect(caching=bool(), cch=bool(), constructionHistory=bool(), ch=bool(),
 def intField(annotation=str(), ann=str(), backgroundColor=list, bgc=list, changeCommand=str(), cc=str(),
              defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dragCommand=str(),
              dc=str(), dropCallback=str(), dpc=str(), editable=bool(), ed=bool(), enable=bool(), en=bool(),
-             enableBackground=bool(), ebg=bool(), enterCommand=str(), ec=str(), exists=bool(), ex=bool(),
-             fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
-             io=bool(), manage=bool(), m=bool(), maxValue=int(), max=int(), minValue=int(), min=int(),
-             noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+             enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), enterCommand=str(), ec=str(),
+             exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
+             hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(), maxValue=int(), max=int(), minValue=int(),
+             min=int(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
              popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), receiveFocusCommand=str(), rfc=str(),
              statusBarMessage=str(), sbm=str(), step=int(), s=int(), useTemplate=str(), ut=str(), value=int(), v=int(),
              visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
@@ -3909,42 +4067,42 @@ def intFieldGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(), ad2=
                 columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                 dragCallback=str(), dgc=str(), dragCommand=str(), dc=str(), dropCallback=str(), dpc=str(),
                 enable=bool(), en=bool(), enable1=bool(), en1=bool(), enable2=bool(), en2=bool(), enable3=bool(),
-                en3=bool(), enable4=bool(), en4=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                extraLabel=str(), el=str(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
-                hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(),
-                noBackground=bool(), nbg=bool(), numberOfFields=int(), nf=int(), numberOfPopupMenus=bool(), npm=bool(),
-                parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), value=list,
-                v=list, value1=int(), v1=int(), value2=int(), v2=int(), value3=int(), v3=int(), value4=int(), v4=int(),
-                visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
-                **kwargs):
+                en3=bool(), enable4=bool(), en4=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                ekf=bool(), exists=bool(), ex=bool(), extraLabel=str(), el=str(), fullPathName=bool(), fpn=bool(),
+                height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(),
+                l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfFields=int(), nf=int(),
+                numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                preventOverride=bool(), po=bool(), rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(),
+                useTemplate=str(), ut=str(), value=list, v=list, value1=int(), v1=int(), value2=int(), v2=int(),
+                value3=int(), v3=int(), value4=int(), v4=int(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
+                vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
 def intScrollBar(annotation=str(), ann=str(), backgroundColor=list, bgc=list, changeCommand=str(), cc=str(),
                  defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                  dragCommand=str(), dc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                 enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-                 height=int(), h=int(), highlightColor=list, hlc=list, horizontal=bool(), hr=bool(), isObscured=bool(),
-                 io=bool(), largeStep=int(), ls=int(), manage=bool(), m=bool(), maxValue=int(), max=int(),
-                 minValue=int(), min=int(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
-                 parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                 statusBarMessage=str(), sbm=str(), step=int(), s=int(), useTemplate=str(), ut=str(), value=int(),
-                 v=int(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(),
-                 *args, **kwargs):
+                 enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+                 fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                 horizontal=bool(), hr=bool(), isObscured=bool(), io=bool(), largeStep=int(), ls=int(), manage=bool(),
+                 m=bool(), maxValue=int(), max=int(), minValue=int(), min=int(), noBackground=bool(), nbg=bool(),
+                 numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                 preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), step=int(), s=int(),
+                 useTemplate=str(), ut=str(), value=int(), v=int(), visible=bool(), vis=bool(),
+                 visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
 def intSlider(annotation=str(), ann=str(), backgroundColor=list, bgc=list, changeCommand=str(), cc=str(),
               defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dragCommand=str(),
               dc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-              exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
-              hlc=list, horizontal=bool(), hr=bool(), isObscured=bool(), io=bool(), manage=bool(), m=bool(),
-              maxValue=int(), max=int(), minValue=int(), min=int(), noBackground=bool(), nbg=bool(),
-              numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-              preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), step=int(), s=int(),
-              useTemplate=str(), ut=str(), value=int(), v=int(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
-              vcc=str(), width=int(), w=int(), *args, **kwargs):
+              enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
+              height=int(), h=int(), highlightColor=list, hlc=list, horizontal=bool(), hr=bool(), isObscured=bool(),
+              io=bool(), manage=bool(), m=bool(), maxValue=int(), max=int(), minValue=int(), min=int(),
+              noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+              popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(),
+              step=int(), s=int(), useTemplate=str(), ut=str(), value=int(), v=int(), visible=bool(), vis=bool(),
+              visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -3961,9 +4119,9 @@ def intSliderGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(), ad2
                  columnWidth3=list, cw3=list, columnWidth4=list, cw4=list, columnWidth5=list, cw5=list,
                  columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                  dragCallback=str(), dgc=str(), dragCommand=str(), dc=str(), dropCallback=str(), dpc=str(),
-                 enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                 extraLabel=str(), el=str(), field=bool(), f=bool(), fieldMaxValue=int(), fmx=int(),
-                 fieldMinValue=int(), fmn=int(), fieldStep=int(), fs=int(), fullPathName=bool(), fpn=bool(),
+                 enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(),
+                 exists=bool(), ex=bool(), extraLabel=str(), el=str(), field=bool(), f=bool(), fieldMaxValue=int(),
+                 fmx=int(), fieldMinValue=int(), fmn=int(), fieldStep=int(), fs=int(), fullPathName=bool(), fpn=bool(),
                  height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(),
                  l=str(), manage=bool(), m=bool(), maxValue=int(), max=int(), minValue=int(), min=int(),
                  noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
@@ -3979,12 +4137,12 @@ def inViewEditor(visible=bool(), v=bool(), *args, **kwargs):
 
 
 def inViewMessage(alpha=float(), a=float(), assistMessage=str(), amg=str(), backColor=int(), bkc=int(), clear=str(),
-                  cl=str(), dragKill=bool(), dk=bool(), fade=bool(), f=bool(), fadeInTime=int(), fit=int(),
-                  fadeOutTime=int(), fot=int(), fadeStayTime=int(), fst=int(), font=str(), ft=str(), fontSize=int(),
-                  fts=int(), frameOffset=int(), fof=int(), hide=bool(), hd=bool(), message=str(), msg=str(),
-                  minimize=bool(), min=bool(), position=str(), pos=str(), restore=bool(), res=bool(), show=bool(),
-                  sh=bool(), statusMessage=str(), smg=str(), textAlpha=float(), ta=float(), textOffset=int(), tof=int(),
-                  uvEditor=bool(), uv=bool(), *args, **kwargs):
+                  cl=str(), clickKill=bool(), ck=bool(), dragKill=bool(), dk=bool(), fade=bool(), f=bool(),
+                  fadeInTime=int(), fit=int(), fadeOutTime=int(), fot=int(), fadeStayTime=int(), fst=int(), font=str(),
+                  ft=str(), fontSize=int(), fts=int(), frameOffset=int(), fof=int(), hide=bool(), hd=bool(),
+                  message=str(), msg=str(), minimize=bool(), min=bool(), position=str(), pos=str(), restore=bool(),
+                  res=bool(), show=bool(), sh=bool(), statusMessage=str(), smg=str(), textAlpha=float(), ta=float(),
+                  textOffset=int(), tof=int(), uvEditor=bool(), uv=bool(), *args, **kwargs):
     pass
 
 
@@ -4075,7 +4233,7 @@ def jointCtx(autoJointOrient=str(), ajo=str(), autoPriorityH=bool(), apH=bool(),
     pass
 
 
-def jointDisplayScale(absolute=bool(), a=bool(), ikfk=bool(), ik=bool(), *args, **kwargs):
+def jointDisplayScale(absolute=bool(), a=bool(), ikfk=float(), ik=float(), *args, **kwargs):
     pass
 
 
@@ -4086,8 +4244,8 @@ def jointLattice(after=bool(), af=bool(), afterReference=bool(), ar=bool(), befo
                  lengthOut=float(), lo=float(), lowerBindSkin=str(), lb=str(), lowerTransform=str(), lt=str(),
                  name=str(), n=str(), parallel=bool(), par=bool(), prune=bool(), pr=bool(), remove=bool(), rm=bool(),
                  rounding=float(), ro=float(), split=bool(), sp=bool(), upperBindSkin=str(), ub=str(),
-                 upperTransform=str(), ut=str(), widthLeft=float(), wl=float(), widthRight=float(), wr=float(), *args,
-                 **kwargs):
+                 upperTransform=str(), ut=str(), useComponentTags=bool(), uct=bool(), widthLeft=float(), wl=float(),
+                 widthRight=float(), wr=float(), *args, **kwargs):
     pass
 
 
@@ -4105,12 +4263,13 @@ def keyframe(absolute=bool(), a=bool(), adjustBreakdown=bool(), abd=bool(), anim
 def keyframeOutliner(animCurve=str(), ac=str(), annotation=str(), ann=str(), backgroundColor=list, bgc=list,
                      defineTemplate=str(), dt=str(), display=str(), dsp=str(), docTag=str(), dtg=str(),
                      dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                     enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-                     height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(),
-                     m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
-                     p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                     statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-                     visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                     enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                     ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                     isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                     numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                     preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+                     visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
+                     **kwargs):
     pass
 
 
@@ -4177,26 +4336,27 @@ def keyframeStats(adjustableColumn=int(), adj=int(), adjustableColumn2=int(), ad
                   columnWidth2=list, cw2=list, columnWidth3=list, cw3=list, columnWidth4=list, cw4=list,
                   columnWidth5=list, cw5=list, columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(),
                   docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(),
-                  en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
-                  fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
-                  manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
-                  parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), precision=int(), pre=int(),
-                  preventOverride=bool(), po=bool(), rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(),
-                  timeAnnotation=str(), tan=str(), useTemplate=str(), ut=str(), valueAnnotation=str(), van=str(),
-                  visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
-                  **kwargs):
+                  en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                  ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                  isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                  numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                  precision=int(), pre=int(), preventOverride=bool(), po=bool(), rowAttach=list, rat=list,
+                  statusBarMessage=str(), sbm=str(), timeAnnotation=str(), tan=str(), useTemplate=str(), ut=str(),
+                  valueAnnotation=str(), van=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+                  width=int(), w=int(), *args, **kwargs):
     pass
 
 
-def keyingGroup(activator=str(), act=str(), addElement=str(), add=str(), afterFilters=bool(), af=bool(), category=str(),
-                cat=str(), clear=str(), cl=str(), color=int(), co=int(), copy=str(), cp=str(), edges=bool(), eg=bool(),
-                editPoints=bool(), ep=bool(), empty=bool(), em=bool(), excludeDynamic=bool(), ed=bool(),
-                excludeRotate=bool(), er=bool(), excludeScale=bool(), es=bool(), excludeTranslate=bool(), et=bool(),
-                excludeVisibility=bool(), ev=bool(), facets=bool(), fc=bool(), flatten=str(), fl=str(),
-                forceElement=str(), fe=str(), include=str(), intersection=str(), int=str(), isIntersecting=str(),
-                ii=str(), isMember=str(), im=str(), layer=bool(), l=bool(), minimizeRotation=bool(), mr=bool(),
-                name=str(), n=str(), noSurfaceShader=bool(), nss=bool(), noWarnings=bool(), nw=bool(), nodesOnly=bool(),
-                no=bool(), remove=str(), rm=str(), removeActivator=str(), rac=str(), renderable=bool(), r=bool(),
+def keyingGroup(activator=str(), act=str(), addElement=str(), add=str(), afterFilters=bool(), af=bool(),
+                anyMember=str(), am=str(), category=str(), cat=str(), clear=str(), cl=str(), color=int(), co=int(),
+                copy=str(), cp=str(), edges=bool(), eg=bool(), editPoints=bool(), ep=bool(), empty=bool(), em=bool(),
+                excludeDynamic=bool(), ed=bool(), excludeRotate=bool(), er=bool(), excludeScale=bool(), es=bool(),
+                excludeTranslate=bool(), et=bool(), excludeVisibility=bool(), ev=bool(), facets=bool(), fc=bool(),
+                flatten=str(), fl=str(), forceElement=str(), fe=str(), include=str(), intersection=str(), int=str(),
+                isIntersecting=str(), ii=str(), isMember=str(), im=str(), layer=bool(), l=bool(),
+                minimizeRotation=bool(), mr=bool(), name=str(), n=str(), noIntermediate=bool(), ni=bool(),
+                noSurfaceShader=bool(), nss=bool(), noWarnings=bool(), nw=bool(), nodesOnly=bool(), no=bool(),
+                remove=str(), rm=str(), removeActivator=str(), rac=str(), renderable=bool(), r=bool(),
                 setActiveFilter=str(), fil=str(), size=bool(), s=bool(), split=str(), sp=str(), subtract=str(),
                 sub=str(), text=str(), t=str(), union=str(), un=str(), vertices=bool(), v=bool(), *args, **kwargs):
     pass
@@ -4226,7 +4386,7 @@ def lattice(after=bool(), af=bool(), afterReference=bool(), ar=bool(), before=bo
             objectCentered=bool(), oc=bool(), outsideFalloffDistance=float(), ofd=float(), outsideLattice=int(),
             ol=int(), parallel=bool(), par=bool(), position=list, pos=list, prune=bool(), pr=bool(), remove=bool(),
             rm=bool(), removeTweaks=bool(), rt=bool(), rotation=list, ro=list, scale=list, s=list, split=bool(),
-            sp=bool(), *args, **kwargs):
+            sp=bool(), useComponentTags=bool(), uct=bool(), *args, **kwargs):
     pass
 
 
@@ -4250,11 +4410,11 @@ def layerButton(annotation=str(), ann=str(), backgroundColor=list, bgc=list, cha
                 cl=list, command=str(), c=str(), current=bool(), cr=bool(), defineTemplate=str(), dt=str(),
                 docTag=str(), dtg=str(), doubleClickCommand=str(), dcc=str(), dragCallback=str(), dgc=str(),
                 dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-                exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
-                hideOnPlaybackCommand=str(), hpc=str(), highlightColor=list, hlc=list, identification=int(), id=int(),
-                isObscured=bool(), io=bool(), label=str(), l=str(), labelWidth=bool(), lw=bool(),
-                layerHideOnPlayback=bool(), hp=bool(), layerState=str(), ls=str(), layerVisible=bool(), lv=bool(),
-                manage=bool(), m=bool(), name=str(), n=str(), noBackground=bool(), nbg=bool(),
+                enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
+                height=int(), h=int(), hideOnPlaybackCommand=str(), hpc=str(), highlightColor=list, hlc=list,
+                identification=int(), id=int(), isObscured=bool(), io=bool(), label=str(), l=str(), labelWidth=bool(),
+                lw=bool(), layerHideOnPlayback=bool(), hp=bool(), layerState=str(), ls=str(), layerVisible=bool(),
+                lv=bool(), manage=bool(), m=bool(), name=str(), n=str(), noBackground=bool(), nbg=bool(),
                 numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
                 preventOverride=bool(), po=bool(), renameCommand=str(), rc=str(), select=bool(), s=bool(),
                 statusBarMessage=str(), sbm=str(), transparent=bool(), t=bool(), typeCommand=str(), tc=str(),
@@ -4265,39 +4425,40 @@ def layerButton(annotation=str(), ann=str(), backgroundColor=list, bgc=list, cha
 
 def layeredShaderPort(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(),
                       docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(),
-                      enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                      fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                      isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-                      node=str(), n=str(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-                      popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), selectedColorControl=str(),
-                      scc=str(), selectedTransparencyControl=str(), stc=str(), statusBarMessage=str(), sbm=str(),
-                      useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-                      width=int(), w=int(), *args, **kwargs):
+                      enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                      ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                      highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(),
+                      noBackground=bool(), nbg=bool(), node=str(), n=str(), numberOfPopupMenus=bool(), npm=bool(),
+                      parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
+                      selectedColorControl=str(), scc=str(), selectedTransparencyControl=str(), stc=str(),
+                      statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+                      visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
 def layeredTexturePort(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(),
                        docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(),
-                       enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                       fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                       isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-                       node=str(), n=str(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-                       popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), selectedAlphaControl=str(),
-                       sac=str(), selectedBlendModeControl=str(), sbc=str(), selectedColorControl=str(), scc=str(),
-                       selectedIsVisibleControl=str(), svc=str(), statusBarMessage=str(), sbm=str(), useTemplate=str(),
-                       ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(),
-                       w=int(), *args, **kwargs):
+                       enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                       ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                       highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(),
+                       noBackground=bool(), nbg=bool(), node=str(), n=str(), numberOfPopupMenus=bool(), npm=bool(),
+                       parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
+                       selectedAlphaControl=str(), sac=str(), selectedBlendModeControl=str(), sbc=str(),
+                       selectedColorControl=str(), scc=str(), selectedIsVisibleControl=str(), svc=str(),
+                       statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+                       visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
 def layout(annotation=str(), ann=str(), backgroundColor=list, bgc=list, childArray=bool(), ca=bool(),
            defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(),
-           dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-           fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
-           io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(),
-           numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-           preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
-           visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+           dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+           ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+           highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(),
+           nbg=bool(), numberOfChildren=bool(), nch=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
+           p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(),
+           sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+           width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -4364,10 +4525,10 @@ def listDeviceAttachments(attribute=str(), at=str(), axis=str(), ax=str(), clutc
 
 
 def listHistory(allConnections=bool(), ac=bool(), allFuture=bool(), af=bool(), allGraphs=bool(), ag=bool(),
-                breadthFirst=bool(), bf=bool(), future=bool(), f=bool(), futureLocalAttr=bool(), fl=bool(),
-                futureWorldAttr=bool(), fw=bool(), groupLevels=bool(), gl=bool(), historyAttr=bool(), ha=bool(),
-                interestLevel=int(), il=int(), leaf=bool(), lf=bool(), levels=int(), lv=int(), pruneDagObjects=bool(),
-                pdo=bool(), *args, **kwargs):
+                breadthFirst=bool(), bf=bool(), fastIteration=bool(), fi=bool(), future=bool(), f=bool(),
+                futureLocalAttr=bool(), fl=bool(), futureWorldAttr=bool(), fw=bool(), groupLevels=bool(), gl=bool(),
+                historyAttr=bool(), ha=bool(), interestLevel=int(), il=int(), leaf=bool(), lf=bool(), levels=int(),
+                lv=int(), pruneDagObjects=bool(), pdo=bool(), *args, **kwargs):
     pass
 
 
@@ -4456,8 +4617,8 @@ def ls(absoluteName=bool(), an=bool(), allPaths=bool(), ap=bool(), assemblies=bo
        rr=bool(), renderSetups=bool(), rs=bool(), selection=bool(), sl=bool(), sets=bool(), set=bool(), shapes=bool(),
        s=bool(), shortNames=bool(), sn=bool(), showNamespace=bool(), sns=bool(), showType=bool(), st=bool(), tail=int(),
        tl=int(), templated=bool(), tm=bool(), textures=bool(), tex=bool(), transforms=bool(), tr=bool(), type=str(),
-       typ=str(), undeletable=bool(), ud=bool(), untemplated=bool(), ut=bool(), uuid=bool(), uid=bool(), visible=bool(),
-       v=bool(), *args, **kwargs):
+       typ=str(), ufeObjects=bool(), ufe=bool(), undeletable=bool(), ud=bool(), untemplated=bool(), ut=bool(),
+       uuid=bool(), uid=bool(), visible=bool(), v=bool(), *args, **kwargs):
     pass
 
 
@@ -4502,21 +4663,21 @@ def makeSingleSurface(caching=bool(), cch=bool(), constructionHistory=bool(), ch
 
 
 def manipMoveContext(activeHandle=int(), ah=int(), activeHandleNormal=int(), ahn=int(), alignAlong=list, aa=list,
-                     constrainAlongNormal=bool(), xn=bool(), currentActiveHandle=int(), cah=int(), editPivotMode=bool(),
-                     epm=bool(), editPivotPosition=bool(), epp=bool(), exists=bool(), ex=bool(), image1=str(), i1=str(),
-                     image2=str(), i2=str(), image3=str(), i3=str(), interactiveUpdate=bool(), iu=bool(),
-                     lastMode=int(), lm=int(), manipVisible=bool(), vis=bool(), mode=int(), m=int(), orientAxes=list,
-                     oa=list, orientJoint=str(), oj=str(), orientJointEnabled=bool(), oje=bool(), orientObject=str(),
-                     oo=str(), orientTowards=list, ot=list, pinPivot=bool(), pin=bool(), pivotOriHandle=bool(),
-                     poh=bool(), position=bool(), p=bool(), postCommand=str(), psc=str(), postDragCommand=list,
-                     pod=list, preCommand=str(), prc=str(), preDragCommand=list, prd=list, preserveChildPosition=bool(),
-                     pcp=bool(), preserveUV=bool(), puv=bool(), reflection=bool(), rfl=bool(), reflectionAbout=int(),
-                     rab=int(), reflectionAxis=int(), rfa=int(), reflectionTolerance=float(), rft=float(),
-                     secondaryAxisOrient=str(), sao=str(), snap=bool(), s=bool(), snapComponentsRelative=bool(),
-                     scr=bool(), snapLiveFaceCenter=bool(), slf=bool(), snapLivePoint=bool(), slp=bool(),
-                     snapPivotOri=bool(), spo=bool(), snapPivotPos=bool(), spp=bool(), snapRelative=bool(), sr=bool(),
-                     snapValue=float(), sv=float(), translate=list, tr=list, tweakMode=bool(), twk=bool(),
-                     xformConstraint=str(), xc=str(), *args, **kwargs):
+                     bakePivotOri=bool(), bpo=bool(), constrainAlongNormal=bool(), xn=bool(), currentActiveHandle=int(),
+                     cah=int(), editPivotMode=bool(), epm=bool(), editPivotPosition=bool(), epp=bool(), exists=bool(),
+                     ex=bool(), image1=str(), i1=str(), image2=str(), i2=str(), image3=str(), i3=str(),
+                     interactiveUpdate=bool(), iu=bool(), lastMode=int(), lm=int(), manipVisible=bool(), vis=bool(),
+                     mode=int(), m=int(), orientAxes=list, oa=list, orientJoint=str(), oj=str(),
+                     orientJointEnabled=bool(), oje=bool(), orientObject=str(), oo=str(), orientTowards=list, ot=list,
+                     pinPivot=bool(), pin=bool(), pivotOriHandle=bool(), poh=bool(), position=bool(), p=bool(),
+                     postCommand=str(), psc=str(), postDragCommand=list, pod=list, preCommand=str(), prc=str(),
+                     preDragCommand=list, prd=list, preserveChildPosition=bool(), pcp=bool(), preserveUV=bool(),
+                     puv=bool(), reflection=bool(), rfl=bool(), reflectionAbout=int(), rab=int(), reflectionAxis=int(),
+                     rfa=int(), reflectionTolerance=float(), rft=float(), secondaryAxisOrient=str(), sao=str(),
+                     snap=bool(), s=bool(), snapComponentsRelative=bool(), scr=bool(), snapLiveFaceCenter=bool(),
+                     slf=bool(), snapLivePoint=bool(), slp=bool(), snapPivotOri=bool(), spo=bool(), snapPivotPos=bool(),
+                     spp=bool(), snapRelative=bool(), sr=bool(), snapValue=float(), sv=float(), translate=list, tr=list,
+                     tweakMode=bool(), twk=bool(), xformConstraint=str(), xc=str(), *args, **kwargs):
     pass
 
 
@@ -4537,28 +4698,30 @@ def manipOptions(enableSmartDuplicate=bool(), esd=bool(), enableSmartExtrude=boo
     pass
 
 
-def manipPivot(moveToolOri=int(), mto=int(), ori=list, o=list, oriValid=bool(), ov=bool(), pinPivot=bool(), pin=bool(),
-               pos=list, p=list, posValid=bool(), pv=bool(), reset=bool(), r=bool(), resetOri=bool(), ro=bool(),
-               resetPos=bool(), rp=bool(), rotateToolOri=int(), rto=int(), scaleToolOri=int(), sto=int(),
-               snapOri=bool(), so=bool(), snapPos=bool(), sp=bool(), valid=bool(), v=bool(), *args, **kwargs):
+def manipPivot(bakeOri=bool(), bo=bool(), moveToolOri=int(), mto=int(), ori=list, o=list, oriValid=bool(), ov=bool(),
+               pinPivot=bool(), pin=bool(), pos=list, p=list, posValid=bool(), pv=bool(), reset=bool(), r=bool(),
+               resetOri=bool(), ro=bool(), resetPos=bool(), rp=bool(), rotateToolOri=int(), rto=int(),
+               scaleToolOri=int(), sto=int(), snapOri=bool(), so=bool(), snapPos=bool(), sp=bool(), valid=bool(),
+               v=bool(), *args, **kwargs):
     pass
 
 
-def manipRotateContext(activeHandle=int(), ah=int(), alignAlong=list, aa=list, centerTrackball=bool(), ctb=bool(),
-                       constrainAlongNormal=bool(), xn=bool(), currentActiveHandle=int(), cah=int(),
-                       editPivotMode=bool(), epm=bool(), editPivotPosition=bool(), epp=bool(), exists=bool(), ex=bool(),
-                       image1=str(), i1=str(), image2=str(), i2=str(), image3=str(), i3=str(), lastMode=int(), lm=int(),
-                       manipVisible=bool(), vis=bool(), mode=int(), m=int(), modifyTranslation=bool(), mt=bool(),
-                       orientAxes=list, oa=list, orientObject=str(), oo=str(), orientTowards=list, ot=list,
-                       pinPivot=bool(), pin=bool(), pivotOriHandle=bool(), poh=bool(), position=bool(), p=bool(),
-                       postCommand=str(), psc=str(), postDragCommand=list, pod=list, preCommand=str(), prc=str(),
-                       preDragCommand=list, prd=list, preserveChildPosition=bool(), pcp=bool(), preserveUV=bool(),
-                       puv=bool(), reflection=bool(), rfl=bool(), reflectionAbout=int(), rab=int(),
-                       reflectionAxis=int(), rfa=int(), reflectionTolerance=float(), rft=float(), rotate=list, ro=list,
-                       snap=bool(), s=bool(), snapPivotOri=bool(), spo=bool(), snapPivotPos=bool(), spp=bool(),
-                       snapRelative=bool(), sr=bool(), snapValue=float(), sv=float(), tweakMode=bool(), twk=bool(),
-                       useCenterPivot=bool(), ucp=bool(), useManipPivot=bool(), ump=bool(), useObjectPivot=bool(),
-                       uop=bool(), xformConstraint=str(), xc=str(), *args, **kwargs):
+def manipRotateContext(activeHandle=int(), ah=int(), alignAlong=list, aa=list, bakePivotOri=bool(), bpo=bool(),
+                       centerTrackball=bool(), ctb=bool(), constrainAlongNormal=bool(), xn=bool(),
+                       currentActiveHandle=int(), cah=int(), editPivotMode=bool(), epm=bool(), editPivotPosition=bool(),
+                       epp=bool(), exists=bool(), ex=bool(), image1=str(), i1=str(), image2=str(), i2=str(),
+                       image3=str(), i3=str(), lastMode=int(), lm=int(), manipVisible=bool(), vis=bool(), mode=int(),
+                       m=int(), modifyTranslation=bool(), mt=bool(), orientAxes=list, oa=list, orientObject=str(),
+                       oo=str(), orientTowards=list, ot=list, pinPivot=bool(), pin=bool(), pivotOriHandle=bool(),
+                       poh=bool(), position=bool(), p=bool(), postCommand=str(), psc=str(), postDragCommand=list,
+                       pod=list, preCommand=str(), prc=str(), preDragCommand=list, prd=list,
+                       preserveChildPosition=bool(), pcp=bool(), preserveUV=bool(), puv=bool(), reflection=bool(),
+                       rfl=bool(), reflectionAbout=int(), rab=int(), reflectionAxis=int(), rfa=int(),
+                       reflectionTolerance=float(), rft=float(), rotate=list, ro=list, snap=bool(), s=bool(),
+                       snapPivotOri=bool(), spo=bool(), snapPivotPos=bool(), spp=bool(), snapRelative=bool(), sr=bool(),
+                       snapValue=float(), sv=float(), tweakMode=bool(), twk=bool(), useCenterPivot=bool(), ucp=bool(),
+                       useManipPivot=bool(), ump=bool(), useObjectPivot=bool(), uop=bool(), xformConstraint=str(),
+                       xc=str(), *args, **kwargs):
     pass
 
 
@@ -4567,20 +4730,21 @@ def manipRotateLimitsCtx(exists=bool(), ex=bool(), history=bool(), ch=bool(), im
     pass
 
 
-def manipScaleContext(activeHandle=int(), ah=int(), alignAlong=list, aa=list, constrainAlongNormal=bool(), xn=bool(),
-                      currentActiveHandle=int(), cah=int(), editPivotMode=bool(), epm=bool(), editPivotPosition=bool(),
-                      epp=bool(), exists=bool(), ex=bool(), image1=str(), i1=str(), image2=str(), i2=str(),
-                      image3=str(), i3=str(), lastMode=int(), lm=int(), manipVisible=bool(), vis=bool(), mode=int(),
-                      m=int(), orientAxes=list, oa=list, orientObject=str(), oo=str(), orientTowards=list, ot=list,
-                      pinPivot=bool(), pin=bool(), pivotOriHandle=bool(), poh=bool(), position=bool(), p=bool(),
-                      postCommand=str(), psc=str(), postDragCommand=list, pod=list, preCommand=str(), prc=str(),
-                      preDragCommand=list, prd=list, preserveChildPosition=bool(), pcp=bool(), preserveUV=bool(),
-                      puv=bool(), preventNegativeScale=bool(), pns=bool(), reflection=bool(), rfl=bool(),
-                      reflectionAbout=int(), rab=int(), reflectionAxis=int(), rfa=int(), reflectionTolerance=float(),
-                      rft=float(), scale=list, sc=list, snap=bool(), s=bool(), snapPivotOri=bool(), spo=bool(),
-                      snapPivotPos=bool(), spp=bool(), snapRelative=bool(), sr=bool(), snapValue=float(), sv=float(),
-                      tweakMode=bool(), twk=bool(), useManipPivot=bool(), ump=bool(), useObjectPivot=bool(), uop=bool(),
-                      xformConstraint=str(), xc=str(), *args, **kwargs):
+def manipScaleContext(activeHandle=int(), ah=int(), alignAlong=list, aa=list, bakePivotOri=bool(), bpo=bool(),
+                      constrainAlongNormal=bool(), xn=bool(), currentActiveHandle=int(), cah=int(),
+                      editPivotMode=bool(), epm=bool(), editPivotPosition=bool(), epp=bool(), exists=bool(), ex=bool(),
+                      image1=str(), i1=str(), image2=str(), i2=str(), image3=str(), i3=str(), lastMode=int(), lm=int(),
+                      manipVisible=bool(), vis=bool(), mode=int(), m=int(), orientAxes=list, oa=list,
+                      orientObject=str(), oo=str(), orientTowards=list, ot=list, pinPivot=bool(), pin=bool(),
+                      pivotOriHandle=bool(), poh=bool(), position=bool(), p=bool(), postCommand=str(), psc=str(),
+                      postDragCommand=list, pod=list, preCommand=str(), prc=str(), preDragCommand=list, prd=list,
+                      preserveChildPosition=bool(), pcp=bool(), preserveUV=bool(), puv=bool(),
+                      preventNegativeScale=bool(), pns=bool(), reflection=bool(), rfl=bool(), reflectionAbout=int(),
+                      rab=int(), reflectionAxis=int(), rfa=int(), reflectionTolerance=float(), rft=float(), scale=list,
+                      sc=list, snap=bool(), s=bool(), snapPivotOri=bool(), spo=bool(), snapPivotPos=bool(), spp=bool(),
+                      snapRelative=bool(), sr=bool(), snapValue=float(), sv=float(), tweakMode=bool(), twk=bool(),
+                      useManipPivot=bool(), ump=bool(), useObjectPivot=bool(), uop=bool(), xformConstraint=str(),
+                      xc=str(), *args, **kwargs):
     pass
 
 
@@ -4595,13 +4759,27 @@ def marker(attach=bool(), a=bool(), detach=bool(), d=bool(), frontTwist=float(),
     pass
 
 
-def matchTransform(pivots=bool(), piv=bool(), position=bool(), pos=bool(), rotation=bool(), rot=bool(), scale=bool(),
-                   scl=bool(), *args, **kwargs):
+def matchTransform(pivots=bool(), piv=bool(), position=bool(), pos=bool(), positionX=bool(), px=bool(),
+                   positionY=bool(), py=bool(), positionZ=bool(), pz=bool(), rotatePivot=bool(), rp=bool(),
+                   rotation=bool(), rot=bool(), rotationX=bool(), rx=bool(), rotationY=bool(), ry=bool(),
+                   rotationZ=bool(), rz=bool(), scale=bool(), scl=bool(), scaleBox=bool(), box=bool(),
+                   scalePivot=bool(), sp=bool(), scaleX=bool(), sx=bool(), scaleY=bool(), sy=bool(), scaleZ=bool(),
+                   sz=bool(), *args, **kwargs):
+    pass
+
+
+def matrixUtil(inverse=bool(), iv=bool(), quaternion=list, qt=list, relative=bool(), rt=bool(), rotation=list, r=list,
+               scale=list, s=list, shear=list, sh=list, translation=list, t=list, transpose=bool(), tp=bool(), *args,
+               **kwargs):
     pass
 
 
 def mayaDpiSetting(mode=int(), m=int(), realScaleValue=bool(), rsv=bool(), scaleValue=float(), sv=float(),
                    systemDpi=bool(), sd=bool(), *args, **kwargs):
+    pass
+
+
+def mayaHasRenderSetup(enableCurrentSession=bool(), ecs=bool(), enableDuringTests=bool(), edt=bool(), *args, **kwargs):
     pass
 
 
@@ -4635,13 +4813,14 @@ def menu(allowOptionBoxes=bool(), aob=bool(), defineTemplate=str(), dt=str(), de
 def menuBarLayout(annotation=str(), ann=str(), backgroundColor=list, bgc=list, childArray=bool(), ca=bool(),
                   defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                   dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-                  exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
-                  hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(), menuArray=bool(), ma=bool(),
-                  menuBarVisible=bool(), mbv=bool(), menuIndex=list, mi=list, noBackground=bool(), nbg=bool(),
-                  numberOfChildren=bool(), nch=bool(), numberOfMenus=bool(), nm=bool(), numberOfPopupMenus=bool(),
-                  npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(),
-                  po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-                  visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                  enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
+                  height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(),
+                  m=bool(), menuArray=bool(), ma=bool(), menuBarVisible=bool(), mbv=bool(), menuIndex=list, mi=list,
+                  noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(), numberOfMenus=bool(), nm=bool(),
+                  numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                  preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+                  visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
+                  **kwargs):
     pass
 
 
@@ -4649,16 +4828,16 @@ def menuEditor(annotation=str(), ann=str(), backgroundColor=list, bgc=list, cell
                cw=int(), cellWidthHeight=list, cwh=list, checkBoxPresent=list, cbp=list, checkBoxState=list, cbs=list,
                childArray=bool(), ca=bool(), command=list, c=list, defineTemplate=str(), dt=str(), delete=list, d=list,
                docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(),
-               en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
-               fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, iconMenuCallback=str(), imc=str(),
-               image=list, i=list, isObscured=bool(), io=bool(), label=list, l=list, manage=bool(), m=bool(),
-               menuItemTypes=bool(), mit=bool(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(),
-               numberOfPopupMenus=bool(), npm=bool(), optionBoxCommand=list, obc=list, optionBoxPresent=list, obp=list,
-               parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-               radioButtonPresent=list, rbp=list, radioButtonState=list, rbs=list, separator=list, sp=list,
-               statusBarMessage=str(), sbm=str(), style=str(), st=str(), subMenuAt=list, sma=list,
-               subMenuEditorWindow=str(), sew=str(), subMenuEditorsOpen=bool(), seo=bool(), subMenuOf=list, smo=list,
-               topLevelMenu=str(), tlm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+               en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+               ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+               iconMenuCallback=str(), imc=str(), image=list, i=list, isObscured=bool(), io=bool(), label=list, l=list,
+               manage=bool(), m=bool(), menuItemTypes=bool(), mit=bool(), noBackground=bool(), nbg=bool(),
+               numberOfChildren=bool(), nch=bool(), numberOfPopupMenus=bool(), npm=bool(), optionBoxCommand=list,
+               obc=list, optionBoxPresent=list, obp=list, parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+               preventOverride=bool(), po=bool(), radioButtonPresent=list, rbp=list, radioButtonState=list, rbs=list,
+               separator=list, sp=list, statusBarMessage=str(), sbm=str(), style=str(), st=str(), subMenuAt=list,
+               sma=list, subMenuEditorWindow=str(), sew=str(), subMenuEditorsOpen=bool(), seo=bool(), subMenuOf=list,
+               smo=list, topLevelMenu=str(), tlm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
                visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
@@ -4673,8 +4852,9 @@ def menuItem(allowOptionBoxes=bool(), aob=bool(), annotation=str(), ann=str(), b
              italicized=bool(), itl=bool(), label=str(), l=str(), longDivider=bool(), ld=bool(), ltVersion=str(),
              lt=str(), optionBox=bool(), ob=bool(), optionBoxIcon=str(), obi=str(), parent=str(), p=str(),
              postMenuCommand=str(), pmc=str(), postMenuCommandOnce=bool(), pmo=bool(), radialPosition=str(), rp=str(),
-             radioButton=bool(), rb=bool(), sourceType=str(), stp=str(), subMenu=bool(), sm=bool(), tearOff=bool(),
-             to=bool(), useTemplate=str(), ut=str(), version=str(), ver=str(), *args, **kwargs):
+             radioButton=bool(), rb=bool(), runTimeCommand=str(), rtc=str(), sourceType=str(), stp=str(),
+             subMenu=bool(), sm=bool(), tearOff=bool(), to=bool(), useTemplate=str(), ut=str(), version=str(),
+             ver=str(), visible=bool(), vis=bool(), *args, **kwargs):
     pass
 
 
@@ -4693,12 +4873,18 @@ def menuSetPref(exists=bool(), e=bool(), force=bool(), f=bool(), loadAll=bool(),
 
 def messageLine(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(),
                 docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(),
-                en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
-                fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
-                manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
-                parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-                visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+                visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
+                **kwargs):
+    pass
+
+
+def mimicManipulation(manipulations=str(), m=str(), prevalidation=bool(), p=bool(), refresh=bool(), r=bool(), *args,
+                      **kwargs):
     pass
 
 
@@ -4865,22 +5051,23 @@ def nameCommand(annotation=str(), ann=str(), command=str(), c=str(), data1=str()
 def nameField(annotation=str(), ann=str(), backgroundColor=list, bgc=list, changeCommand=str(), cc=str(),
               defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
               drawInactiveFrame=bool(), dif=bool(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-              enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-              height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(),
-              m=bool(), nameChangeCommand=str(), ncc=str(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
-              npm=bool(), object=str(), o=str(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-              preventOverride=bool(), po=bool(), receiveFocusCommand=str(), rfc=str(), statusBarMessage=str(),
-              sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-              width=int(), w=int(), *args, **kwargs):
+              enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+              fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
+              io=bool(), manage=bool(), m=bool(), nameChangeCommand=str(), ncc=str(), noBackground=bool(), nbg=bool(),
+              numberOfPopupMenus=bool(), npm=bool(), object=str(), o=str(), parent=str(), p=str(),
+              popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), receiveFocusCommand=str(),
+              rfc=str(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+              visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
 def namespace(absoluteName=bool(), an=bool(), addNamespace=str(), add=str(), collapseAncestors=str(), ch=str(),
               deleteNamespaceContent=bool(), dnc=bool(), exists=str(), ex=str(), force=bool(), f=bool(),
-              isRootNamespace=str(), ir=str(), mergeNamespaceWithParent=bool(), mnp=bool(),
-              mergeNamespaceWithRoot=bool(), mnr=bool(), moveNamespace=list, mv=list, parent=str(), p=str(),
-              recurse=bool(), r=bool(), relativeNames=bool(), rel=bool(), removeNamespace=str(), rm=str(), rename=list,
-              ren=list, setNamespace=str(), set=str(), validateName=str(), vn=str(), *args, **kwargs):
+              isRootNamespace=str(), ir=str(), mergeNamespaceWithOther=str(), mno=str(),
+              mergeNamespaceWithParent=bool(), mnp=bool(), mergeNamespaceWithRoot=bool(), mnr=bool(),
+              moveNamespace=list, mv=list, parent=str(), p=str(), recurse=bool(), r=bool(), relativeNames=bool(),
+              rel=bool(), removeNamespace=str(), rm=str(), rename=list, ren=list, setNamespace=str(), set=str(),
+              validateName=str(), vn=str(), *args, **kwargs):
     pass
 
 
@@ -4929,45 +5116,47 @@ def nodeEditor(activeTab=int(), at=int(), addNewNodes=bool(), ann=bool(), addNod
                fmc=str(), frameAll=bool(), fa=bool(), frameModelSelection=bool(), fms=bool(), frameSelected=bool(),
                fs=bool(), getNodeList=bool(), gnl=bool(), graphSelectedConnections=bool(), gsc=bool(),
                graphSelection=bool(), gsl=bool(), gridSnap=bool(), gs=bool(), gridVisibility=bool(), gv=bool(),
-               highlightConnection=str(), hlc=str(), highlightConnections=list, hc=list, hudMessage=list, hm=list,
-               ignoreAssets=bool(), ia=bool(), island=bool(), isl=bool(), keyPressCommand=str(), kpc=str(),
-               keyReleaseCommand=str(), krc=str(), layout=bool(), lay=bool(), layoutCommand=str(), lc=str(),
-               lockMainConnection=bool(), lck=bool(), mainListConnection=str(), mlc=str(), nodeSwatchSize=str(),
-               nss=str(), nodeTitleMode=str(), ntm=str(), nodeViewMode=str(), nvm=str(), panView=list, pv=list,
-               panel=str(), pnl=str(), parent=str(), p=str(), pinSelectedNodes=bool(), psn=bool(),
-               popupMenuScript=str(), pms=str(), primary=bool(), pr=bool(), redockTab=bool(), rdt=bool(),
-               removeDownstream=bool(), rd=bool(), removeNode=str(), rem=str(), removeUnselected=bool(), run=bool(),
-               removeUpstream=bool(), ru=bool(), renameNode=str(), ren=str(), renameTab=list, rt=list,
-               restoreInfo=str(), ri=str(), restoreLastClosedTab=bool(), rlt=bool(), rootNode=str(), rn=str(),
-               rootsFromSelection=bool(), rfs=bool(), scaleView=float(), sv=float(), selectAll=bool(), sa=bool(),
-               selectConnectionNodes=bool(), scn=bool(), selectDownstream=bool(), sd=bool(),
-               selectFeedbackConnection=bool(), sfc=bool(), selectNode=str(), sln=str(), selectUpstream=bool(),
-               su=bool(), selectionConnection=str(), slc=str(), settingsChangedCallback=str(), scc=str(),
-               shaderNetworks=bool(), sns=bool(), showAllNodeAttributes=str(), saa=str(), showNamespace=bool(),
-               sn=bool(), showSGShapes=bool(), ssg=bool(), showShapes=bool(), ss=bool(), showTabs=bool(), tab=bool(),
-               showTransforms=bool(), st=bool(), stateString=bool(), sts=bool(), syncedSelection=bool(), ssl=bool(),
-               tabChangeCommand=str(), tcc=str(), toggleAttrFilter=bool(), taf=bool(), toggleSelectedPins=bool(),
-               tsp=bool(), toggleSwatchSize=str(), tss=str(), toolTipCommand=str(), ttc=str(),
-               traversalDepthLimit=int(), tdl=int(), unParent=bool(), up=bool(), unlockMainConnection=bool(),
-               ulk=bool(), updateMainConnection=bool(), upd=bool(), upstream=bool(), ups=bool(), useAssets=bool(),
-               ua=bool(), useTemplate=str(), ut=str(), *args, **kwargs):
+               hasWatchpoint=bool(), hw=bool(), highlightConnection=str(), hlc=str(), highlightConnections=list,
+               hc=list, hudMessage=list, hm=list, ignoreAssets=bool(), ia=bool(), island=bool(), isl=bool(),
+               keyPressCommand=str(), kpc=str(), keyReleaseCommand=str(), krc=str(), layout=bool(), lay=bool(),
+               layoutCommand=str(), lc=str(), lockMainConnection=bool(), lck=bool(), mainListConnection=str(),
+               mlc=str(), nodeSwatchSize=str(), nss=str(), nodeTitleMode=str(), ntm=str(), nodeViewMode=str(),
+               nvm=str(), overrideNodeDropPosition=list, onp=list, panView=list, pv=list, panel=str(), pnl=str(),
+               parent=str(), p=str(), pinSelectedNodes=bool(), psn=bool(), popupMenuScript=str(), pms=str(),
+               primary=bool(), pr=bool(), redockTab=bool(), rdt=bool(), removeDownstream=bool(), rd=bool(),
+               removeNode=str(), rem=str(), removeUnselected=bool(), run=bool(), removeUpstream=bool(), ru=bool(),
+               renameNode=str(), ren=str(), renameTab=list, rt=list, restoreInfo=str(), ri=str(),
+               restoreLastClosedTab=bool(), rlt=bool(), rootNode=str(), rn=str(), rootsFromSelection=bool(), rfs=bool(),
+               scaleView=float(), sv=float(), selectAll=bool(), sa=bool(), selectConnectionNodes=bool(), scn=bool(),
+               selectDownstream=bool(), sd=bool(), selectFeedbackConnection=bool(), sfc=bool(), selectNode=str(),
+               sln=str(), selectUpstream=bool(), su=bool(), selectionConnection=str(), slc=str(), setWatchpoint=bool(),
+               sw=bool(), settingsChangedCallback=str(), scc=str(), shaderNetworks=bool(), sns=bool(),
+               showAllNodeAttributes=str(), saa=str(), showNamespace=bool(), sn=bool(), showSGShapes=bool(), ssg=bool(),
+               showShapes=bool(), ss=bool(), showTabs=bool(), tab=bool(), showTransforms=bool(), st=bool(),
+               stateString=bool(), sts=bool(), syncedSelection=bool(), ssl=bool(), tabChangeCommand=str(), tcc=str(),
+               toggleAttrFilter=bool(), taf=bool(), toggleSelectedPins=bool(), tsp=bool(), toggleSwatchSize=str(),
+               tss=str(), toolTipCommand=str(), ttc=str(), traversalDepthLimit=int(), tdl=int(), unParent=bool(),
+               up=bool(), unlockMainConnection=bool(), ulk=bool(), updateMainConnection=bool(), upd=bool(),
+               upstream=bool(), ups=bool(), useAssets=bool(), ua=bool(), useLongName=int(), uln=int(),
+               useTemplate=str(), ut=str(), *args, **kwargs):
     pass
 
 
 def nodeIconButton(align=str(), al=str(), annotation=str(), ann=str(), backgroundColor=list, bgc=list, command=str(),
                    c=str(), defineTemplate=str(), dt=str(), disabledImage=str(), di=str(), docTag=str(), dtg=str(),
                    dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                   enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), flipX=bool(), fx=bool(), flipY=bool(),
-                   fy=bool(), font=str(), fn=str(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
-                   highlightColor=list, hlc=list, image=str(), i=str(), image1=str(), i1=str(), image2=str(), i2=str(),
-                   image3=str(), i3=str(), imageOverlayLabel=str(), iol=str(), isObscured=bool(), io=bool(),
-                   label=str(), l=str(), labelOffset=int(), lo=int(), ltVersion=str(), lt=str(), manage=bool(),
-                   m=bool(), marginHeight=int(), mh=int(), marginWidth=int(), mw=int(), noBackground=bool(), nbg=bool(),
-                   numberOfPopupMenus=bool(), npm=bool(), overlayLabelBackColor=list, olb=list, overlayLabelColor=list,
-                   olc=list, parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(),
-                   po=bool(), rotation=float(), rot=float(), statusBarMessage=str(), sbm=str(), style=str(), st=str(),
-                   useAlpha=bool(), ua=bool(), useTemplate=str(), ut=str(), version=str(), ver=str(), visible=bool(),
-                   vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                   enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                   ex=bool(), flipX=bool(), fx=bool(), flipY=bool(), fy=bool(), font=str(), fn=str(),
+                   fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, image=str(),
+                   i=str(), image1=str(), i1=str(), image2=str(), i2=str(), image3=str(), i3=str(),
+                   imageOverlayLabel=str(), iol=str(), isObscured=bool(), io=bool(), label=str(), l=str(),
+                   labelOffset=int(), lo=int(), ltVersion=str(), lt=str(), manage=bool(), m=bool(), marginHeight=int(),
+                   mh=int(), marginWidth=int(), mw=int(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
+                   npm=bool(), overlayLabelBackColor=list, olb=list, overlayLabelColor=list, olc=list, parent=str(),
+                   p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rotation=float(),
+                   rot=float(), statusBarMessage=str(), sbm=str(), style=str(), st=str(), useAlpha=bool(), ua=bool(),
+                   useTemplate=str(), ut=str(), version=str(), ver=str(), visible=bool(), vis=bool(),
+                   visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -4975,13 +5164,13 @@ def nodeOutliner(addCommand=str(), ac=str(), addObject=str(), a=str(), annotatio
                  attrAlphaOrder=str(), aao=str(), backgroundColor=list, bgc=list, connectivity=str(), c=str(),
                  currentSelection=bool(), cs=bool(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                  dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                 enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-                 height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
-                 lastClickedNode=bool(), lcn=bool(), lastMenuChoice=str(), lmc=str(), longNames=bool(), ln=bool(),
-                 manage=bool(), m=bool(), menuCommand=str(), mc=str(), menuMultiOption=bool(), mmo=bool(),
-                 multiSelect=bool(), ms=bool(), niceNames=bool(), nn=bool(), noBackground=bool(), nbg=bool(),
-                 noConnectivity=bool(), nc=bool(), nodesDisplayed=bool(), nd=bool(), numberOfPopupMenus=bool(),
-                 npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                 enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+                 fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                 isObscured=bool(), io=bool(), lastClickedNode=bool(), lcn=bool(), lastMenuChoice=str(), lmc=str(),
+                 longNames=bool(), ln=bool(), manage=bool(), m=bool(), menuCommand=str(), mc=str(),
+                 menuMultiOption=bool(), mmo=bool(), multiSelect=bool(), ms=bool(), niceNames=bool(), nn=bool(),
+                 noBackground=bool(), nbg=bool(), noConnectivity=bool(), nc=bool(), nodesDisplayed=bool(), nd=bool(),
+                 numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
                  pressHighlightsUnconnected=bool(), phu=bool(), preventOverride=bool(), po=bool(), redraw=bool(),
                  r=bool(), redrawRow=bool(), rr=bool(), remove=str(), rm=str(), removeAll=bool(), rma=bool(),
                  replace=str(), rpl=str(), selectCommand=str(), sc=str(), showConnectedOnly=bool(), sco=bool(),
@@ -5003,21 +5192,22 @@ def nodeTreeLister(addFavorite=str(), af=str(), addItem=list, add=list, addVnnIt
                    ann=str(), backgroundColor=list, bgc=list, clearContents=bool(), clr=bool(), collapsePath=str(),
                    cp=str(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                    dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-                   executeItem=str(), ei=str(), exists=bool(), ex=bool(), expandPath=str(), ep=str(),
-                   expandToDepth=int(), etd=int(), favoritesCallback=str(), fcb=str(), favoritesList=bool(), fl=bool(),
-                   fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                   isObscured=bool(), io=bool(), itemScript=str(), isc=str(), manage=bool(), m=bool(),
-                   noBackground=bool(), nbg=bool(), nodeLibrary=str(), nl=str(), numberOfPopupMenus=bool(), npm=bool(),
-                   parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                   refreshCommand=str(), rc=str(), removeFavorite=str(), rf=str(), removeItem=str(), rem=str(),
-                   resultsPathUnderCursor=bool(), ruc=bool(), selectPath=str(), sp=str(), statusBarMessage=str(),
-                   sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
-                   vcc=str(), vnnString=bool(), vnn=bool(), width=int(), w=int(), *args, **kwargs):
+                   enableKeyboardFocus=bool(), ekf=bool(), executeItem=str(), ei=str(), exists=bool(), ex=bool(),
+                   expandPath=str(), ep=str(), expandToDepth=int(), etd=int(), favoritesCallback=str(), fcb=str(),
+                   favoritesList=bool(), fl=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                   highlightColor=list, hlc=list, isObscured=bool(), io=bool(), itemScript=str(), isc=str(),
+                   manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), nodeLibrary=str(), nl=str(),
+                   numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                   preventOverride=bool(), po=bool(), refreshCommand=str(), rc=str(), removeFavorite=str(), rf=str(),
+                   removeItem=str(), rem=str(), resultsPathUnderCursor=bool(), ruc=bool(), selectPath=str(), sp=str(),
+                   statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+                   visibleChangeCommand=str(), vcc=str(), vnnString=bool(), vnn=bool(), width=int(), w=int(), *args,
+                   **kwargs):
     pass
 
 
 def nodeType(apiType=bool(), api=bool(), derived=bool(), d=bool(), inherited=bool(), i=bool(), isTypeName=bool(),
-             itn=bool(), *args, **kwargs):
+             itn=bool(), ufeRuntimeName=bool(), urn=bool(), *args, **kwargs):
     pass
 
 
@@ -5026,7 +5216,7 @@ def nonLinear(after=bool(), af=bool(), afterReference=bool(), ar=bool(), autoPar
               dt=bool(), exclusive=str(), ex=str(), frontOfChain=bool(), foc=bool(), geometry=str(), g=str(),
               geometryIndices=bool(), gi=bool(), ignoreSelected=bool(), includeHiddenSelections=bool(), ihs=bool(),
               name=str(), n=str(), parallel=bool(), par=bool(), prune=bool(), pr=bool(), remove=bool(), rm=bool(),
-              split=bool(), sp=bool(), type=str(), typ=str(), *args, **kwargs):
+              split=bool(), sp=bool(), type=str(), typ=str(), useComponentTags=bool(), uct=bool(), *args, **kwargs):
     pass
 
 
@@ -5182,10 +5372,11 @@ def offsetSurface(caching=bool(), cch=bool(), constructionHistory=bool(), ch=boo
 
 def ogs(deviceInformation=bool(), di=bool(), disposeReleasableTextures=bool(), drt=bool(), dumpTexture=str(), dt=str(),
         enableHardwareInstancing=bool(), hwi=bool(), fragmentEditor=str(), fe=str(), fragmentXML=str(), xml=str(),
-        gpuMemoryUsed=bool(), gpu=bool(), isLegacyViewportEnabled=bool(), lve=bool(), isWinRemoteSession=bool(),
-        irs=bool(), pause=bool(), p=bool(), rebakeTextures=bool(), rbt=bool(), regenerateUVTilePreview=str(), rup=str(),
-        reloadTextures=bool(), rlt=bool(), reset=bool(), r=bool(), shaderSource=str(), ss=str(),
-        toggleTexturePaging=bool(), ttp=bool(), traceRenderPipeline=bool(), trp=bool(), *args, **kwargs):
+        gpuMemoryTotal=int(), gmt=int(), gpuMemoryUsed=bool(), gpu=bool(), isLegacyViewportEnabled=bool(), lve=bool(),
+        isRemoteGLSessionEnabled=bool(), rgl=bool(), isWinRemoteSession=bool(), irs=bool(), pause=bool(), p=bool(),
+        rebakeTextures=bool(), rbt=bool(), regenerateUVTilePreview=str(), rup=str(), reloadTextures=bool(), rlt=bool(),
+        reset=bool(), r=bool(), shaderSource=str(), ss=str(), toggleTexturePaging=bool(), ttp=bool(),
+        traceRenderPipeline=bool(), trp=bool(), *args, **kwargs):
     pass
 
 
@@ -5196,6 +5387,10 @@ def ogsRender(activeMultisampleType=str(), mst=str(), activeRenderOverride=str()
               enableFloatingPointRenderTarget=bool(), efp=bool(), enableMultisample=bool(), ems=bool(), frame=float(),
               f=float(), height=int(), h=int(), layer=str(), l=str(), noRenderView=bool(), nrv=bool(), width=int(),
               w=int(), *args, **kwargs):
+    pass
+
+
+def openCLInfo(minVertexBuffer=bool(), mvb=bool(), valid=bool(), v=bool(), *args, **kwargs):
     pass
 
 
@@ -5211,15 +5406,17 @@ def openMayaPref(errlog=bool(), el=bool(), lazyLoad=bool(), lz=bool(), oldPlugin
 
 def optionMenu(alwaysCallChangeCommand=bool(), acc=bool(), annotation=str(), ann=str(), backgroundColor=list, bgc=list,
                beforeShowPopup=str(), bsp=str(), changeCommand=str(), cc=str(), defineTemplate=str(), dt=str(),
-               docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(),
-               en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
-               fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
-               itemListLong=bool(), ill=bool(), itemListShort=bool(), ils=bool(), label=str(), l=str(), manage=bool(),
-               m=bool(), maxVisibleItems=int(), mvi=int(), noBackground=bool(), nbg=bool(), numberOfItems=bool(),
-               ni=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
-               pma=bool(), preventOverride=bool(), po=bool(), select=int(), sl=int(), statusBarMessage=str(), sbm=str(),
-               useTemplate=str(), ut=str(), value=str(), v=str(), visible=bool(), vis=bool(),
-               visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+               deleteAllItems=bool(), dai=bool(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
+               dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
+               enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
+               height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), itemListLong=bool(),
+               ill=bool(), itemListShort=bool(), ils=bool(), label=str(), l=str(), manage=bool(), m=bool(),
+               maxVisibleItems=int(), mvi=int(), noBackground=bool(), nbg=bool(), numberOfItems=bool(), ni=bool(),
+               numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+               postMenuCommand=str(), pmc=str(), postMenuCommandOnce=bool(), pmo=bool(), preventOverride=bool(),
+               po=bool(), select=int(), sl=int(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+               value=str(), v=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(),
+               w=int(), *args, **kwargs):
     pass
 
 
@@ -5234,23 +5431,26 @@ def optionMenuGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(), ad
                   columnOffset4=list, co4=list, columnOffset5=list, co5=list, columnOffset6=list, co6=list,
                   columnWidth=list, cw=list, columnWidth1=int(), cw1=int(), columnWidth2=list, cw2=list,
                   columnWidth3=list, cw3=list, columnWidth4=list, cw4=list, columnWidth5=list, cw5=list,
-                  columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
-                  dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                  enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), extraLabel=str(), el=str(),
-                  fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                  isObscured=bool(), io=bool(), itemListLong=bool(), ill=bool(), itemListShort=bool(), ils=bool(),
-                  label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfItems=bool(),
-                  ni=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
-                  pma=bool(), preventOverride=bool(), po=bool(), rowAttach=list, rat=list, select=int(), sl=int(),
-                  statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), value=str(), v=str(), visible=bool(),
-                  vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                  columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), deleteAllItems=bool(), dai=bool(),
+                  docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(),
+                  en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                  ex=bool(), extraLabel=str(), el=str(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                  highlightColor=list, hlc=list, isObscured=bool(), io=bool(), itemListLong=bool(), ill=bool(),
+                  itemListShort=bool(), ils=bool(), label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(),
+                  nbg=bool(), numberOfItems=bool(), ni=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
+                  p=str(), popupMenuArray=bool(), pma=bool(), postMenuCommand=str(), pmc=str(),
+                  postMenuCommandOnce=bool(), pmo=bool(), preventOverride=bool(), po=bool(), rowAttach=list, rat=list,
+                  select=int(), sl=int(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), value=str(),
+                  v=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(),
+                  *args, **kwargs):
     pass
 
 
-def optionVar(arraySize=str(), clearArray=str(), ca=str(), exists=str(), ex=str(), floatValue=list, fv=list,
-              floatValueAppend=list, fva=list, intValue=list, iv=list, intValueAppend=list, iva=list, list=bool(),
-              l=bool(), remove=str(), rm=str(), removeFromArray=list, rfa=list, stringValue=list, sv=list,
-              stringValueAppend=list, sva=list, version=int(), v=int(), *args, **kwargs):
+def optionVar(arraySize=str(), clearArray=str(), ca=str(), clearStash=str(), cs=str(), exists=str(), ex=str(),
+              floatValue=list, fv=list, floatValueAppend=list, fva=list, intValue=list, iv=list, intValueAppend=list,
+              iva=list, list=bool(), l=bool(), remove=str(), rm=str(), removeFromArray=list, rfa=list, stash=str(),
+              st=str(), stringValue=list, sv=list, stringValueAppend=list, sva=list, unstash=str(), us=str(),
+              version=int(), v=int(), *args, **kwargs):
     pass
 
 
@@ -5274,52 +5474,58 @@ def orientConstraint(createCache=list, cc=list, deleteCache=bool(), dc=bool(), l
 
 def outlinerEditor(allowMultiSelection=bool(), ams=bool(), alwaysToggleSelect=bool(), ats=bool(),
                    animLayerFilterOptions=str(), alf=str(), attrAlphaOrder=str(), aao=str(), attrFilter=str(), af=str(),
-                   autoExpand=bool(), xpd=bool(), autoExpandLayers=bool(), ael=bool(), autoSelectNewObjects=bool(),
-                   containersIgnoreFilters=bool(), cif=bool(), control=bool(), ctl=bool(), defineTemplate=str(),
-                   dt=str(), directSelect=bool(), ds=bool(), displayMode=str(), dm=str(), doNotSelectNewObjects=bool(),
-                   dns=bool(), docTag=str(), dtg=str(), dropIsParent=bool(), dip=bool(), editAttrName=bool(),
-                   ean=bool(), exists=bool(), ex=bool(), expandAllItems=bool(), eai=bool(),
-                   expandAllSelectedItems=bool(), eas=bool(), expandAttribute=bool(), att=bool(),
+                   autoExpand=bool(), xpd=bool(), autoExpandAnimatedShapes=bool(), xas=bool(), autoExpandLayers=bool(),
+                   ael=bool(), autoSelectNewObjects=bool(), containersIgnoreFilters=bool(), cif=bool(), control=bool(),
+                   ctl=bool(), defineTemplate=str(), dt=str(), directSelect=bool(), ds=bool(), displayMode=str(),
+                   dm=str(), doNotSelectNewObjects=bool(), dns=bool(), docTag=str(), dtg=str(), dropIsParent=bool(),
+                   dip=bool(), editAttrName=bool(), ean=bool(), exists=bool(), ex=bool(), expandAllItems=bool(),
+                   eai=bool(), expandAllSelectedItems=bool(), eas=bool(), expandAttribute=bool(), att=bool(),
                    expandConnections=bool(), xc=bool(), expandObjects=bool(), eo=bool(), feedbackItemName=bool(),
                    fbn=bool(), feedbackRowNumber=bool(), fbr=bool(), filter=str(), f=str(), forceMainConnection=str(),
                    fmc=str(), getCurrentSetOfItem=int(), gcs=int(), highlightActive=bool(), ha=bool(),
                    highlightConnection=str(), hlc=str(), highlightSecondary=bool(), hs=bool(),
                    ignoreDagHierarchy=bool(), hir=bool(), ignoreHiddenAttribute=bool(), iha=bool(),
                    ignoreOutlinerColor=bool(), ioc=bool(), isChildSelected=str(), ics=str(), isSet=int(),
-                   isSetMember=int(), ism=int(), lockMainConnection=bool(), lck=bool(), longNames=bool(), ln=bool(),
-                   mainListConnection=str(), mlc=str(), mapMotionTrails=bool(), mmt=bool(), masterOutliner=str(),
-                   mst=str(), niceNames=bool(), nn=bool(), object=str(), obj=str(), organizeByClip=bool(), obc=bool(),
-                   organizeByLayer=bool(), obl=bool(), panel=str(), pnl=str(), parent=str(), p=str(),
-                   parentObject=bool(), po=bool(), pinPlug=str(), pin=str(), refresh=bool(), rfs=bool(),
-                   removeFromCurrentSet=int(), rcs=int(), renameItem=int(), rni=int(), renameSelectedItem=bool(),
-                   rsi=bool(), renderFilterActive=bool(), rfa=bool(), renderFilterIndex=int(), rfi=int(),
-                   renderFilterVisible=bool(), rfv=bool(), selectCommand=str(), sec=str(), selectionConnection=str(),
-                   slc=str(), selectionOrder=str(), sod=str(), setFilter=str(), sf=str(), setsIgnoreFilters=bool(),
-                   sif=bool(), showAnimCurvesOnly=bool(), aco=bool(), showAnimLayerWeight=bool(), saw=bool(),
-                   showAssets=bool(), a=bool(), showAssignedMaterials=bool(), sam=bool(), showAttrValues=bool(),
-                   av=bool(), showAttributes=bool(), atr=bool(), showCompounds=bool(), cmp=bool(), showConnected=bool(),
-                   con=bool(), showContainedOnly=bool(), sco=bool(), showContainerContents=bool(), scc=bool(),
-                   showDagOnly=bool(), dag=bool(), showLeafs=bool(), laf=bool(), showMuteInfo=bool(), smi=bool(),
-                   showNamespace=bool(), sn=bool(), showNumericAttrsOnly=bool(), num=bool(),
-                   showParentContainers=bool(), spa=bool(), showPinIcons=bool(), spi=bool(),
-                   showPublishedAsConnected=bool(), spc=bool(), showReferenceMembers=bool(), rm=bool(),
-                   showReferenceNodes=bool(), rn=bool(), showSelected=bool(), sc=bool(), showSetMembers=bool(),
-                   ssm=bool(), showShapes=bool(), shp=bool(), showTextureNodesOnly=bool(), tno=bool(),
-                   showTimeEditor=bool(), ste=bool(), showUVAttrsOnly=bool(), uv=bool(), showUnitlessCurves=bool(),
-                   su=bool(), showUpstreamCurves=bool(), suc=bool(), sortOrder=str(), so=str(), stateString=bool(),
-                   sts=bool(), transmitFilters=bool(), tf=bool(), unParent=bool(), up=bool(),
+                   isSetMember=int(), ism=int(), isUfeItem=int(), isu=int(), lockMainConnection=bool(), lck=bool(),
+                   longNames=bool(), ln=bool(), mainListConnection=str(), mlc=str(), mapMotionTrails=bool(), mmt=bool(),
+                   masterOutliner=str(), mst=str(), niceNames=bool(), nn=bool(), object=str(), obj=str(),
+                   organizeByClip=bool(), obc=bool(), organizeByLayer=bool(), obl=bool(), panel=str(), pnl=str(),
+                   parent=str(), p=str(), parentObject=bool(), po=bool(), pinPlug=str(), pin=str(), refresh=bool(),
+                   rfs=bool(), removeFromCurrentSet=int(), rcs=int(), renameItem=int(), rni=int(),
+                   renameSelectedItem=bool(), rsi=bool(), renderFilterActive=bool(), rfa=bool(),
+                   renderFilterIndex=int(), rfi=int(), renderFilterVisible=bool(), rfv=bool(), selectCommand=str(),
+                   sec=str(), selectionConnection=str(), slc=str(), selectionOrder=str(), sod=str(), setFilter=str(),
+                   sf=str(), setsIgnoreFilters=bool(), sif=bool(), showAnimCurvesOnly=bool(), aco=bool(),
+                   showAnimLayerWeight=bool(), saw=bool(), showAssets=bool(), a=bool(), showAssignedMaterials=bool(),
+                   sam=bool(), showAttrValues=bool(), av=bool(), showAttributes=bool(), atr=bool(),
+                   showCompounds=bool(), cmp=bool(), showConnected=bool(), con=bool(), showContainedOnly=bool(),
+                   sco=bool(), showContainerContents=bool(), scc=bool(), showDagOnly=bool(), dag=bool(),
+                   showLeafs=bool(), laf=bool(), showMuteInfo=bool(), smi=bool(), showNamespace=bool(), sn=bool(),
+                   showNumericAttrsOnly=bool(), num=bool(), showParentContainers=bool(), spa=bool(),
+                   showPinIcons=bool(), spi=bool(), showPublishedAsConnected=bool(), spc=bool(),
+                   showReferenceMembers=bool(), rm=bool(), showReferenceNodes=bool(), rn=bool(), showSelected=bool(),
+                   sc=bool(), showSetMembers=bool(), ssm=bool(), showShapes=bool(), shp=bool(),
+                   showTextureNodesOnly=bool(), tno=bool(), showTimeEditor=bool(), ste=bool(), showUVAttrsOnly=bool(),
+                   uv=bool(), showUnitlessCurves=bool(), su=bool(), showUpstreamCurves=bool(), suc=bool(),
+                   sortOrder=str(), so=str(), stateString=bool(), sts=bool(), transmitFilters=bool(), tf=bool(),
+                   ufeFilter=list, uf=list, ufeFilterValue=bool(), ufv=bool(), unParent=bool(), up=bool(),
                    unlockMainConnection=bool(), ulk=bool(), unpinPlug=str(), unp=str(), updateMainConnection=bool(),
                    upd=bool(), useTemplate=str(), ut=str(), *args, **kwargs):
     pass
 
 
 def outlinerPanel(control=bool(), ctl=bool(), copy=str(), cp=str(), createString=bool(), cs=bool(),
-                  defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), editString=bool(), es=bool(), exists=bool(),
-                  ex=bool(), init=bool(), isUnique=bool(), iu=bool(), label=str(), l=str(), menuBarRepeatLast=bool(),
-                  mrl=bool(), menuBarVisible=bool(), mbv=bool(), needsInit=bool(), ni=bool(), outlinerEditor=bool(),
-                  oe=bool(), parent=str(), p=str(), popupMenuProcedure=str(), pmp=str(), replacePanel=str(), rp=str(),
-                  tearOff=bool(), to=bool(), tearOffCopy=str(), toc=str(), tearOffRestore=bool(), tor=bool(),
-                  unParent=bool(), up=bool(), useTemplate=str(), ut=str(), *args, **kwargs):
+                  defineTemplate=str(), dt=str(), divider=int(), div=int(), docTag=str(), dtg=str(), editString=bool(),
+                  es=bool(), exists=bool(), ex=bool(), init=bool(), isUnique=bool(), iu=bool(), label=str(), l=str(),
+                  menuBarRepeatLast=bool(), mrl=bool(), menuBarVisible=bool(), mbv=bool(), needsInit=bool(), ni=bool(),
+                  outlinerEditor=bool(), oe=bool(), parent=str(), p=str(), popupMenuProcedure=str(), pmp=str(),
+                  replacePanel=str(), rp=str(), tearOff=bool(), to=bool(), tearOffCopy=str(), toc=str(),
+                  tearOffRestore=bool(), tor=bool(), unParent=bool(), up=bool(), useTemplate=str(), ut=str(), *args,
+                  **kwargs):
+    pass
+
+
+def outputWindow(show=bool(), s=bool(), *args, **kwargs):
     pass
 
 
@@ -5340,14 +5546,14 @@ def palettePort(actualTotal=int(), at=int(), annotation=str(), ann=str(), backgr
                 changeCommand=str(), cc=str(), colorEditable=bool(), ced=bool(), colorEdited=str(), ce=str(),
                 defineTemplate=str(), dt=str(), dimensions=list, dim=list, docTag=str(), dtg=str(), dragCallback=str(),
                 dgc=str(), dropCallback=str(), dpc=str(), editable=bool(), ed=bool(), enable=bool(), en=bool(),
-                enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-                height=int(), h=int(), highlightColor=list, hlc=list, hsvValue=list, hsv=list, isObscured=bool(),
-                io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
-                npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                redraw=bool(), r=bool(), rgbValue=list, rgb=list, setCurCell=int(), scc=int(), statusBarMessage=str(),
-                sbm=str(), topDown=bool(), td=bool(), transparent=int(), t=int(), useTemplate=str(), ut=str(),
-                visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
-                **kwargs):
+                enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+                fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, hsvValue=list,
+                hsv=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                preventOverride=bool(), po=bool(), redraw=bool(), r=bool(), rgbValue=list, rgb=list, setCurCell=int(),
+                scc=int(), statusBarMessage=str(), sbm=str(), topDown=bool(), td=bool(), transparent=int(), t=int(),
+                useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+                width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -5364,9 +5570,9 @@ def paneLayout(activeFrameThickness=int(), aft=int(), activePane=str(), ap=str()
                annotation=str(), ann=str(), backgroundColor=list, bgc=list, childArray=bool(), ca=bool(),
                configuration=str(), cn=str(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-               enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-               height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(),
-               m=bool(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(),
+               enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+               fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
+               io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(),
                numberOfPopupMenus=bool(), npm=bool(), numberOfVisiblePanes=bool(), nvp=bool(), pane1=bool(), p1=bool(),
                pane2=bool(), p2=bool(), pane3=bool(), p3=bool(), pane4=bool(), p4=bool(), paneSize=list, ps=list,
                paneUnderPointer=bool(), pup=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
@@ -5532,12 +5738,13 @@ def pickWalk(direction=str(), d=str(), recurse=bool(), r=bool(), type=str(), typ
 
 def picture(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(), docTag=str(),
             dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-            enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-            height=int(), h=int(), highlightColor=list, hlc=list, image=str(), i=str(), isObscured=bool(), io=bool(),
-            manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
-            parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-            statusBarMessage=str(), sbm=str(), tile=bool(), tl=bool(), useTemplate=str(), ut=str(), visible=bool(),
-            vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+            enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+            fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, image=str(), i=str(),
+            isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+            numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+            preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), tile=bool(), tl=bool(),
+            useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(),
+            w=int(), *args, **kwargs):
     pass
 
 
@@ -5564,7 +5771,8 @@ def play(forward=bool(), f=bool(), playSound=bool(), ps=bool(), record=bool(), r
 def playbackOptions(animationEndTime=float(), aet=float(), animationStartTime=float(), ast=float(), blockingAnim=bool(),
                     ba=bool(), by=float(), framesPerSecond=bool(), fps=bool(), loop=str(), l=str(),
                     maxPlaybackSpeed=float(), mps=float(), maxTime=float(), max=float(), minTime=float(), min=float(),
-                    playbackSpeed=float(), ps=float(), view=str(), v=str(), *args, **kwargs):
+                    playbackSpeed=float(), ps=float(), stepLoop=bool(), slp=bool(), view=str(), v=str(), *args,
+                    **kwargs):
     pass
 
 
@@ -5573,12 +5781,12 @@ def playblast(activeEditor=bool(), ae=bool(), cameraSetup=list, cs=list, clearCa
               compression=str(), c=str(), editorPanelName=str(), epn=str(), endTime=float(), et=float(), filename=str(),
               f=str(), forceOverwrite=bool(), fo=bool(), format=str(), fmt=str(), frame=float(), fr=float(),
               framePadding=int(), fp=int(), height=int(), h=int(), indexFromZero=bool(), ifz=bool(), offScreen=bool(),
-              os=bool(), options=bool(), o=bool(), percent=int(), p=int(), quality=int(), qlt=int(),
-              rawFrameNumbers=bool(), rfn=bool(), replaceAudioOnly=bool(), rao=bool(), replaceEndTime=float(),
-              ret=float(), replaceFilename=str(), rf=str(), replaceStartTime=float(), rst=float(), sequenceTime=bool(),
-              sqt=bool(), showOrnaments=bool(), orn=bool(), sound=str(), s=str(), startTime=float(), st=float(),
-              throwOnError=bool(), toe=bool(), useTraxSounds=bool(), uts=bool(), viewer=bool(), v=bool(), width=int(),
-              w=int(), widthHeight=list, wh=list, *args, **kwargs):
+              os=bool(), offScreenViewportUpdate=bool(), osv=bool(), options=bool(), o=bool(), percent=int(), p=int(),
+              quality=int(), qlt=int(), rawFrameNumbers=bool(), rfn=bool(), replaceAudioOnly=bool(), rao=bool(),
+              replaceEndTime=float(), ret=float(), replaceFilename=str(), rf=str(), replaceStartTime=float(),
+              rst=float(), sequenceTime=bool(), sqt=bool(), showOrnaments=bool(), orn=bool(), sound=str(), s=str(),
+              startTime=float(), st=float(), throwOnError=bool(), toe=bool(), useTraxSounds=bool(), uts=bool(),
+              viewer=bool(), v=bool(), width=int(), w=int(), widthHeight=list, wh=list, *args, **kwargs):
     pass
 
 
@@ -5588,18 +5796,19 @@ def pluginDisplayFilter(classification=str(), cls=str(), deregister=bool(), dr=b
     pass
 
 
-def pluginInfo(activeFile=bool(), af=bool(), animCurveInterp=str(), aci=str(), apiVersion=bool(), av=bool(),
-               autoload=bool(), a=bool(), cacheFormat=bool(), cf=bool(), changedCommand=str(), cc=str(), command=str(),
-               c=str(), constraintCommand=bool(), cnc=bool(), controlCommand=bool(), ctc=bool(), data=list, d=list,
-               dependNode=bool(), dn=bool(), dependNodeByType=str(), dnt=str(), dependNodeId=str(), dni=str(),
-               device=bool(), dv=bool(), dragAndDropBehavior=bool(), ddb=bool(), iksolver=bool(), ik=bool(),
+def pluginInfo(activeFile=bool(), af=bool(), allEvaluators=bool(), ae=bool(), animCurveInterp=str(), aci=str(),
+               apiVersion=bool(), av=bool(), autoload=bool(), a=bool(), cacheFormat=bool(), cf=bool(),
+               changedCommand=str(), cc=str(), command=str(), c=str(), constraintCommand=bool(), cnc=bool(),
+               controlCommand=bool(), ctc=bool(), data=list, d=list, dependNode=bool(), dn=bool(),
+               dependNodeByType=str(), dnt=str(), dependNodeId=str(), dni=str(), device=bool(), dv=bool(),
+               dragAndDropBehavior=bool(), ddb=bool(), evaluator=bool(), e=bool(), iksolver=bool(), ik=bool(),
                listPlugins=bool(), ls=bool(), listPluginsPath=bool(), lsp=bool(), loadPluginPrefs=bool(), lpp=bool(),
                loaded=bool(), l=bool(), modelEditorCommand=bool(), mec=bool(), name=str(), n=str(), path=str(), p=str(),
-               pluginsInUse=bool(), pu=bool(), registered=bool(), r=bool(), remove=bool(), rm=bool(), renderer=bool(),
-               rdr=bool(), savePluginPrefs=bool(), spp=bool(), serviceDescriptions=bool(), sd=bool(), settings=bool(),
-               set=bool(), tool=str(), t=str(), translator=bool(), tr=bool(), unloadOk=bool(), uo=bool(),
-               userNamed=bool(), u=bool(), vendor=str(), vd=str(), version=bool(), v=bool(), writeRequires=bool(),
-               wr=bool(), *args, **kwargs):
+               pluginsInUse=bool(), pu=bool(), referenceTranslators=bool(), rtr=bool(), registered=bool(), r=bool(),
+               remove=bool(), rm=bool(), renderer=bool(), rdr=bool(), savePluginPrefs=bool(), spp=bool(),
+               serviceDescriptions=bool(), sd=bool(), settings=bool(), set=bool(), tool=str(), t=str(),
+               translator=bool(), tr=bool(), unloadOk=bool(), uo=bool(), userNamed=bool(), u=bool(), vendor=str(),
+               vd=str(), version=bool(), v=bool(), writeRequires=bool(), wr=bool(), *args, **kwargs):
     pass
 
 
@@ -6354,17 +6563,18 @@ def polyNormalPerVertex(allLocked=bool(), al=bool(), deformable=bool(), freezeNo
 
 def polyOptions(activeObjects=bool(), ao=bool(), allEdges=bool(), ae=bool(), backCullVertex=bool(), bcv=bool(),
                 backCulling=bool(), bc=bool(), colorMaterialChannel=str(), cm=str(), colorShadedDisplay=bool(),
-                cs=bool(), displayAlphaAsGreyScale=bool(), dal=bool(), displayBorder=bool(), db=bool(),
-                displayCenter=bool(), dc=bool(), displayCreaseEdge=bool(), dce=bool(), displayCreaseVertex=bool(),
-                dcv=bool(), displayGeometry=bool(), dg=bool(), displayInvisibleFaces=bool(), dif=bool(),
-                displayItemNumbers=list, din=list, displayMapBorder=bool(), dmb=bool(), displayMetadata=list, dmt=list,
-                displayNormal=bool(), dn=bool(), displaySubdComps=bool(), dsc=bool(), displayTangent=bool(), dtn=bool(),
-                displayTriangle=bool(), dt=bool(), displayUVTopology=bool(), uvt=bool(), displayUVs=bool(), duv=bool(),
-                displayVertex=bool(), dv=bool(), displayWarp=bool(), dw=bool(), facet=bool(), f=bool(), fullBack=bool(),
-                fb=bool(), gl=bool(), hardBack=bool(), hb=bool(), hardEdge=bool(), he=bool(), hardEdgeColor=bool(),
-                hec=bool(), materialBlend=str(), mb=str(), newPolymesh=bool(), np=bool(), point=bool(), pt=bool(),
-                pointFacet=bool(), pf=bool(), relative=bool(), r=bool(), reuseTriangles=bool(), rt=bool(),
-                sizeBorder=float(), sb=float(), sizeNormal=float(), sn=float(), sizeUV=float(), suv=float(),
+                cs=bool(), displayAlphaAsGreyScale=bool(), dal=bool(), displayBlueChannel=bool(), dbc=bool(),
+                displayBorder=bool(), db=bool(), displayCenter=bool(), dc=bool(), displayCreaseEdge=bool(), dce=bool(),
+                displayCreaseVertex=bool(), dcv=bool(), displayGeometry=bool(), dg=bool(), displayGreenChannel=bool(),
+                dgc=bool(), displayInvisibleFaces=bool(), dif=bool(), displayItemNumbers=list, din=list,
+                displayMapBorder=bool(), dmb=bool(), displayMetadata=list, dmt=list, displayNormal=bool(), dn=bool(),
+                displayRedChannel=bool(), drc=bool(), displaySubdComps=bool(), dsc=bool(), displayTangent=bool(),
+                dtn=bool(), displayTriangle=bool(), dt=bool(), displayUVTopology=bool(), uvt=bool(), displayUVs=bool(),
+                duv=bool(), displayVertex=bool(), dv=bool(), displayWarp=bool(), dw=bool(), facet=bool(), f=bool(),
+                fullBack=bool(), fb=bool(), gl=bool(), hardBack=bool(), hb=bool(), hardEdge=bool(), he=bool(),
+                hardEdgeColor=bool(), hec=bool(), materialBlend=str(), mb=str(), newPolymesh=bool(), np=bool(),
+                point=bool(), pt=bool(), pointFacet=bool(), pf=bool(), relative=bool(), r=bool(), reuseTriangles=bool(),
+                rt=bool(), sizeBorder=float(), sb=float(), sizeNormal=float(), sn=float(), sizeUV=float(), suv=float(),
                 sizeVertex=float(), sv=float(), smoothDrawType=int(), sdt=int(), softEdge=bool(), se=bool(),
                 vertexNormalMethod=int(), vnm=int(), wireBackCulling=bool(), wbc=bool(), *args, **kwargs):
     pass
@@ -6513,18 +6723,14 @@ def polyReduce(caching=bool(), cch=bool(), cachingReduce=bool(), cr=bool(), colo
     pass
 
 
-def polyRemesh(caching=bool(), cch=bool(), constructionHistory=bool(), ch=bool(), interpolationType=int(), ipt=int(),
-               name=str(), n=str(), nodeState=int(), nds=int(), reduceThreshold=float(), rdt=float(),
-               refineThreshold=float(), rft=float(), smoothStrength=float(), smt=float(), tessellateBorders=bool(),
-               tsb=bool(), *args, **kwargs):
+def polyRemesh(caching=bool(), cch=bool(), collapseThreshold=float(), cot=float(), constructionHistory=bool(),
+               ch=bool(), interpolationType=int(), ipt=int(), maxEdgeLength=float(), mel=float(), name=str(), n=str(),
+               nodeState=int(), nds=int(), smoothStrength=float(), smt=float(), tessellateBorders=bool(), tsb=bool(),
+               useRelativeValues=bool(), urv=bool(), *args, **kwargs):
     pass
 
 
 def polyRetopo(*args, **kwargs):
-    pass
-
-
-def polyRetopoCtx(*args, **kwargs):
     pass
 
 
@@ -6838,8 +7044,8 @@ def prepareRender(defaultTraversalSet=str(), dt=str(), deregister=str(), d=str()
 
 
 def profiler(addCategory=str(), a=str(), allCategories=bool(), ac=bool(), bufferSize=int(), b=int(),
-             categoryIndex=int(), ci=int(), categoryIndexToName=int(), cin=int(), categoryName=str(), cn=str(),
-             categoryNameToIndex=str(), cni=str(), categoryRecording=bool(), cr=bool(),
+             categoryIndex=int(), ci=int(), categoryIndexToName=int(), cin=int(), categoryInfo=str(), cf=str(),
+             categoryName=str(), cn=str(), categoryNameToIndex=str(), cni=str(), categoryRecording=bool(), cr=bool(),
              clearAllMelInstrumentation=bool(), cam=bool(), colorIndex=int(), coi=int(), eventCPUId=bool(), eci=bool(),
              eventCategory=bool(), eca=bool(), eventColor=bool(), eco=bool(), eventCount=bool(), ec=bool(),
              eventDescription=bool(), ed=bool(), eventDuration=bool(), edu=bool(), eventIndex=int(), ei=int(),
@@ -6850,26 +7056,31 @@ def profiler(addCategory=str(), a=str(), allCategories=bool(), ac=bool(), buffer
     pass
 
 
-def profilerTool(categoryView=bool(), cat=bool(), cpuView=bool(), cpu=bool(), destroy=bool(), dtr=bool(), exists=bool(),
-                 ex=bool(), findNext=bool(), fn=bool(), findPrevious=bool(), fp=bool(), frameAll=bool(), fa=bool(),
-                 frameSelected=bool(), fs=bool(), isolateSegment=int(), make=bool(), mk=bool(), matchWholeWord=bool(),
-                 mww=bool(), searchEvent=str(), se=str(), segmentCount=bool(), sc=bool(), showAllEvent=bool(),
-                 sa=bool(), showSelectedEvents=bool(), ss=bool(), showSelectedEventsRepetition=bool(), ssr=bool(),
-                 threadView=bool(), thd=bool(), unisolateSegment=bool(), uis=bool(), *args, **kwargs):
+def profilerTool(categoryView=bool(), cat=bool(), collapseSelectedEvents=bool(), cs=bool(),
+                 collapseSelectedEventsRepetition=bool(), csr=bool(), cpuView=bool(), cpu=bool(), destroy=bool(),
+                 dtr=bool(), eventTypes=bool(), et=bool(), exists=bool(), ex=bool(), expandSelectedEvents=bool(),
+                 es=bool(), expandSelectedEventsRepetition=bool(), esr=bool(), findNext=bool(), fn=bool(),
+                 findPrevious=bool(), fp=bool(), frameAll=bool(), fa=bool(), frameSelected=bool(), fs=bool(),
+                 isolateSegment=int(), make=bool(), mk=bool(), matchWholeWord=bool(), mww=bool(), searchEvent=str(),
+                 se=str(), segmentCount=bool(), sc=bool(), showAllEvent=bool(), sa=bool(), showCriticalPath=bool(),
+                 scp=bool(), showHotspot=bool(), sh=bool(), showSelectedEvents=bool(), ss=bool(),
+                 showSelectedEventsRepetition=bool(), ssr=bool(), threadView=bool(), thd=bool(),
+                 unisolateSegment=bool(), uis=bool(), *args, **kwargs):
     pass
 
 
 def progressBar(annotation=str(), ann=str(), backgroundColor=list, bgc=list, beginProgress=bool(), bp=bool(),
                 defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                 dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-                endProgress=bool(), ep=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(),
-                h=int(), highlightColor=list, hlc=list, isCancelled=bool(), ic=bool(), isInterruptable=bool(),
-                ii=bool(), isMainProgressBar=bool(), imp=bool(), isObscured=bool(), io=bool(), manage=bool(), m=bool(),
-                maxValue=int(), max=int(), minValue=int(), min=int(), noBackground=bool(), nbg=bool(),
-                numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                preventOverride=bool(), po=bool(), progress=int(), pr=int(), status=str(), st=str(),
-                statusBarMessage=str(), sbm=str(), step=int(), s=int(), useTemplate=str(), ut=str(), visible=bool(),
-                vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                enableKeyboardFocus=bool(), ekf=bool(), endProgress=bool(), ep=bool(), exists=bool(), ex=bool(),
+                fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                isCancelled=bool(), ic=bool(), isInterruptable=bool(), ii=bool(), isMainProgressBar=bool(), imp=bool(),
+                isObscured=bool(), io=bool(), manage=bool(), m=bool(), maxValue=int(), max=int(), minValue=int(),
+                min=int(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
+                p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), progress=int(), pr=int(),
+                status=str(), st=str(), statusBarMessage=str(), sbm=str(), step=int(), s=int(), useTemplate=str(),
+                ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(),
+                *args, **kwargs):
     pass
 
 
@@ -6928,15 +7139,16 @@ def propMove(percent=float(), p=float(), percentX=float(), px=float(), percentY=
 def psdChannelOutliner(addChild=list, ach=list, allItems=bool(), all=bool(), annotation=str(), ann=str(),
                        backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                        doubleClickCommand=str(), dcc=str(), dragCallback=str(), dgc=str(), dropCallback=str(),
-                       dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(),
-                       ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                       isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-                       numberOfItems=bool(), ni=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-                       popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), psdParent=str(), ppa=str(),
-                       removeAll=bool(), ra=bool(), removeChild=str(), rc=str(), select=str(), sel=str(),
-                       selectCommand=str(), sc=str(), selectItem=bool(), si=bool(), statusBarMessage=str(), sbm=str(),
-                       useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-                       width=int(), w=int(), *args, **kwargs):
+                       dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
+                       enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
+                       fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
+                       manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfItems=bool(), ni=bool(),
+                       numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                       preventOverride=bool(), po=bool(), psdParent=str(), ppa=str(), removeAll=bool(), ra=bool(),
+                       removeChild=str(), rc=str(), select=str(), sel=str(), selectCommand=str(), sc=str(),
+                       selectItem=bool(), si=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+                       visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
+                       **kwargs):
     pass
 
 
@@ -6976,14 +7188,14 @@ def radial(attenuation=float(), att=float(), magnitude=float(), m=float(), maxDi
 def radioButton(align=str(), al=str(), annotation=str(), ann=str(), backgroundColor=list, bgc=list, changeCommand=str(),
                 cc=str(), collection=str(), cl=str(), data=int(), da=int(), defineTemplate=str(), dt=str(),
                 docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), editable=bool(),
-                ed=bool(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(),
-                nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), offCommand=str(), ofc=str(), onCommand=str(),
-                onc=str(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                recomputeSize=bool(), rs=bool(), select=bool(), sl=bool(), statusBarMessage=str(), sbm=str(),
-                useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-                width=int(), w=int(), *args, **kwargs):
+                ed=bool(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(),
+                m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), offCommand=str(),
+                ofc=str(), onCommand=str(), onc=str(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                preventOverride=bool(), po=bool(), recomputeSize=bool(), rs=bool(), select=bool(), sl=bool(),
+                statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+                visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -7005,19 +7217,20 @@ def radioButtonGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(), a
                    defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                    dropCallback=str(), dpc=str(), editable=bool(), ed=bool(), enable=bool(), en=bool(), enable1=bool(),
                    en1=bool(), enable2=bool(), en2=bool(), enable3=bool(), en3=bool(), enable4=bool(), en4=bool(),
-                   enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-                   height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(),
-                   l=str(), label1=str(), l1=str(), label2=str(), l2=str(), label3=str(), l3=str(), label4=str(),
-                   l4=str(), labelAnnotation=str(), la=str(), labelArray2=list, la2=list, labelArray3=list, la3=list,
-                   labelArray4=list, la4=list, manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-                   numberOfPopupMenus=bool(), npm=bool(), numberOfRadioButtons=int(), nrb=int(), offCommand=str(),
-                   ofc=str(), offCommand1=str(), of1=str(), offCommand2=str(), of2=str(), offCommand3=str(), of3=str(),
-                   offCommand4=str(), of4=str(), onCommand=str(), onc=str(), onCommand1=str(), on1=str(),
-                   onCommand2=str(), on2=str(), onCommand3=str(), on3=str(), onCommand4=str(), on4=str(), parent=str(),
-                   p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rowAttach=list,
-                   rat=list, select=int(), sl=int(), shareCollection=str(), scl=str(), statusBarMessage=str(),
-                   sbm=str(), useTemplate=str(), ut=str(), vertical=bool(), vr=bool(), visible=bool(), vis=bool(),
-                   visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                   enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                   ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                   isObscured=bool(), io=bool(), label=str(), l=str(), label1=str(), l1=str(), label2=str(), l2=str(),
+                   label3=str(), l3=str(), label4=str(), l4=str(), labelAnnotation=str(), la=str(), labelArray2=list,
+                   la2=list, labelArray3=list, la3=list, labelArray4=list, la4=list, manage=bool(), m=bool(),
+                   noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), numberOfRadioButtons=int(),
+                   nrb=int(), offCommand=str(), ofc=str(), offCommand1=str(), of1=str(), offCommand2=str(), of2=str(),
+                   offCommand3=str(), of3=str(), offCommand4=str(), of4=str(), onCommand=str(), onc=str(),
+                   onCommand1=str(), on1=str(), onCommand2=str(), on2=str(), onCommand3=str(), on3=str(),
+                   onCommand4=str(), on4=str(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                   preventOverride=bool(), po=bool(), rowAttach=list, rat=list, select=int(), sl=int(),
+                   shareCollection=str(), scl=str(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+                   vertical=bool(), vr=bool(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+                   width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -7034,27 +7247,28 @@ def radioMenuItemCollection(defineTemplate=str(), dt=str(), exists=bool(), ex=bo
 
 def rampColorPort(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(),
                   docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(),
-                  en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
-                  fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
-                  manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), node=str(), n=str(),
-                  numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                  preventOverride=bool(), po=bool(), selectedColorControl=str(), sc=str(), selectedInterpControl=str(),
-                  si=str(), selectedPositionControl=str(), sp=str(), statusBarMessage=str(), sbm=str(),
-                  useTemplate=str(), ut=str(), verticalLayout=bool(), vl=bool(), visible=bool(), vis=bool(),
-                  visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                  en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                  ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                  isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), node=str(),
+                  n=str(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
+                  pma=bool(), preventOverride=bool(), po=bool(), selectedColorControl=str(), sc=str(),
+                  selectedInterpControl=str(), si=str(), selectedPositionControl=str(), sp=str(),
+                  statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), verticalLayout=bool(), vl=bool(),
+                  visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
+                  **kwargs):
     pass
 
 
 def rangeControl(annotation=str(), ann=str(), backgroundColor=list, bgc=list, changedCommand=str(), cc=str(),
                  defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                  dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-                 exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
-                 hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(), maxRange=float(), max=float(),
-                 minRange=float(), min=float(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
-                 parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-                 statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-                 visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), widthHeight=list, wh=list, *args,
-                 **kwargs):
+                 enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
+                 height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(),
+                 m=bool(), maxRange=float(), max=float(), minRange=float(), min=float(), noBackground=bool(),
+                 nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
+                 pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(),
+                 ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(),
+                 widthHeight=list, wh=list, *args, **kwargs):
     pass
 
 
@@ -7184,8 +7398,8 @@ def renderer(addGlobalsNode=str(), agn=str(), addGlobalsTab=list, agt=list, batc
              rendererUIName=str(), ui=str(), renderingEditorsSubMenuProcedure=str(), res=str(),
              showBatchRenderLogProcedure=str(), brl=str(), showBatchRenderProcedure=str(), sbr=str(),
              showRenderLogProcedure=str(), srl=str(), startIprRenderProcedure=str(), sti=str(),
-             stopIprRenderProcedure=str(), spi=str(), textureBakingProcedure=str(), tb=str(), unregisterRenderer=bool(),
-             unr=bool(), *args, **kwargs):
+             stopIprRenderProcedure=str(), spi=str(), supportColorManagement=bool(), scm=bool(),
+             textureBakingProcedure=str(), tb=str(), unregisterRenderer=bool(), unr=bool(), *args, **kwargs):
     pass
 
 
@@ -7403,15 +7617,15 @@ def rowColumnLayout(adjustableColumn=int(), adj=int(), annotation=str(), ann=str
                     columnOffset=list, co=list, columnSpacing=list, cs=list, columnWidth=list, cw=list,
                     defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                     dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-                    exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
-                    highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(),
-                    noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(), numberOfColumns=int(),
-                    nc=int(), numberOfPopupMenus=bool(), npm=bool(), numberOfRows=int(), nr=int(), parent=str(),
-                    p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rowAlign=list,
-                    ral=list, rowAttach=list, rat=list, rowHeight=list, rh=list, rowOffset=list, ro=list,
-                    rowSpacing=list, rs=list, statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
-                    visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
-                    **kwargs):
+                    enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
+                    height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(),
+                    m=bool(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(),
+                    numberOfColumns=int(), nc=int(), numberOfPopupMenus=bool(), npm=bool(), numberOfRows=int(),
+                    nr=int(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(),
+                    po=bool(), rowAlign=list, ral=list, rowAttach=list, rat=list, rowHeight=list, rh=list,
+                    rowOffset=list, ro=list, rowSpacing=list, rs=list, statusBarMessage=str(), sbm=str(),
+                    useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+                    width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -7428,13 +7642,25 @@ def rowLayout(adjustableColumn=int(), adj=int(), adjustableColumn1=int(), ad1=in
               cw1=int(), columnWidth2=list, cw2=list, columnWidth3=list, cw3=list, columnWidth4=list, cw4=list,
               columnWidth5=list, cw5=list, columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), docTag=str(),
               dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-              enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-              height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(),
-              m=bool(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(), numberOfColumns=int(),
-              nc=int(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-              preventOverride=bool(), po=bool(), rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(),
-              useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-              width=int(), w=int(), *args, **kwargs):
+              enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+              fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
+              io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(),
+              numberOfColumns=int(), nc=int(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+              popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rowAttach=list, rat=list,
+              statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+              visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+    pass
+
+
+def runTimeCommand(addKeyword=str(), ak=str(), addTag=str(), at=str(), annotation=str(), ann=str(), category=str(),
+                   cat=str(), categoryArray=bool(), caa=bool(), command=str(), c=str(), commandArray=bool(), ca=bool(),
+                   commandLanguage=str(), cl=str(), default=bool(), d=bool(), defaultCommandArray=bool(), dca=bool(),
+                   delete=bool(), exists=bool(), ex=bool(), helpUrl=str(), url=str(), hotkeyCtx=str(), hc=str(),
+                   image=str(), i=str(), keywords=str(), k=str(), label=str(), l=str(), longAnnotation=str(), la=str(),
+                   numberOfCommands=bool(), nc=bool(), numberOfDefaultCommands=bool(), ndc=bool(),
+                   numberOfUserCommands=bool(), nuc=bool(), plugin=str(), p=str(), save=bool(), s=bool(),
+                   showInHotkeyEditor=bool(), she=bool(), tags=str(), t=str(), userCommandArray=bool(), uca=bool(),
+                   *args, **kwargs):
     pass
 
 
@@ -7458,12 +7684,13 @@ def saveFluid(currentTime=int(), ct=int(), endTime=int(), et=int(), startTime=in
 def saveImage(annotation=str(), ann=str(), backgroundColor=list, bgc=list, currentView=bool(), cv=bool(),
               defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
               dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-              exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
-              hlc=list, image=str(), i=str(), isObscured=bool(), io=bool(), manage=bool(), m=bool(),
-              noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), objectThumbnail=str(), ot=str(),
-              parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-              sceneFile=str(), sf=str(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(),
-              vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+              enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
+              height=int(), h=int(), highlightColor=list, hlc=list, image=str(), i=str(), isObscured=bool(), io=bool(),
+              manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
+              objectThumbnail=str(), ot=str(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+              preventOverride=bool(), po=bool(), sceneFile=str(), sf=str(), statusBarMessage=str(), sbm=str(),
+              useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+              width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -7521,13 +7748,13 @@ def scaleConstraint(layer=str(), l=str(), maintainOffset=bool(), mo=bool(), name
     pass
 
 
-def scaleKey(animation=str(), an=str(), attribute=str(), at=str(), controlPoints=bool(), cp=bool(), float=tuple(),
-             f=tuple(), floatPivot=float(), fp=float(), floatScale=float(), fs=float(), hierarchy=str(), hi=str(),
-             includeUpperBound=bool(), iub=bool(), index=int(), newEndFloat=float(), nef=float(), newEndTime=float(),
-             net=float(), newStartFloat=float(), nsf=float(), newStartTime=float(), nst=float(),
-             scaleSpecifiedKeys=bool(), ssk=bool(), shape=bool(), s=bool(), time=tuple(), t=tuple(), timePivot=float(),
-             tp=float(), timeScale=float(), ts=float(), valuePivot=float(), vp=float(), valueScale=float(), vs=float(),
-             *args, **kwargs):
+def scaleKey(animation=str(), an=str(), attribute=str(), at=str(), autoSnap=bool(), asp=bool(), controlPoints=bool(),
+             cp=bool(), float=tuple(), f=tuple(), floatPivot=float(), fp=float(), floatScale=float(), fs=float(),
+             hierarchy=str(), hi=str(), includeUpperBound=bool(), iub=bool(), index=int(), newEndFloat=float(),
+             nef=float(), newEndTime=float(), net=float(), newStartFloat=float(), nsf=float(), newStartTime=float(),
+             nst=float(), scaleSpecifiedKeys=bool(), ssk=bool(), shape=bool(), s=bool(), time=tuple(), t=tuple(),
+             timePivot=float(), tp=float(), timeScale=float(), ts=float(), valuePivot=float(), vp=float(),
+             valueScale=float(), vs=float(), *args, **kwargs):
     pass
 
 
@@ -7546,6 +7773,10 @@ def sceneEditor(control=bool(), ctl=bool(), defineTemplate=str(), dt=str(), docT
                 unParent=bool(), up=bool(), unlockMainConnection=bool(), ulk=bool(), unresolvedName=bool(), un=bool(),
                 updateMainConnection=bool(), upd=bool(), useTemplate=str(), ut=str(), withoutCopyNumber=bool(),
                 wcn=bool(), *args, **kwargs):
+    pass
+
+
+def sceneLint(issueType=str(), i=str(), verbose=bool(), v=bool(), *args, **kwargs):
     pass
 
 
@@ -7632,9 +7863,9 @@ def scriptJob(allChildren=bool(), alc=bool(), attributeAdded=list, aa=list, attr
               disregardIndex=bool(), dri=bool(), event=list, e=list, exists=int(), ex=int(), force=bool(), f=bool(),
               idleEvent=str(), ie=str(), kill=int(), k=int(), killAll=bool(), ka=bool(), killWithScene=bool(),
               kws=bool(), listConditions=bool(), lc=bool(), listEvents=bool(), le=bool(), listJobs=bool(), lj=bool(),
-              nodeDeleted=list, nd=list, nodeNameChanged=list, nnc=list, parent=str(), p=str(), permanent=bool(),
-              per=bool(), protected=bool(), pro=bool(), replacePrevious=bool(), rp=bool(), runOnce=bool(), ro=bool(),
-              timeChange=str(), tc=str(), uiDeleted=list, uid=list, *args, **kwargs):
+              nodeDeleted=list, nd=list, nodeNameChanged=list, nnc=list, optionVarChanged=list, ovc=list, parent=str(),
+              p=str(), permanent=bool(), per=bool(), protected=bool(), pro=bool(), replacePrevious=bool(), rp=bool(),
+              runOnce=bool(), ro=bool(), timeChange=str(), tc=str(), uiDeleted=list, uid=list, *args, **kwargs):
     pass
 
 
@@ -7650,52 +7881,52 @@ def scriptTable(afterCellChangedCmd=str(), acc=str(), annotation=str(), ann=str(
                 clearRow=int(), cr=int(), clearTable=bool(), ct=bool(), columnFilter=list, cf=list, columnWidth=list,
                 cw=list, columns=int(), c=int(), defineTemplate=str(), dt=str(), deleteRow=int(), dr=int(),
                 docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), editable=bool(),
-                ed=bool(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), excludingHeaders=bool(),
-                eh=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), getCellCmd=str(), gcc=str(),
-                height=int(), h=int(), highlightColor=list, hlc=list, insertRow=int(), ir=int(), isObscured=bool(),
-                io=bool(), label=list, l=list, manage=bool(), m=bool(), multiEditEnabled=bool(), mee=bool(),
-                noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-                popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rowHeight=int(), rh=int(),
-                rows=int(), r=int(), rowsRemovedCmd=str(), rrc=str(), rowsToBeRemovedCmd=str(), rtc=str(),
-                selectedCells=list, sc=list, selectedColumns=list, scs=list, selectedRow=bool(), sr=bool(),
-                selectedRows=list, srs=list, selectionBehavior=int(), sb=int(), selectionChangedCmd=str(), scc=str(),
-                selectionMode=int(), sm=int(), sortEnabled=bool(), se=bool(), statusBarMessage=str(), sbm=str(),
-                underPointerColumn=bool(), upc=bool(), underPointerRow=bool(), upr=bool(), useDoubleClickEdit=bool(),
-                udc=bool(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
-                vcc=str(), width=int(), w=int(), *args, **kwargs):
+                ed=bool(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                ekf=bool(), excludingHeaders=bool(), eh=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
+                fpn=bool(), getCellCmd=str(), gcc=str(), height=int(), h=int(), highlightColor=list, hlc=list,
+                insertRow=int(), ir=int(), isObscured=bool(), io=bool(), label=list, l=list, manage=bool(), m=bool(),
+                multiEditEnabled=bool(), mee=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
+                npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
+                rowHeight=int(), rh=int(), rows=int(), r=int(), rowsRemovedCmd=str(), rrc=str(),
+                rowsToBeRemovedCmd=str(), rtc=str(), selectedCells=list, sc=list, selectedColumns=list, scs=list,
+                selectedRow=bool(), sr=bool(), selectedRows=list, srs=list, selectionBehavior=int(), sb=int(),
+                selectionChangedCmd=str(), scc=str(), selectionMode=int(), sm=int(), sortEnabled=bool(), se=bool(),
+                statusBarMessage=str(), sbm=str(), underPointerColumn=bool(), upc=bool(), underPointerRow=bool(),
+                upr=bool(), useDoubleClickEdit=bool(), udc=bool(), useTemplate=str(), ut=str(), visible=bool(),
+                vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
 def scrollField(annotation=str(), ann=str(), backgroundColor=list, bgc=list, changeCommand=str(), cc=str(),
                 clear=bool(), cl=bool(), command=str(), c=str(), defineTemplate=str(), dt=str(), docTag=str(),
                 dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), editable=bool(), ed=bool(),
-                enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enterCommand=str(), ec=str(),
-                exists=bool(), ex=bool(), font=str(), fn=str(), fontPointSize=int(), fns=int(), fullPathName=bool(),
-                fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, insertText=str(), it=str(),
-                insertionPosition=int(), ip=int(), isObscured=bool(), io=bool(), keyPressCommand=str(), kpc=str(),
-                manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfLines=int(), nl=int(),
-                numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                preventOverride=bool(), po=bool(), qtFont=str(), qfn=str(), selection=bool(), sl=bool(),
-                statusBarMessage=str(), sbm=str(), text=str(), tx=str(), useTemplate=str(), ut=str(), visible=bool(),
-                vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), wordWrap=bool(), ww=bool(),
-                *args, **kwargs):
+                enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(),
+                enterCommand=str(), ec=str(), exists=bool(), ex=bool(), font=str(), fn=str(), fontPointSize=int(),
+                fns=int(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                insertText=str(), it=str(), insertionPosition=int(), ip=int(), isObscured=bool(), io=bool(),
+                keyPressCommand=str(), kpc=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                numberOfLines=int(), nl=int(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), qtFont=str(), qfn=str(),
+                selection=bool(), sl=bool(), statusBarMessage=str(), sbm=str(), text=str(), tx=str(), useTemplate=str(),
+                ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(),
+                wordWrap=bool(), ww=bool(), *args, **kwargs):
     pass
 
 
 def scrollLayout(annotation=str(), ann=str(), backgroundColor=list, bgc=list, borderVisible=bool(), bv=bool(),
                  childArray=bool(), ca=bool(), childResizable=bool(), cr=bool(), defineTemplate=str(), dt=str(),
                  docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(),
-                 en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
-                 fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, horizontalScrollBarThickness=int(),
-                 hst=int(), isObscured=bool(), io=bool(), manage=bool(), m=bool(), minChildWidth=int(), mcw=int(),
-                 noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(), numberOfPopupMenus=bool(),
-                 npm=bool(), panEnabled=bool(), pe=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                 preventOverride=bool(), po=bool(), resizeCommand=str(), rc=str(), scrollAreaHeight=bool(), sah=bool(),
-                 scrollAreaValue=bool(), sav=bool(), scrollAreaWidth=bool(), saw=bool(), scrollByPixel=list, sbp=list,
-                 scrollPage=str(), sp=str(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
-                 verticalScrollBarAlwaysVisible=bool(), vsb=bool(), verticalScrollBarThickness=int(), vst=int(),
-                 visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
-                 **kwargs):
+                 en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                 ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                 horizontalScrollBarThickness=int(), hst=int(), isObscured=bool(), io=bool(), manage=bool(), m=bool(),
+                 minChildWidth=int(), mcw=int(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(),
+                 numberOfPopupMenus=bool(), npm=bool(), panEnabled=bool(), pe=bool(), parent=str(), p=str(),
+                 popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), resizeCommand=str(), rc=str(),
+                 scrollAreaHeight=bool(), sah=bool(), scrollAreaValue=bool(), sav=bool(), scrollAreaWidth=bool(),
+                 saw=bool(), scrollByPixel=list, sbp=list, scrollPage=str(), sp=str(), statusBarMessage=str(),
+                 sbm=str(), useTemplate=str(), ut=str(), verticalScrollBarAlwaysVisible=bool(), vsb=bool(),
+                 verticalScrollBarThickness=int(), vst=int(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
+                 vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -7705,7 +7936,8 @@ def sculpt(after=bool(), af=bool(), afterReference=bool(), ar=bool(), before=boo
            groupWithLocator=bool(), gwl=bool(), ignoreSelected=bool(), includeHiddenSelections=bool(), ihs=bool(),
            insideMode=str(), im=str(), maxDisplacement=float(), mxd=float(), mode=str(), m=str(), name=str(), n=str(),
            objectCentered=bool(), oc=bool(), parallel=bool(), par=bool(), prune=bool(), pr=bool(), remove=bool(),
-           rm=bool(), sculptTool=str(), st=str(), split=bool(), sp=bool(), *args, **kwargs):
+           rm=bool(), sculptTool=str(), st=str(), split=bool(), sp=bool(), useComponentTags=bool(), uct=bool(), *args,
+           **kwargs):
     pass
 
 
@@ -7746,7 +7978,8 @@ def sculptTarget(after=bool(), af=bool(), afterReference=bool(), ar=bool(), befo
                  geometry=str(), g=str(), geometryIndices=bool(), gi=bool(), ignoreSelected=bool(),
                  inbetweenWeight=float(), ibw=float(), includeHiddenSelections=bool(), ihs=bool(), name=str(), n=str(),
                  parallel=bool(), par=bool(), prune=bool(), pr=bool(), regenerate=bool(), r=bool(), remove=bool(),
-                 rm=bool(), snapshot=int(), s=int(), split=bool(), sp=bool(), target=int(), t=int(), *args, **kwargs):
+                 rm=bool(), snapshot=int(), s=int(), split=bool(), sp=bool(), target=int(), t=int(),
+                 useComponentTags=bool(), uct=bool(), *args, **kwargs):
     pass
 
 
@@ -7799,17 +8032,17 @@ def selectMode(component=bool(), co=bool(), hierarchical=bool(), h=bool(), leaf=
 
 
 def selectPref(affectsActive=bool(), aa=bool(), allowHiliteSelection=bool(), ahs=bool(), autoSelectContainer=bool(),
-               asc=bool(), autoUseDepth=bool(), aud=bool(), clickBoxSize=int(), cbs=int(), clickDrag=bool(), cld=bool(),
-               containerCentricSelection=bool(), ccs=bool(), disableComponentPopups=bool(), dcp=bool(),
-               expandPopupList=bool(), epl=bool(), ignoreSelectionPriority=bool(), isp=bool(), manipClickBoxSize=int(),
-               mcb=int(), paintSelect=bool(), ps=bool(), paintSelectWithDepth=bool(), psd=bool(),
-               popupMenuSelection=bool(), pms=bool(), preSelectBackfacing=bool(), psb=bool(), preSelectClosest=bool(),
-               psc=bool(), preSelectDeadSpace=int(), pds=int(), preSelectHilite=bool(), psh=bool(),
-               preSelectHiliteSize=float(), phs=float(), preSelectTweakDeadSpace=int(), pdt=int(),
-               selectTypeChangeAffectsActive=bool(), stc=bool(), selectionChildHighlightMode=int(), sch=int(),
-               singleBoxSelection=bool(), sbs=bool(), straightLineDistance=bool(), sld=bool(),
-               trackSelectionOrder=bool(), tso=bool(), useDepth=bool(), ud=bool(), xformNoSelect=bool(), xns=bool(),
-               *args, **kwargs):
+               asc=bool(), autoSelectOutlinerSetMembers=bool(), asm=bool(), autoUseDepth=bool(), aud=bool(),
+               clickBoxSize=int(), cbs=int(), clickDrag=bool(), cld=bool(), containerCentricSelection=bool(),
+               ccs=bool(), disableComponentPopups=bool(), dcp=bool(), expandPopupList=bool(), epl=bool(),
+               ignoreSelectionPriority=bool(), isp=bool(), manipClickBoxSize=int(), mcb=int(), paintSelect=bool(),
+               ps=bool(), paintSelectWithDepth=bool(), psd=bool(), popupMenuSelection=bool(), pms=bool(),
+               preSelectBackfacing=bool(), psb=bool(), preSelectClosest=bool(), psc=bool(), preSelectDeadSpace=int(),
+               pds=int(), preSelectHilite=bool(), psh=bool(), preSelectHiliteSize=float(), phs=float(),
+               preSelectTweakDeadSpace=int(), pdt=int(), selectTypeChangeAffectsActive=bool(), stc=bool(),
+               selectionChildHighlightMode=int(), sch=int(), singleBoxSelection=bool(), sbs=bool(),
+               straightLineDistance=bool(), sld=bool(), trackSelectionOrder=bool(), tso=bool(), useDepth=bool(),
+               ud=bool(), xformNoSelect=bool(), xns=bool(), *args, **kwargs):
     pass
 
 
@@ -7881,12 +8114,13 @@ def selLoadSettings(activeProxy=str(), ap=str(), deferReference=bool(), dr=bool(
 
 def separator(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(), docTag=str(),
               dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-              enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-              height=int(), h=int(), highlightColor=list, hlc=list, horizontal=bool(), hr=bool(), isObscured=bool(),
-              io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
-              npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-              statusBarMessage=str(), sbm=str(), style=str(), st=str(), useTemplate=str(), ut=str(), visible=bool(),
-              vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+              enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+              fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, horizontal=bool(),
+              hr=bool(), isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+              numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+              preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), style=str(), st=str(),
+              useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+              width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -7913,11 +8147,11 @@ def setDefaultShadingGroup(*args, **kwargs):
     pass
 
 
-def setDrivenKeyframe(attribute=str(), at=str(), controlPoints=bool(), cp=bool(), currentDriver=str(), cd=str(),
-                      driven=bool(), dn=bool(), driver=bool(), dr=bool(), driverValue=float(), dv=float(),
-                      hierarchy=str(), hi=str(), inTangentType=str(), itt=str(), insert=bool(), i=bool(),
-                      insertBlend=bool(), ib=bool(), outTangentType=str(), ott=str(), shape=bool(), s=bool(),
-                      value=float(), v=float(), *args, **kwargs):
+def setDrivenKeyframe(attribute=str(), at=str(), controlPoints=bool(), cp=bool(), count=bool(), cnt=bool(),
+                      currentDriver=str(), cd=str(), driven=bool(), dn=bool(), driver=bool(), dr=bool(),
+                      driverValue=float(), dv=float(), hierarchy=str(), hi=str(), inTangentType=str(), itt=str(),
+                      insert=bool(), i=bool(), insertBlend=bool(), ib=bool(), outTangentType=str(), ott=str(),
+                      shape=bool(), s=bool(), value=float(), v=float(), *args, **kwargs):
     pass
 
 
@@ -7955,17 +8189,19 @@ def setInputDeviceMapping(absolute=bool(), a=bool(), axis=str(), ax=str(), devic
 
 
 def setKeyCtx(breakdown=bool(), bd=bool(), exists=bool(), ex=bool(), history=bool(), ch=bool(), image1=str(), i1=str(),
-              image2=str(), i2=str(), image3=str(), i3=str(), name=str(), n=str(), *args, **kwargs):
+              image2=str(), i2=str(), image3=str(), i3=str(), name=str(), n=str(), preserveTangent=bool(), pt=bool(),
+              *args, **kwargs):
     pass
 
 
-def setKeyframe(animLayer=str(), al=str(), animated=bool(), an=bool(), attribute=str(), at=str(), breakdown=bool(),
-                bd=bool(), clip=str(), c=str(), controlPoints=bool(), cp=bool(), dirtyDG=bool(), dd=bool(),
-                float=float(), f=float(), hierarchy=str(), hi=str(), identity=bool(), id=bool(), inTangentType=str(),
-                itt=str(), insert=bool(), i=bool(), insertBlend=bool(), ib=bool(), minimizeRotation=bool(), mr=bool(),
-                noResolve=bool(), nr=bool(), outTangentType=str(), ott=str(), respectKeyable=bool(), rk=bool(),
-                shape=bool(), s=bool(), time=float(), t=float(), useCurrentLockedWeights=bool(), lw=bool(),
-                value=float(), v=float(), *args, **kwargs):
+def setKeyframe(adjustTangent=bool(), adt=bool(), animLayer=str(), al=str(), animated=bool(), an=bool(),
+                attribute=str(), at=str(), breakdown=bool(), bd=bool(), clip=str(), c=str(), controlPoints=bool(),
+                cp=bool(), dirtyDG=bool(), dd=bool(), float=float(), f=float(), hierarchy=str(), hi=str(),
+                identity=bool(), id=bool(), inTangentType=str(), itt=str(), insert=bool(), i=bool(), insertBlend=bool(),
+                ib=bool(), minimizeRotation=bool(), mr=bool(), noResolve=bool(), nr=bool(), outTangentType=str(),
+                ott=str(), preserveCurveShape=bool(), pcs=bool(), respectKeyable=bool(), rk=bool(), shape=bool(),
+                s=bool(), time=float(), t=float(), useCurrentLockedWeights=bool(), lw=bool(), value=float(), v=float(),
+                *args, **kwargs):
     pass
 
 
@@ -8001,14 +8237,14 @@ def setRenderPassType(defaultDataType=bool(), d=bool(), numChannels=int(), n=int
     pass
 
 
-def sets(addElement=str(), add=str(), afterFilters=bool(), af=bool(), clear=str(), cl=str(), color=int(), co=int(),
-         copy=str(), cp=str(), edges=bool(), eg=bool(), editPoints=bool(), ep=bool(), empty=bool(), em=bool(),
-         facets=bool(), fc=bool(), flatten=str(), fl=str(), forceElement=str(), fe=str(), include=str(),
-         intersection=str(), int=str(), isIntersecting=str(), ii=str(), isMember=str(), im=str(), layer=bool(),
-         l=bool(), name=str(), n=str(), noSurfaceShader=bool(), nss=bool(), noWarnings=bool(), nw=bool(),
-         nodesOnly=bool(), no=bool(), remove=str(), rm=str(), renderable=bool(), r=bool(), size=bool(), s=bool(),
-         split=str(), sp=str(), subtract=str(), sub=str(), text=str(), t=str(), union=str(), un=str(), vertices=bool(),
-         v=bool(), *args, **kwargs):
+def sets(addElement=str(), add=str(), afterFilters=bool(), af=bool(), anyMember=str(), am=str(), clear=str(), cl=str(),
+         color=int(), co=int(), copy=str(), cp=str(), edges=bool(), eg=bool(), editPoints=bool(), ep=bool(),
+         empty=bool(), em=bool(), facets=bool(), fc=bool(), flatten=str(), fl=str(), forceElement=str(), fe=str(),
+         include=str(), intersection=str(), int=str(), isIntersecting=str(), ii=str(), isMember=str(), im=str(),
+         layer=bool(), l=bool(), name=str(), n=str(), noIntermediate=bool(), ni=bool(), noSurfaceShader=bool(),
+         nss=bool(), noWarnings=bool(), nw=bool(), nodesOnly=bool(), no=bool(), remove=str(), rm=str(),
+         renderable=bool(), r=bool(), size=bool(), s=bool(), split=str(), sp=str(), subtract=str(), sub=str(),
+         text=str(), t=str(), union=str(), un=str(), vertices=bool(), v=bool(), *args, **kwargs):
     pass
 
 
@@ -8087,16 +8323,17 @@ def shelfButton(align=str(), al=str(), annotation=str(), ann=str(), backgroundCo
                 c=str(), commandRepeatable=bool(), rpt=bool(), defineTemplate=str(), dt=str(), disabledImage=str(),
                 di=str(), docTag=str(), dtg=str(), doubleClickCommand=str(), dcc=str(), dragCallback=str(), dgc=str(),
                 dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-                enableCommandRepeat=bool(), ecr=bool(), exists=bool(), ex=bool(), flat=bool(), fla=bool(), flipX=bool(),
-                fx=bool(), flipY=bool(), fy=bool(), font=str(), fn=str(), fullPathName=bool(), fpn=bool(),
-                handleNodeDropCallback=str(), hnd=str(), height=int(), h=int(), highlightColor=list, hlc=list,
-                highlightImage=str(), hi=str(), image=str(), i=str(), image1=str(), i1=str(), image2=str(), i2=str(),
-                image3=str(), i3=str(), imageOverlayLabel=str(), iol=str(), isObscured=bool(), io=bool(), label=str(),
-                l=str(), labelEditingCallback=str(), lec=str(), labelOffset=int(), lo=int(), ltVersion=str(), lt=str(),
-                manage=bool(), m=bool(), marginHeight=int(), mh=int(), marginWidth=int(), mw=int(), menuItem=list,
-                mi=list, menuItemPython=int(), mip=int(), noBackground=bool(), nbg=bool(), noDefaultPopup=bool(),
-                ndp=bool(), numberOfPopupMenus=bool(), npm=bool(), overlayLabelBackColor=list, olb=list,
-                overlayLabelColor=list, olc=list, parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                enableCommandRepeat=bool(), ecr=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                ex=bool(), flat=bool(), fla=bool(), flexibleWidthType=int(), fwt=int(), flexibleWidthValue=int(),
+                fwv=int(), flipX=bool(), fx=bool(), flipY=bool(), fy=bool(), font=str(), fn=str(), fullPathName=bool(),
+                fpn=bool(), handleNodeDropCallback=str(), hnd=str(), height=int(), h=int(), highlightColor=list,
+                hlc=list, highlightImage=str(), hi=str(), image=str(), i=str(), image1=str(), i1=str(), image2=str(),
+                i2=str(), image3=str(), i3=str(), imageOverlayLabel=str(), iol=str(), isObscured=bool(), io=bool(),
+                label=str(), l=str(), labelEditingCallback=str(), lec=str(), labelOffset=int(), lo=int(),
+                ltVersion=str(), lt=str(), manage=bool(), m=bool(), marginHeight=int(), mh=int(), marginWidth=int(),
+                mw=int(), menuItem=list, mi=list, menuItemPython=int(), mip=int(), noBackground=bool(), nbg=bool(),
+                noDefaultPopup=bool(), ndp=bool(), numberOfPopupMenus=bool(), npm=bool(), overlayLabelBackColor=list,
+                olb=list, overlayLabelColor=list, olc=list, parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
                 preventOverride=bool(), po=bool(), rotation=float(), rot=float(), scaleIcon=bool(), sic=bool(),
                 selectionImage=str(), si=str(), sourceType=str(), stp=str(), statusBarMessage=str(), sbm=str(),
                 style=str(), st=str(), useAlpha=bool(), ua=bool(), useTemplate=str(), ut=str(), version=str(),
@@ -8109,31 +8346,34 @@ def shelfLayout(alignment=str(), aln=str(), annotation=str(), ann=str(), backgro
                 cellHeight=int(), ch=int(), cellWidth=int(), cw=int(), cellWidthHeight=list, cwh=list,
                 childArray=bool(), ca=bool(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                 dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-                height=int(), h=int(), highlightColor=list, hlc=list, horizontal=bool(), hr=bool(), isObscured=bool(),
-                io=bool(), ltVersion=str(), lt=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-                numberOfChildren=bool(), nch=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-                popupMenuArray=bool(), pma=bool(), position=list, pos=list, preventOverride=bool(), po=bool(),
-                spacing=int(), spa=int(), statusBarMessage=str(), sbm=str(), style=str(), st=str(), useTemplate=str(),
-                ut=str(), version=str(), ver=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-                width=int(), w=int(), *args, **kwargs):
+                enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+                fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                horizontal=bool(), hr=bool(), isObscured=bool(), io=bool(), ltVersion=str(), lt=str(), manage=bool(),
+                m=bool(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(),
+                numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                position=list, pos=list, preventOverride=bool(), po=bool(), spacing=int(), spa=int(),
+                statusBarMessage=str(), sbm=str(), style=str(), st=str(), useTemplate=str(), ut=str(), version=str(),
+                ver=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(),
+                *args, **kwargs):
     pass
 
 
 def shelfTabLayout(annotation=str(), ann=str(), backgroundColor=list, bgc=list, borderStyle=str(), bs=str(),
                    changeCommand=str(), cc=str(), childArray=bool(), ca=bool(), childResizable=bool(), cr=bool(),
-                   defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), doubleClickCommand=str(), dcc=str(),
-                   dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                   enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
+                   closeTab=int(), ct=int(), closeTabCommand=str(), ctc=str(), defineTemplate=str(), dt=str(),
+                   docTag=str(), dtg=str(), doubleClickCommand=str(), dcc=str(), dragCallback=str(), dgc=str(),
+                   dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
+                   enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
                    height=int(), h=int(), highlightColor=list, hlc=list, horizontalScrollBarThickness=int(), hst=int(),
                    image=str(), i=str(), imageVisible=bool(), iv=bool(), innerMarginHeight=int(), imh=int(),
                    innerMarginWidth=int(), imw=int(), isObscured=bool(), io=bool(), manage=bool(), m=bool(),
                    minChildWidth=int(), mcw=int(), moveTab=list, mt=list, newTabCommand=str(), ntc=str(),
                    noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(), numberOfPopupMenus=bool(),
-                   npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preSelectCommand=str(),
-                   psc=str(), preventOverride=bool(), po=bool(), scrollable=bool(), scr=bool(), scrollableTabs=bool(),
-                   stb=bool(), selectCommand=str(), sc=str(), selectTab=str(), st=str(), selectTabIndex=int(),
-                   sti=int(), showNewTab=bool(), snt=bool(), statusBarMessage=str(), sbm=str(), tabLabel=list, tl=list,
+                   npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), postMenuCommand=str(),
+                   pmc=str(), preSelectCommand=str(), psc=str(), preventOverride=bool(), po=bool(), scrollable=bool(),
+                   scr=bool(), scrollableTabs=bool(), stb=bool(), selectCommand=str(), sc=str(), selectTab=str(),
+                   st=str(), selectTabIndex=int(), sti=int(), showNewTab=bool(), snt=bool(), statusBarMessage=str(),
+                   sbm=str(), tabIcon=list, ti=list, tabIconIndex=list, tii=list, tabLabel=list, tl=list,
                    tabLabelIndex=list, tli=list, tabPosition=str(), tp=str(), tabTooltip=list, tt=list,
                    tabTooltipIndex=list, tti=list, tabsClosable=bool(), tc=bool(), tabsVisible=bool(), tv=bool(),
                    useTemplate=str(), ut=str(), verticalScrollBarThickness=int(), vst=int(), visible=bool(), vis=bool(),
@@ -8251,9 +8491,9 @@ def skinCluster(addInfluence=str(), ai=str(), addToSelection=bool(), ats=bool(),
                 selectInfluenceVerts=str(), siv=str(), skinMethod=int(), sm=int(), smoothWeights=float(), sw=float(),
                 smoothWeightsMaxIterations=int(), swi=int(), split=bool(), sp=bool(), toSelectedBones=bool(),
                 tsb=bool(), toSkeletonAndTransforms=bool(), tst=bool(), unbind=bool(), ub=bool(),
-                unbindKeepHistory=bool(), ubk=bool(), useGeometry=bool(), ug=bool(), volumeBind=float(), vb=float(),
-                volumeType=int(), vt=int(), weight=float(), wt=float(), weightDistribution=int(), wd=int(),
-                weightedInfluence=bool(), wi=bool(), *args, **kwargs):
+                unbindKeepHistory=bool(), ubk=bool(), useComponentTags=bool(), uct=bool(), useGeometry=bool(),
+                ug=bool(), volumeBind=float(), vb=float(), volumeType=int(), vt=int(), weight=float(), wt=float(),
+                weightDistribution=int(), wd=int(), weightedInfluence=bool(), wi=bool(), *args, **kwargs):
     pass
 
 
@@ -8277,9 +8517,9 @@ def smoothTangentSurface(caching=bool(), cch=bool(), constructionHistory=bool(),
 
 
 def snapKey(animation=str(), an=str(), attribute=str(), at=str(), controlPoints=bool(), cp=bool(), float=tuple(),
-            f=tuple(), hierarchy=str(), hi=str(), includeUpperBound=bool(), iub=bool(), index=int(), shape=bool(),
-            s=bool(), time=tuple(), t=tuple(), timeMultiple=float(), tm=float(), valueMultiple=float(), vm=float(),
-            *args, **kwargs):
+            f=tuple(), hierarchy=str(), hi=str(), includeUpperBound=bool(), iub=bool(), index=int(),
+            mergeDuplicate=bool(), md=bool(), shape=bool(), s=bool(), time=tuple(), t=tuple(), timeMultiple=float(),
+            tm=float(), valueMultiple=float(), vm=float(), *args, **kwargs):
     pass
 
 
@@ -8328,7 +8568,7 @@ def softMod(after=bool(), af=bool(), afterReference=bool(), ar=bool(), before=bo
             geometry=str(), g=str(), geometryIndices=bool(), gi=bool(), ignoreSelected=bool(),
             includeHiddenSelections=bool(), ihs=bool(), name=str(), n=str(), parallel=bool(), par=bool(), prune=bool(),
             pr=bool(), relative=bool(), rel=bool(), remove=bool(), rm=bool(), resetGeometry=bool(), rg=bool(),
-            split=bool(), sp=bool(), weightedNode=list, wn=list, *args, **kwargs):
+            split=bool(), sp=bool(), useComponentTags=bool(), uct=bool(), weightedNode=list, wn=list, *args, **kwargs):
     pass
 
 
@@ -8362,15 +8602,28 @@ def sound(endTime=float(), et=float(), file=str(), f=str(), length=bool(), l=boo
 def soundControl(annotation=str(), ann=str(), backgroundColor=list, bgc=list, beginScrub=bool(), bs=bool(),
                  defineTemplate=str(), dt=str(), displaySound=bool(), ds=bool(), docTag=str(), dtg=str(),
                  dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                 enableBackground=bool(), ebg=bool(), endScrub=bool(), es=bool(), exists=bool(), ex=bool(),
-                 fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                 isObscured=bool(), io=bool(), manage=bool(), m=bool(), maxTime=float(), max=float(), minTime=float(),
-                 min=float(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
-                 p=str(), popupMenuArray=bool(), pma=bool(), pressCommand=str(), pc=str(), preventOverride=bool(),
-                 po=bool(), releaseCommand=str(), rc=str(), repeatChunkSize=float(), rcs=float(), repeatOnHold=bool(),
-                 roh=bool(), resample=bool(), r=bool(), sound=str(), s=str(), statusBarMessage=str(), sbm=str(),
-                 useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-                 waveform=str(), wf=str(), width=int(), w=int(), *args, **kwargs):
+                 enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), endScrub=bool(),
+                 es=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                 highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(), maxTime=float(),
+                 max=float(), minTime=float(), min=float(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
+                 npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), pressCommand=str(), pc=str(),
+                 preventOverride=bool(), po=bool(), releaseCommand=str(), rc=str(), repeatChunkSize=float(),
+                 rcs=float(), repeatOnHold=bool(), roh=bool(), resample=bool(), r=bool(), sound=str(), s=str(),
+                 statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+                 visibleChangeCommand=str(), vcc=str(), waveform=str(), wf=str(), width=int(), w=int(), *args,
+                 **kwargs):
+    pass
+
+
+def soundPopup(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(),
+               docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(),
+               en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+               ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+               isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+               numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+               preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+               visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
+               **kwargs):
     pass
 
 
@@ -8399,14 +8652,14 @@ def spotLight(barnDoors=bool(), bd=bool(), bottomBarnDoorAngle=float(), bbd=floa
 
 def spotLightPreviewPort(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(),
                          docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(),
-                         enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                         fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
-                         isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-                         numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
-                         pma=bool(), preventOverride=bool(), po=bool(), spotLight=str(), sl=str(),
-                         statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-                         visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), widthHeight=list, wh=list, *args,
-                         **kwargs):
+                         enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+                         ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                         highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(),
+                         noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                         popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), spotLight=str(),
+                         sl=str(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(),
+                         vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), widthHeight=list,
+                         wh=list, *args, **kwargs):
     pass
 
 
@@ -8698,14 +8951,14 @@ def surfaceShaderList(add=str(), remove=str(), rm=str(), *args, **kwargs):
 def swatchDisplayPort(annotation=str(), ann=str(), backgroundColor=list, bgc=list, borderColor=list, bc=list,
                       borderWidth=int(), bw=int(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                       dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-                      enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-                      height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), manage=bool(),
-                      m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
-                      p=str(), popupMenuArray=bool(), pma=bool(), pressCommand=str(), pc=str(), preventOverride=bool(),
-                      po=bool(), renderPriority=int(), rp=int(), renderSize=int(), rs=int(), shadingNode=str(),
-                      sn=str(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(),
-                      vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), widthHeight=list,
-                      wh=list, *args, **kwargs):
+                      enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                      ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                      isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                      numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+                      pressCommand=str(), pc=str(), preventOverride=bool(), po=bool(), renderPriority=int(), rp=int(),
+                      renderSize=int(), rs=int(), shadingNode=str(), sn=str(), statusBarMessage=str(), sbm=str(),
+                      useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+                      width=int(), w=int(), widthHeight=list, wh=list, *args, **kwargs):
     pass
 
 
@@ -8715,39 +8968,40 @@ def swatchRefresh(*args, **kwargs):
 
 def switchTable(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(),
                 docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(),
-                en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
-                fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
-                label1=str(), l1=str(), label2=str(), l2=str(), manage=bool(), m=bool(), noBackground=bool(),
-                nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
-                pma=bool(), preventOverride=bool(), po=bool(), selectedRow=bool(), sr=bool(), statusBarMessage=str(),
-                sbm=str(), switchNode=str(), sn=str(), underPointerRow=bool(), upr=bool(), useTemplate=str(), ut=str(),
-                visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
-                **kwargs):
+                en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(),
+                ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                isObscured=bool(), io=bool(), label1=str(), l1=str(), label2=str(), l2=str(), manage=bool(), m=bool(),
+                noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), selectedRow=bool(), sr=bool(),
+                statusBarMessage=str(), sbm=str(), switchNode=str(), sn=str(), underPointerRow=bool(), upr=bool(),
+                useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+                width=int(), w=int(), *args, **kwargs):
     pass
 
 
 def symbolButton(annotation=str(), ann=str(), backgroundColor=list, bgc=list, command=str(), c=str(),
                  defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                  dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-                 exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
-                 hlc=list, image=str(), i=str(), isObscured=bool(), io=bool(), manage=bool(), m=bool(),
-                 noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-                 popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), statusBarMessage=str(),
-                 sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
-                 vcc=str(), width=int(), w=int(), *args, **kwargs):
+                 enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
+                 height=int(), h=int(), highlightColor=list, hlc=list, image=str(), i=str(), isObscured=bool(),
+                 io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
+                 npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(),
+                 po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+                 visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
 def symbolCheckBox(annotation=str(), ann=str(), backgroundColor=list, bgc=list, changeCommand=str(), cc=str(),
                    defineTemplate=str(), dt=str(), disableOffImage=str(), dfi=str(), disableOnImage=str(), dni=str(),
                    docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(),
-                   en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(),
-                   fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, image=str(), i=str(),
-                   innerMargin=bool(), im=bool(), isObscured=bool(), io=bool(), ltVersion=str(), lt=str(),
-                   manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
-                   offCommand=str(), ofc=str(), offImage=str(), ofi=str(), onCommand=str(), onc=str(), onImage=str(),
-                   oni=str(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(),
-                   po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), value=bool(), v=bool(),
+                   en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(),
+                   exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+                   highlightColor=list, hlc=list, image=str(), i=str(), innerMargin=bool(), im=bool(),
+                   isObscured=bool(), io=bool(), ltVersion=str(), lt=str(), manage=bool(), m=bool(),
+                   noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), offCommand=str(), ofc=str(),
+                   offImage=str(), ofi=str(), onCommand=str(), onc=str(), onImage=str(), oni=str(), parent=str(),
+                   p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
+                   statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), value=bool(), v=bool(),
                    version=str(), ver=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
                    width=int(), w=int(), *args, **kwargs):
     pass
@@ -8767,22 +9021,23 @@ def sysFile(copy=str(), cp=str(), delete=bool(), makeDir=bool(), md=bool(), move
 
 def tabLayout(annotation=str(), ann=str(), backgroundColor=list, bgc=list, borderStyle=str(), bs=str(),
               changeCommand=str(), cc=str(), childArray=bool(), ca=bool(), childResizable=bool(), cr=bool(),
-              defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), doubleClickCommand=str(), dcc=str(),
-              dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-              enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-              height=int(), h=int(), highlightColor=list, hlc=list, horizontalScrollBarThickness=int(), hst=int(),
-              image=str(), i=str(), imageVisible=bool(), iv=bool(), innerMarginHeight=int(), imh=int(),
-              innerMarginWidth=int(), imw=int(), isObscured=bool(), io=bool(), manage=bool(), m=bool(),
-              minChildWidth=int(), mcw=int(), moveTab=list, mt=list, newTabCommand=str(), ntc=str(),
-              noBackground=bool(), nbg=bool(), numberOfChildren=bool(), nch=bool(), numberOfPopupMenus=bool(),
-              npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preSelectCommand=str(), psc=str(),
-              preventOverride=bool(), po=bool(), scrollable=bool(), scr=bool(), scrollableTabs=bool(), stb=bool(),
-              selectCommand=str(), sc=str(), selectTab=str(), st=str(), selectTabIndex=int(), sti=int(),
-              showNewTab=bool(), snt=bool(), statusBarMessage=str(), sbm=str(), tabLabel=list, tl=list,
-              tabLabelIndex=list, tli=list, tabPosition=str(), tp=str(), tabTooltip=list, tt=list, tabTooltipIndex=list,
-              tti=list, tabsClosable=bool(), tc=bool(), tabsVisible=bool(), tv=bool(), useTemplate=str(), ut=str(),
-              verticalScrollBarThickness=int(), vst=int(), visible=bool(), vis=bool(), visibleChangeCommand=str(),
-              vcc=str(), width=int(), w=int(), *args, **kwargs):
+              closeTab=int(), ct=int(), closeTabCommand=str(), ctc=str(), defineTemplate=str(), dt=str(), docTag=str(),
+              dtg=str(), doubleClickCommand=str(), dcc=str(), dragCallback=str(), dgc=str(), dropCallback=str(),
+              dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+              ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+              highlightColor=list, hlc=list, horizontalScrollBarThickness=int(), hst=int(), image=str(), i=str(),
+              imageVisible=bool(), iv=bool(), innerMarginHeight=int(), imh=int(), innerMarginWidth=int(), imw=int(),
+              isObscured=bool(), io=bool(), manage=bool(), m=bool(), minChildWidth=int(), mcw=int(), moveTab=list,
+              mt=list, newTabCommand=str(), ntc=str(), noBackground=bool(), nbg=bool(), numberOfChildren=bool(),
+              nch=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(),
+              pma=bool(), postMenuCommand=str(), pmc=str(), preSelectCommand=str(), psc=str(), preventOverride=bool(),
+              po=bool(), scrollable=bool(), scr=bool(), scrollableTabs=bool(), stb=bool(), selectCommand=str(),
+              sc=str(), selectTab=str(), st=str(), selectTabIndex=int(), sti=int(), showNewTab=bool(), snt=bool(),
+              statusBarMessage=str(), sbm=str(), tabIcon=list, ti=list, tabIconIndex=list, tii=list, tabLabel=list,
+              tl=list, tabLabelIndex=list, tli=list, tabPosition=str(), tp=str(), tabTooltip=list, tt=list,
+              tabTooltipIndex=list, tti=list, tabsClosable=bool(), tc=bool(), tabsVisible=bool(), tv=bool(),
+              useTemplate=str(), ut=str(), verticalScrollBarThickness=int(), vst=int(), visible=bool(), vis=bool(),
+              visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -8794,7 +9049,7 @@ def tangentConstraint(aimVector=list, aim=list, layer=str(), l=str(), name=str()
 
 
 def targetWeldCtx(exists=bool(), ex=bool(), image1=str(), i1=str(), image2=str(), i2=str(), image3=str(), i3=str(),
-                  mergeToCenter=bool(), mtc=bool(), *args, **kwargs):
+                  mergeToCenter=bool(), mtc=bool(), preserveUV=bool(), puv=bool(), *args, **kwargs):
     pass
 
 
@@ -8804,7 +9059,8 @@ def tension(after=bool(), af=bool(), afterReference=bool(), ar=bool(), before=bo
             includeHiddenSelections=bool(), ihs=bool(), inwardConstraint=float(), iwc=float(), name=str(), n=str(),
             outwardConstraint=float(), owc=float(), parallel=bool(), par=bool(), pinBorderVertices=bool(), pbv=bool(),
             prune=bool(), pr=bool(), remove=bool(), rm=bool(), smoothingIterations=int(), si=int(),
-            smoothingStep=float(), ss=float(), split=bool(), sp=bool(), *args, **kwargs):
+            smoothingStep=float(), ss=float(), split=bool(), sp=bool(), useComponentTags=bool(), uct=bool(), *args,
+            **kwargs):
     pass
 
 
@@ -8884,12 +9140,13 @@ def texSmudgeUVContext(dragSlider=str(), ds=str(), effectType=str(), et=str(), e
 def text(align=str(), al=str(), annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(),
          dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(),
          dropRectCallback=str(), drc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-         exists=bool(), ex=bool(), font=str(), fn=str(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
-         highlightColor=list, hlc=list, hyperlink=bool(), hl=bool(), isObscured=bool(), io=bool(), label=str(), l=str(),
-         manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
-         p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), recomputeSize=bool(), rs=bool(),
-         statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-         visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), wordWrap=bool(), ww=bool(), *args, **kwargs):
+         enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), font=str(), fn=str(), fullPathName=bool(),
+         fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, hyperlink=bool(), hl=bool(),
+         isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+         numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+         preventOverride=bool(), po=bool(), recomputeSize=bool(), rs=bool(), statusBarMessage=str(), sbm=str(),
+         useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(),
+         w=int(), wordWrap=bool(), ww=bool(), *args, **kwargs):
     pass
 
 
@@ -8902,14 +9159,15 @@ def textField(alwaysInvokeEnterCommandOnReturn=bool(), aie=bool(), annotation=st
               disableClearButton=bool(), dcb=bool(), disableHistoryButton=bool(), dhb=bool(), docTag=str(), dtg=str(),
               dragCallback=str(), dgc=str(), drawInactiveFrame=bool(), dif=bool(), dropCallback=str(), dpc=str(),
               editable=bool(), ed=bool(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-              enterCommand=str(), ec=str(), exists=bool(), ex=bool(), fileName=str(), fi=str(), font=str(), fn=str(),
-              fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, insertText=str(),
-              it=str(), insertionPosition=int(), ip=int(), isObscured=bool(), io=bool(), manage=bool(), m=bool(),
-              noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
-              placeholderText=str(), pht=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-              receiveFocusCommand=str(), rfc=str(), searchField=bool(), sf=bool(), statusBarMessage=str(), sbm=str(),
-              text=str(), tx=str(), textChangedCommand=str(), tcc=str(), useTemplate=str(), ut=str(), visible=bool(),
-              vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+              enableKeyboardFocus=bool(), ekf=bool(), enterCommand=str(), ec=str(), exists=bool(), ex=bool(),
+              fileName=str(), fi=str(), font=str(), fn=str(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+              highlightColor=list, hlc=list, insertText=str(), it=str(), insertionPosition=int(), ip=int(),
+              isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+              numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), placeholderText=str(), pht=str(),
+              popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), receiveFocusCommand=str(),
+              rfc=str(), searchField=bool(), sf=bool(), statusBarMessage=str(), sbm=str(), text=str(), tx=str(),
+              textChangedCommand=str(), tcc=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+              visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -8927,16 +9185,16 @@ def textFieldButtonGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(
                        columnWidth4=list, cw4=list, columnWidth5=list, cw5=list, columnWidth6=list, cw6=list,
                        defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                        dropCallback=str(), dpc=str(), editable=bool(), ed=bool(), enable=bool(), en=bool(),
-                       enableBackground=bool(), ebg=bool(), enableButton=bool(), eb=bool(), exists=bool(), ex=bool(),
-                       fileName=str(), fi=str(), forceChangeCommand=bool(), fcc=bool(), fullPathName=bool(), fpn=bool(),
-                       height=int(), h=int(), highlightColor=list, hlc=list, insertText=str(), it=str(),
-                       insertionPosition=int(), ip=int(), isObscured=bool(), io=bool(), label=str(), l=str(),
-                       manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
-                       parent=str(), p=str(), placeholderText=str(), pht=str(), popupMenuArray=bool(), pma=bool(),
-                       preventOverride=bool(), po=bool(), rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(),
-                       text=str(), tx=str(), textChangedCommand=str(), tcc=str(), useTemplate=str(), ut=str(),
-                       visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
-                       **kwargs):
+                       enableBackground=bool(), ebg=bool(), enableButton=bool(), eb=bool(), enableKeyboardFocus=bool(),
+                       ekf=bool(), exists=bool(), ex=bool(), fileName=str(), fi=str(), forceChangeCommand=bool(),
+                       fcc=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
+                       hlc=list, insertText=str(), it=str(), insertionPosition=int(), ip=int(), isObscured=bool(),
+                       io=bool(), label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                       numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), placeholderText=str(), pht=str(),
+                       popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rowAttach=list, rat=list,
+                       statusBarMessage=str(), sbm=str(), text=str(), tx=str(), textChangedCommand=str(), tcc=str(),
+                       useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+                       width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -8953,15 +9211,16 @@ def textFieldGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(), ad2
                  columnWidth3=list, cw3=list, columnWidth4=list, cw4=list, columnWidth5=list, cw5=list,
                  columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                  dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), editable=bool(), ed=bool(),
-                 enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                 fileName=str(), fi=str(), forceChangeCommand=bool(), fcc=bool(), fullPathName=bool(), fpn=bool(),
-                 height=int(), h=int(), highlightColor=list, hlc=list, insertText=str(), it=str(),
-                 insertionPosition=int(), ip=int(), isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(),
-                 m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
-                 p=str(), placeholderText=str(), pht=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(),
-                 po=bool(), rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(), text=str(), tx=str(),
-                 textChangedCommand=str(), tcc=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-                 visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                 enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(),
+                 exists=bool(), ex=bool(), fileName=str(), fi=str(), forceChangeCommand=bool(), fcc=bool(),
+                 fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                 insertText=str(), it=str(), insertionPosition=int(), ip=int(), isObscured=bool(), io=bool(),
+                 label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+                 numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), placeholderText=str(), pht=str(),
+                 popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), rowAttach=list, rat=list,
+                 statusBarMessage=str(), sbm=str(), text=str(), tx=str(), textChangedCommand=str(), tcc=str(),
+                 useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+                 width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -8975,17 +9234,17 @@ def textScrollList(allItems=bool(), ai=bool(), allowAutomaticSelection=bool(), a
                    deselectAll=bool(), da=bool(), deselectIndexedItem=int(), dii=int(), deselectItem=str(), di=str(),
                    docTag=str(), dtg=str(), doubleClickCommand=str(), dcc=str(), dragCallback=str(), dgc=str(),
                    dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-                   exists=bool(), ex=bool(), font=str(), fn=str(), fullPathName=bool(), fpn=bool(), height=int(),
-                   h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), lineFont=list, lf=list,
-                   manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfItems=bool(), ni=bool(),
-                   numberOfPopupMenus=bool(), npm=bool(), numberOfRows=int(), nr=int(), numberOfSelectedItems=bool(),
-                   nsi=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(),
-                   po=bool(), removeAll=bool(), ra=bool(), removeIndexedItem=int(), rii=int(), removeItem=str(),
-                   ri=str(), selectCommand=str(), sc=str(), selectIndexedItem=int(), sii=int(), selectItem=str(),
-                   si=str(), selectUniqueTagItem=str(), sut=str(), showIndexedItem=int(), shi=int(),
-                   statusBarMessage=str(), sbm=str(), uniqueTag=str(), utg=str(), useTemplate=str(), ut=str(),
-                   visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
-                   **kwargs):
+                   enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), font=str(), fn=str(),
+                   fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                   isObscured=bool(), io=bool(), lineFont=list, lf=list, manage=bool(), m=bool(), noBackground=bool(),
+                   nbg=bool(), numberOfItems=bool(), ni=bool(), numberOfPopupMenus=bool(), npm=bool(),
+                   numberOfRows=int(), nr=int(), numberOfSelectedItems=bool(), nsi=bool(), parent=str(), p=str(),
+                   popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), removeAll=bool(), ra=bool(),
+                   removeIndexedItem=int(), rii=int(), removeItem=str(), ri=str(), selectCommand=str(), sc=str(),
+                   selectIndexedItem=int(), sii=int(), selectItem=str(), si=str(), selectUniqueTagItem=str(), sut=str(),
+                   showIndexedItem=int(), shi=int(), statusBarMessage=str(), sbm=str(), uniqueTag=str(), utg=str(),
+                   useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+                   width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -8995,8 +9254,8 @@ def textureDeformer(after=bool(), af=bool(), afterReference=bool(), ar=bool(), b
                     geometryIndices=bool(), gi=bool(), ignoreSelected=bool(), includeHiddenSelections=bool(),
                     ihs=bool(), name=str(), n=str(), offset=float(), o=float(), parallel=bool(), par=bool(),
                     pointSpace=str(), ps=str(), prune=bool(), pr=bool(), remove=bool(), rm=bool(), split=bool(),
-                    sp=bool(), strength=float(), s=float(), vectorOffset=list, vo=list, vectorSpace=str(), vsp=str(),
-                    vectorStrength=list, vs=list, *args, **kwargs):
+                    sp=bool(), strength=float(), s=float(), useComponentTags=bool(), uct=bool(), vectorOffset=list,
+                    vo=list, vectorSpace=str(), vsp=str(), vectorStrength=list, vs=list, *args, **kwargs):
     pass
 
 
@@ -9018,24 +9277,24 @@ def textureWindow(activeSelectionOnTop=bool(), ast=bool(), axesColor=list, axc=l
                   di=int(), displayIsolateSelectHUD=bool(), dih=bool(), displayLabels=bool(), dl=bool(),
                   displayOverlappingUVCountHUD=bool(), doh=bool(), displayPreselection=bool(), dps=bool(),
                   displayReversedUVCountHUD=bool(), drh=bool(), displaySolidMap=bool(), dsm=bool(), displayStyle=str(),
-                  dst=str(), displayTextureBorder=bool(), dtb=bool(), displayUVShellCountHUD=bool(), dsh=bool(),
-                  displayUVStatisticsHUD=bool(), duh=bool(), displayUsedPercentageHUD=bool(), dph=bool(),
-                  distortionAlpha=float(), dta=float(), distortionPerObject=bool(), dpo=bool(), divisions=int(),
-                  d=int(), docTag=str(), dtg=str(), doubleBuffer=bool(), dbf=bool(), drawAxis=bool(), da=bool(),
-                  drawSubregions=bool(), dsr=bool(), exists=bool(), ex=bool(), exposure=float(), exp=float(),
-                  filter=str(), f=str(), forceMainConnection=str(), fmc=str(), forceRebake=bool(), frb=bool(),
-                  frameAll=bool(), fa=bool(), frameSelected=bool(), fs=bool(), frontFacingColor=list, ffc=list,
-                  gamma=float(), ga=float(), gridLinesColor=list, glc=list, gridNumbersColor=list, gnc=list,
-                  highlightConnection=str(), hlc=str(), imageBaseColor=list, ibc=list, imageDim=bool(), idm=bool(),
-                  imageDisplay=bool(), id=bool(), imageNames=bool(), imn=bool(), imageNumber=int(),
-                  imagePixelSnap=bool(), ip=bool(), imageRatio=bool(), imr=bool(), imageRatioValue=float(), irv=float(),
-                  imageSize=bool(), imageTileRange=list, itr=list, imageUnfiltered=bool(), iuf=bool(),
-                  internalFaces=bool(), labelPosition=str(), lp=str(), loadImage=str(), li=str(),
-                  lockMainConnection=bool(), lck=bool(), mainListConnection=str(), mlc=str(), maxResolution=int(),
-                  mrs=int(), multiColorAlpha=float(), mca=float(), nbImages=bool(), nim=bool(), nextView=bool(),
-                  nv=bool(), numUvSets=bool(), nuv=bool(), numberOfImages=int(), ni=int(), numberOfTextures=int(),
-                  nt=int(), panel=str(), pnl=str(), parent=str(), p=str(), previousView=bool(), pv=bool(),
-                  realSize=bool(), rs=bool(), refresh=bool(), ref=bool(), relatedFaces=bool(), rf=bool(),
+                  dst=str(), displayTextureBorder=bool(), dtb=bool(), displayUVPositionHUD=bool(), duv=bool(),
+                  displayUVShellCountHUD=bool(), dsh=bool(), displayUVStatisticsHUD=bool(), duh=bool(),
+                  displayUsedPercentageHUD=bool(), dph=bool(), distortionAlpha=float(), dta=float(),
+                  distortionPerObject=bool(), dpo=bool(), divisions=int(), d=int(), docTag=str(), dtg=str(),
+                  doubleBuffer=bool(), dbf=bool(), drawAxis=bool(), da=bool(), drawSubregions=bool(), dsr=bool(),
+                  exists=bool(), ex=bool(), exposure=float(), exp=float(), filter=str(), f=str(),
+                  forceMainConnection=str(), fmc=str(), forceRebake=bool(), frb=bool(), frameAll=bool(), fa=bool(),
+                  frameSelected=bool(), fs=bool(), frontFacingColor=list, ffc=list, gamma=float(), ga=float(),
+                  gridLinesColor=list, glc=list, gridNumbersColor=list, gnc=list, highlightConnection=str(), hlc=str(),
+                  imageBaseColor=list, ibc=list, imageDim=bool(), idm=bool(), imageDisplay=bool(), id=bool(),
+                  imageNames=bool(), imn=bool(), imageNumber=int(), imagePixelSnap=bool(), ip=bool(), imageRatio=bool(),
+                  imr=bool(), imageRatioValue=float(), irv=float(), imageSize=bool(), imageTileRange=list, itr=list,
+                  imageUnfiltered=bool(), iuf=bool(), internalFaces=bool(), labelPosition=str(), lp=str(),
+                  loadImage=str(), li=str(), lockMainConnection=bool(), lck=bool(), mainListConnection=str(), mlc=str(),
+                  maxResolution=int(), mrs=int(), multiColorAlpha=float(), mca=float(), nbImages=bool(), nim=bool(),
+                  nextView=bool(), nv=bool(), numUvSets=bool(), nuv=bool(), numberOfImages=int(), ni=int(),
+                  numberOfTextures=int(), nt=int(), panel=str(), pnl=str(), parent=str(), p=str(), previousView=bool(),
+                  pv=bool(), realSize=bool(), rs=bool(), refresh=bool(), ref=bool(), relatedFaces=bool(), rf=bool(),
                   removeAllImages=bool(), ra=bool(), removeImage=bool(), ri=bool(), rendererString=str(), rds=str(),
                   reset=bool(), r=bool(), saveImage=bool(), si=bool(), scaleBlue=float(), sb=float(),
                   scaleGreen=float(), sg=float(), scaleRed=float(), sr=float(), selectInternalFaces=bool(), sif=bool(),
@@ -9095,19 +9354,20 @@ def timeControl(animCurveNames=bool(), acn=bool(), animLayerFilterOptions=str(),
                 asw=bool(), annotation=str(), ann=str(), backgroundColor=list, bgc=list, beginScrub=bool(), bs=bool(),
                 currentFrameColor=list, cfc=list, defineTemplate=str(), dt=str(), displaySound=bool(), ds=bool(),
                 docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(),
-                en=bool(), enableBackground=bool(), ebg=bool(), endScrub=bool(), es=bool(), exists=bool(), ex=bool(),
-                forceRedraw=bool(), fd=bool(), forceRefresh=bool(), fr=bool(), foregroundColor=list, fgc=list,
-                fullPathName=bool(), fpn=bool(), globalTime=bool(), gt=bool(), greasePencilSequenceNames=bool(),
-                gn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
-                mainListConnection=str(), mlc=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-                numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-                pressCommand=str(), pc=str(), preventOverride=bool(), po=bool(), range=bool(), rng=bool(),
-                rangeArray=bool(), ra=bool(), rangeVisible=bool(), rv=bool(), releaseCommand=str(), rc=str(),
-                repeatChunkSize=float(), rcs=float(), repeatOnHold=bool(), roh=bool(), resample=bool(), r=bool(),
-                showGreaseFrames=str(), sg=str(), showKeys=str(), sk=str(), showKeysCombined=bool(), skc=bool(),
-                snap=bool(), sn=bool(), sound=str(), s=str(), statusBarMessage=str(), sbm=str(), tickSize=int(),
-                ts=int(), tickSpan=int(), tsp=int(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-                visibleChangeCommand=str(), vcc=str(), waveform=str(), wf=str(), width=int(), w=int(), *args, **kwargs):
+                en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), endScrub=bool(),
+                es=bool(), exists=bool(), ex=bool(), forceRedraw=bool(), fd=bool(), forceRefresh=bool(), fr=bool(),
+                foregroundColor=list, fgc=list, fullPathName=bool(), fpn=bool(), globalTime=bool(), gt=bool(),
+                greasePencilSequenceNames=bool(), gn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                isObscured=bool(), io=bool(), mainListConnection=str(), mlc=str(), manage=bool(), m=bool(),
+                noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+                popupMenuArray=bool(), pma=bool(), pressCommand=str(), pc=str(), preventOverride=bool(), po=bool(),
+                range=bool(), rng=bool(), rangeArray=bool(), ra=bool(), rangeVisible=bool(), rv=bool(),
+                releaseCommand=str(), rc=str(), repeatChunkSize=float(), rcs=float(), repeatOnHold=bool(), roh=bool(),
+                resample=bool(), r=bool(), showGreaseFrames=str(), sg=str(), showKeys=str(), sk=str(),
+                showKeysCombined=bool(), skc=bool(), snap=bool(), sn=bool(), sound=str(), s=str(),
+                statusBarMessage=str(), sbm=str(), tickSize=int(), ts=int(), tickSpan=int(), tsp=int(),
+                useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+                waveform=str(), wf=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -9144,18 +9404,18 @@ def timeEditorBakeClips(bakeToAnimSource=str(), bas=str(), bakeToClip=str(), btc
 def timeEditorClip(absolute=bool(), abs=bool(), addAttribute=str(), aa=str(), addObjects=str(), ao=str(),
                    addRelatedKG=bool(), akg=bool(), addSelectedObjects=bool(), aso=bool(), allowShrinking=bool(),
                    eas=bool(), animSource=str(), asr=str(), attribute=str(), at=str(), audio=str(), au=str(),
-                   children=int(), chl=int(), clipAfter=bool(), ca=bool(), clipBefore=bool(), cb=bool(),
-                   clipDataType=bool(), cdt=bool(), clipId=int(), id=int(), clipIdFromNodeName=int(), idn=int(),
-                   clipIdFromPath=bool(), idp=bool(), clipNode=bool(), cln=bool(), clipPath=bool(), clp=bool(),
-                   copyClip=bool(), ccl=bool(), crossfadeMode=int(), cfm=int(), crossfadePlug=bool(), cfp=bool(),
-                   curveTime=float(), cvt=float(), defaultGhostRoot=bool(), dgr=bool(), drivenAttributes=bool(),
-                   dat=bool(), drivenClipsBySource=str(), dcs=str(), drivenObjects=bool(), dos=bool(),
-                   drivenRootObjects=bool(), dro=bool(), drivingSources=str(), dsc=str(), duplicateClip=bool(),
-                   dcl=bool(), duration=float(), d=float(), emptySource=bool(), ems=bool(), endTime=float(), et=float(),
-                   exclusive=bool(), exc=bool(), existingOnly=bool(), exo=bool(), exists=bool(), exs=bool(),
-                   explode=int(), epl=int(), exportAllClips=bool(), eac=bool(), exportFbx=str(), ef=str(),
-                   extend=bool(), ex=bool(), extendParent=bool(), exp=bool(), ghost=bool(), gh=bool(),
-                   ghostRootAdd=str(), gra=str(), ghostRootRemove=str(), grr=str(), group=bool(), grp=bool(),
+                   blendMode=int(), bm=int(), children=int(), chl=int(), clipAfter=bool(), ca=bool(), clipBefore=bool(),
+                   cb=bool(), clipDataType=bool(), cdt=bool(), clipId=int(), id=int(), clipIdFromNodeName=int(),
+                   idn=int(), clipIdFromPath=bool(), idp=bool(), clipNode=bool(), cln=bool(), clipPath=bool(),
+                   clp=bool(), copyClip=bool(), ccl=bool(), crossfadeMode=int(), cfm=int(), crossfadePlug=bool(),
+                   cfp=bool(), curveTime=float(), cvt=float(), defaultGhostRoot=bool(), dgr=bool(),
+                   drivenAttributes=bool(), dat=bool(), drivenClipsBySource=str(), dcs=str(), drivenObjects=bool(),
+                   dos=bool(), drivenRootObjects=bool(), dro=bool(), drivingSources=str(), dsc=str(),
+                   duplicateClip=bool(), dcl=bool(), duration=float(), d=float(), emptySource=bool(), ems=bool(),
+                   endTime=float(), et=float(), exclusive=bool(), exc=bool(), existingOnly=bool(), exo=bool(),
+                   exists=bool(), exs=bool(), explode=int(), epl=int(), exportAllClips=bool(), eac=bool(),
+                   exportFbx=str(), ef=str(), extend=bool(), ex=bool(), extendParent=bool(), exp=bool(), ghost=bool(),
+                   gh=bool(), ghostRootAdd=str(), gra=str(), ghostRootRemove=str(), grr=str(), group=bool(), grp=bool(),
                    holdEnd=float(), he=float(), holdStart=float(), hs=float(), importAllFbxTakes=bool(), aft=bool(),
                    importFbx=str(), fbx=str(), importFbxTakes=str(), ft=str(), importMayaFile=str(), mf=str(),
                    importOption=str(), io=str(), importPopulateOption=str(), ipo=str(), importTakeDestination=int(),
@@ -9166,20 +9426,20 @@ def timeEditorClip(absolute=bool(), abs=bool(), addAttribute=str(), aa=str(), ad
                    p=int(), parentClipId=int(), pid=int(), parentGroupId=bool(), pgd=bool(), pasteClip=float(),
                    pcl=float(), path=str(), pt=str(), populateImportedAnimSources=str(), pia=str(), poseClip=bool(),
                    poc=bool(), preserveAnimationTiming=bool(), pat=bool(), razorClip=float(), rcl=float(),
-                   recursively=bool(), rec=bool(), remap=list, rmp=list, remapSource=list, rs=list,
-                   remappedSourceAttrs=bool(), rms=bool(), remappedTargetAttrs=bool(), rmt=bool(),
-                   removeAttribute=str(), ra=str(), removeClip=bool(), rmc=bool(), removeCrossfade=bool(), rcf=bool(),
-                   removeSceneAnimation=bool(), rsa=bool(), removeWeightCurve=bool(), rwc=bool(), resetTiming=bool(),
-                   rt=bool(), resetTransition=bool(), rtr=bool(), ripple=bool(), rpl=bool(), rootClipId=int(),
-                   rti=int(), rootPath=str(), rpt=str(), scaleEnd=float(), sce=float(), scalePivot=float(), scp=float(),
-                   scaleStart=float(), scs=float(), setKeyframe=str(), k=str(), showAnimSourceRemapping=bool(),
-                   sar=bool(), speedRamping=int(), src=int(), startTime=float(), s=float(), takeList=str(), tl=str(),
-                   takesToImport=str(), toi=str(), timeWarp=bool(), tw=bool(), timeWarpCurve=bool(), twc=bool(),
-                   timeWarpType=int(), twt=int(), track=str(), trk=str(), tracksNode=bool(), trn=bool(),
-                   transition=bool(), tra=bool(), trimEnd=float(), tre=float(), trimStart=float(), trs=float(),
-                   truncated=bool(), trc=bool(), type=str(), typ=str(), uniqueAnimSource=bool(), uas=bool(),
-                   userGhostRoot=bool(), ugr=bool(), weightCurve=bool(), wc=bool(), zeroKeying=bool(), zk=bool(), *args,
-                   **kwargs):
+                   recursively=bool(), rec=bool(), remap=list, rmp=list, remapNamespace=list, rns=list,
+                   remapSource=list, rs=list, remappedSourceAttrs=bool(), rms=bool(), remappedTargetAttrs=bool(),
+                   rmt=bool(), removeAttribute=str(), ra=str(), removeClip=bool(), rmc=bool(), removeCrossfade=bool(),
+                   rcf=bool(), removeSceneAnimation=bool(), rsa=bool(), removeWeightCurve=bool(), rwc=bool(),
+                   resetTiming=bool(), rt=bool(), resetTransition=bool(), rtr=bool(), ripple=bool(), rpl=bool(),
+                   rootClipId=int(), rti=int(), rootPath=str(), rpt=str(), scaleEnd=float(), sce=float(),
+                   scalePivot=float(), scp=float(), scaleStart=float(), scs=float(), setKeyframe=str(), k=str(),
+                   showAnimSourceRemapping=bool(), sar=bool(), speedRamping=int(), src=int(), startTime=float(),
+                   s=float(), takeList=str(), tl=str(), takesToImport=str(), toi=str(), timeWarp=bool(), tw=bool(),
+                   timeWarpCurve=bool(), twc=bool(), timeWarpType=int(), twt=int(), track=str(), trk=str(),
+                   tracksNode=bool(), trn=bool(), transition=bool(), tra=bool(), trimEnd=float(), tre=float(),
+                   trimStart=float(), trs=float(), truncated=bool(), trc=bool(), type=str(), typ=str(),
+                   uniqueAnimSource=bool(), uas=bool(), userGhostRoot=bool(), ugr=bool(), weightCurve=bool(), wc=bool(),
+                   zeroKeying=bool(), zk=bool(), *args, **kwargs):
     pass
 
 
@@ -9210,19 +9470,20 @@ def timeEditorComposition(active=bool(), act=bool(), allCompositions=bool(), acp
 
 
 def timeEditorPanel(activeClipEditMode=int(), ace=int(), activeTabRootClipId=bool(), atr=bool(), activeTabTime=bool(),
-                    att=bool(), activeTabView=int(), atv=int(), autoFit=str(), af=str(), control=bool(), ctl=bool(),
-                    defineTemplate=str(), dt=str(), displayActiveKeyTangents=str(), dat=str(), displayActiveKeys=str(),
-                    dak=str(), displayInfinities=str(), di=str(), displayKeys=str(), dk=str(), displayTangents=str(),
-                    dtn=str(), displayValues=str(), dv=str(), docTag=str(), dtg=str(), exists=bool(), ex=bool(),
-                    filter=str(), f=str(), forceMainConnection=str(), fmc=str(), groupIdForTabView=int(), gtv=int(),
-                    highlightConnection=str(), hlc=str(), keyingTarget=int(), kt=int(), layerId=int(), l=int(),
-                    lockMainConnection=bool(), lck=bool(), lookAt=str(), la=str(), mainListConnection=str(), mlc=str(),
-                    menu=str(), m=str(), minClipWidth=int(), mcw=int(), panel=str(), pnl=str(), parent=str(), p=str(),
-                    selectionConnection=str(), slc=str(), setToPrevClipEditMode=bool(), spe=bool(), snapTime=str(),
-                    st=str(), snapToClip=bool(), stc=bool(), snapToFrame=bool(), stf=bool(), snapTolerance=int(),
-                    sto=int(), snapValue=str(), sv=str(), stateString=bool(), sts=bool(), tabView=int(), tv=int(),
-                    timeCursor=bool(), tc=bool(), unParent=bool(), up=bool(), unlockMainConnection=bool(), ulk=bool(),
-                    updateMainConnection=bool(), upd=bool(), useTemplate=str(), ut=str(), *args, **kwargs):
+                    att=bool(), activeTabView=int(), atv=int(), autoFit=str(), af=str(), autoFitTime=str(), aft=str(),
+                    control=bool(), ctl=bool(), defineTemplate=str(), dt=str(), displayActiveKeyTangents=str(),
+                    dat=str(), displayActiveKeys=str(), dak=str(), displayInfinities=str(), di=str(), displayKeys=str(),
+                    dk=str(), displayTangents=str(), dtn=str(), displayValues=str(), dv=str(), docTag=str(), dtg=str(),
+                    exists=bool(), ex=bool(), filter=str(), f=str(), forceMainConnection=str(), fmc=str(),
+                    groupIdForTabView=int(), gtv=int(), highlightConnection=str(), hlc=str(), keyingTarget=int(),
+                    kt=int(), layerId=int(), l=int(), lockMainConnection=bool(), lck=bool(), lookAt=str(), la=str(),
+                    mainListConnection=str(), mlc=str(), menu=str(), m=str(), minClipWidth=int(), mcw=int(),
+                    panel=str(), pnl=str(), parent=str(), p=str(), selectionConnection=str(), slc=str(),
+                    setToPrevClipEditMode=bool(), spe=bool(), snapTime=str(), st=str(), snapToClip=bool(), stc=bool(),
+                    snapToFrame=bool(), stf=bool(), snapTolerance=int(), sto=int(), snapValue=str(), sv=str(),
+                    stateString=bool(), sts=bool(), tabView=int(), tv=int(), timeCursor=bool(), tc=bool(),
+                    unParent=bool(), up=bool(), unlockMainConnection=bool(), ulk=bool(), updateMainConnection=bool(),
+                    upd=bool(), useTemplate=str(), ut=str(), *args, **kwargs):
     pass
 
 
@@ -9240,13 +9501,14 @@ def timeEditorTracks(activeClipWeight=float(), acw=float(), activeClipWeightId=f
 def timeField(annotation=str(), ann=str(), backgroundColor=list, bgc=list, changeCommand=str(), cc=str(),
               defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(), dragCommand=str(),
               dc=str(), dropCallback=str(), dpc=str(), editable=bool(), ed=bool(), enable=bool(), en=bool(),
-              enableBackground=bool(), ebg=bool(), enterCommand=str(), ec=str(), exists=bool(), ex=bool(),
-              fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
-              io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
-              npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), precision=int(), pre=int(),
-              preventOverride=bool(), po=bool(), receiveFocusCommand=str(), rfc=str(), statusBarMessage=str(),
-              sbm=str(), step=float(), s=float(), useTemplate=str(), ut=str(), value=float(), v=float(), visible=bool(),
-              vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+              enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), enterCommand=str(), ec=str(),
+              exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list,
+              hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+              numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+              precision=int(), pre=int(), preventOverride=bool(), po=bool(), receiveFocusCommand=str(), rfc=str(),
+              statusBarMessage=str(), sbm=str(), step=float(), s=float(), useTemplate=str(), ut=str(), value=float(),
+              v=float(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args,
+              **kwargs):
     pass
 
 
@@ -9264,26 +9526,28 @@ def timeFieldGrp(adjustableColumn=int(), adj=int(), adjustableColumn2=int(), ad2
                  columnWidth6=list, cw6=list, defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
                  dragCallback=str(), dgc=str(), dragCommand=str(), dc=str(), dropCallback=str(), dpc=str(),
                  enable=bool(), en=bool(), enable1=bool(), en1=bool(), enable2=bool(), en2=bool(), enable3=bool(),
-                 en3=bool(), enable4=bool(), en4=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-                 extraLabel=str(), el=str(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
-                 highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(),
-                 m=bool(), noBackground=bool(), nbg=bool(), numberOfFields=int(), nf=int(), numberOfPopupMenus=bool(),
-                 npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), precision=int(), pre=int(),
-                 preventOverride=bool(), po=bool(), rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(),
-                 step=float(), s=float(), useTemplate=str(), ut=str(), value=list, v=list, value1=float(), v1=float(),
-                 value2=float(), v2=float(), value3=float(), v3=float(), value4=float(), v4=float(), visible=bool(),
-                 vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+                 en3=bool(), enable4=bool(), en4=bool(), enableBackground=bool(), ebg=bool(),
+                 enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), extraLabel=str(), el=str(),
+                 fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+                 isObscured=bool(), io=bool(), label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(),
+                 nbg=bool(), numberOfFields=int(), nf=int(), numberOfPopupMenus=bool(), npm=bool(), parent=str(),
+                 p=str(), popupMenuArray=bool(), pma=bool(), precision=int(), pre=int(), preventOverride=bool(),
+                 po=bool(), rowAttach=list, rat=list, statusBarMessage=str(), sbm=str(), step=float(), s=float(),
+                 useTemplate=str(), ut=str(), value=list, v=list, value1=float(), v1=float(), value2=float(),
+                 v2=float(), value3=float(), v3=float(), value4=float(), v4=float(), visible=bool(), vis=bool(),
+                 visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
 def timePort(annotation=str(), ann=str(), backgroundColor=list, bgc=list, defineTemplate=str(), dt=str(), docTag=str(),
              dtg=str(), dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-             enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-             globalTime=bool(), gt=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
-             io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
-             parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), snap=bool(),
-             sn=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-             visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+             enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+             fullPathName=bool(), fpn=bool(), globalTime=bool(), gt=bool(), height=int(), h=int(), highlightColor=list,
+             hlc=list, isObscured=bool(), io=bool(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+             numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+             preventOverride=bool(), po=bool(), snap=bool(), sn=bool(), statusBarMessage=str(), sbm=str(),
+             useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
+             width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -9332,29 +9596,30 @@ def tolerance(angular=float(), a=float(), linear=float(), l=float(), *args, **kw
 def toolBar(allowedArea=str(), aa=str(), annotation=str(), ann=str(), area=str(), a=str(), backgroundColor=list,
             bgc=list, content=str(), con=str(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(),
             dragCallback=str(), dgc=str(), dropCallback=str(), dpc=str(), enable=bool(), en=bool(),
-            enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(),
-            height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(), label=str(), l=str(),
-            manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
-            parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(),
-            statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-            visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+            enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(),
+            fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(),
+            io=bool(), label=str(), l=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+            numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
+            preventOverride=bool(), po=bool(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+            visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
 def toolButton(allowMultipleTools=bool(), amt=bool(), annotation=str(), ann=str(), backgroundColor=list, bgc=list,
                changeCommand=str(), cc=str(), collection=str(), cl=str(), defineTemplate=str(), dt=str(), docTag=str(),
                dtg=str(), doubleClickCommand=str(), dcc=str(), dragCallback=str(), dgc=str(), dropCallback=str(),
-               dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), exists=bool(), ex=bool(),
-               fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, image1=str(),
-               i1=str(), image2=str(), i2=str(), image3=str(), i3=str(), imageOverlayLabel=str(), iol=str(),
-               isObscured=bool(), io=bool(), ltVersion=str(), lt=str(), manage=bool(), m=bool(), noBackground=bool(),
-               nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), offCommand=str(), ofc=str(), onCommand=str(),
-               onc=str(), parent=str(), p=str(), popupIndicatorVisible=bool(), piv=bool(), popupMenuArray=bool(),
-               pma=bool(), preventOverride=bool(), po=bool(), select=bool(), sl=bool(), statusBarMessage=str(),
-               sbm=str(), style=str(), st=str(), tool=str(), t=str(), toolArray=bool(), ta=bool(), toolCount=bool(),
-               tc=bool(), toolImage1=list, ti1=list, toolImage2=list, ti2=list, toolImage3=list, ti3=list,
-               useTemplate=str(), ut=str(), version=str(), ver=str(), visible=bool(), vis=bool(),
-               visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+               dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(), enableKeyboardFocus=bool(),
+               ekf=bool(), exists=bool(), ex=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+               highlightColor=list, hlc=list, image1=str(), i1=str(), image2=str(), i2=str(), image3=str(), i3=str(),
+               imageOverlayLabel=str(), iol=str(), isObscured=bool(), io=bool(), ltVersion=str(), lt=str(),
+               manage=bool(), m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(),
+               offCommand=str(), ofc=str(), onCommand=str(), onc=str(), parent=str(), p=str(),
+               popupIndicatorVisible=bool(), piv=bool(), popupMenuArray=bool(), pma=bool(), preventOverride=bool(),
+               po=bool(), select=bool(), sl=bool(), statusBarMessage=str(), sbm=str(), style=str(), st=str(),
+               tool=str(), t=str(), toolArray=bool(), ta=bool(), toolCount=bool(), tc=bool(), toolImage1=list, ti1=list,
+               toolImage2=list, ti2=list, toolImage3=list, ti3=list, useTemplate=str(), ut=str(), version=str(),
+               ver=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(),
+               *args, **kwargs):
     pass
 
 
@@ -9409,7 +9674,7 @@ def transferAttributes(after=bool(), af=bool(), afterReference=bool(), ar=bool()
                        sourceUvSet=str(), suv=str(), sourceUvSpace=str(), sus=str(), split=bool(), sp=bool(),
                        targetColorSet=str(), tcs=str(), targetUvSet=str(), tuv=str(), targetUvSpace=str(), tus=str(),
                        transferColors=int(), col=int(), transferNormals=int(), nml=int(), transferPositions=int(),
-                       pos=int(), transferUVs=int(), uvs=int(), *args, **kwargs):
+                       pos=int(), transferUVs=int(), uvs=int(), useComponentTags=bool(), uct=bool(), *args, **kwargs):
     pass
 
 
@@ -9442,16 +9707,16 @@ def treeLister(addFavorite=str(), af=str(), addItem=list, add=list, addVnnItem=l
                ann=str(), backgroundColor=list, bgc=list, clearContents=bool(), clr=bool(), collapsePath=str(),
                cp=str(), defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-               executeItem=str(), ei=str(), exists=bool(), ex=bool(), expandPath=str(), ep=str(), expandToDepth=int(),
-               etd=int(), favoritesCallback=str(), fcb=str(), favoritesList=bool(), fl=bool(), fullPathName=bool(),
-               fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, isObscured=bool(), io=bool(),
-               itemScript=str(), isc=str(), manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
-               numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-               preventOverride=bool(), po=bool(), refreshCommand=str(), rc=str(), removeFavorite=str(), rf=str(),
-               removeItem=str(), rem=str(), resultsPathUnderCursor=bool(), ruc=bool(), selectPath=str(), sp=str(),
-               statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
-               visibleChangeCommand=str(), vcc=str(), vnnString=bool(), vnn=bool(), width=int(), w=int(), *args,
-               **kwargs):
+               enableKeyboardFocus=bool(), ekf=bool(), executeItem=str(), ei=str(), exists=bool(), ex=bool(),
+               expandPath=str(), ep=str(), expandToDepth=int(), etd=int(), favoritesCallback=str(), fcb=str(),
+               favoritesList=bool(), fl=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+               highlightColor=list, hlc=list, isObscured=bool(), io=bool(), itemScript=str(), isc=str(), manage=bool(),
+               m=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(), npm=bool(), parent=str(), p=str(),
+               popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), refreshCommand=str(), rc=str(),
+               removeFavorite=str(), rf=str(), removeItem=str(), rem=str(), resultsPathUnderCursor=bool(), ruc=bool(),
+               selectPath=str(), sp=str(), statusBarMessage=str(), sbm=str(), useTemplate=str(), ut=str(),
+               visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(), vnnString=bool(), vnn=bool(),
+               width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -9465,24 +9730,25 @@ def treeView(addItem=list, ai=list, allowDragAndDrop=bool(), adr=bool(), allowHi
              defineTemplate=str(), dt=str(), displayLabel=list, dl=list, displayLabelSuffix=list, dls=list,
              docTag=str(), dtg=str(), dragAndDropCommand=str(), dad=str(), dragCallback=str(), dgc=str(),
              dropCallback=str(), dpc=str(), editLabelCommand=str(), elc=str(), enable=bool(), en=bool(),
-             enableBackground=bool(), ebg=bool(), enableButton=list, eb=list, enableKeys=bool(), enk=bool(),
-             enableLabel=list, enl=list, exists=bool(), ex=bool(), expandCollapseCommand=str(), ecc=str(),
-             expandItem=list, ei=list, flatButton=int(), fb=int(), font=list, fn=list, fontFace=list, ff=list,
-             fullPathName=bool(), fpn=bool(), height=int(), h=int(), hideButtons=bool(), hb=bool(), highlightColor=list,
-             hlc=list, highlite=list, hl=list, highliteColor=list, hc=list, ignoreButtonClick=list, ibc=list,
-             image=list, i=list, isItemExpanded=str(), iie=str(), isLeaf=str(), il=str(), isObscured=bool(), io=bool(),
-             item=str(), it=str(), itemAnnotation=list, ia=list, itemDblClickCommand=str(), idc=str(),
-             itemDblClickCommand2=str(), dc2=str(), itemExists=str(), iex=str(), itemIndex=str(), idx=str(),
-             itemParent=str(), ip=str(), itemRenamedCommand=str(), irc=str(), itemSelected=str(), isl=str(),
-             itemVisible=list, iv=list, labelBackgroundColor=list, lbc=list, manage=bool(), m=bool(),
-             noBackground=bool(), nbg=bool(), numberOfButtons=int(), nb=int(), numberOfPopupMenus=bool(), npm=bool(),
-             ornament=list, ornamentColor=list, orc=list, parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-             pressCommand=list, pc=list, preventOverride=bool(), po=bool(), removeAll=bool(), ra=bool(),
-             removeItem=str(), ri=str(), reverseTreeOrder=bool(), rto=bool(), rightPressCommand=list, rpc=list,
-             select=list, sl=list, selectCommand=str(), sc=str(), selectItem=list, si=list,
-             selectionChangedCommand=str(), scc=str(), selectionColor=list, scl=list, showItem=str(), shi=str(),
-             statusBarMessage=str(), sbm=str(), textColor=list, tc=list, useTemplate=str(), ut=str(), visible=bool(),
-             vis=bool(), visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
+             enableBackground=bool(), ebg=bool(), enableButton=list, eb=list, enableKeyboardFocus=bool(), ekf=bool(),
+             enableKeys=bool(), enk=bool(), enableLabel=list, enl=list, exists=bool(), ex=bool(),
+             expandCollapseCommand=str(), ecc=str(), expandItem=list, ei=list, flatButton=int(), fb=int(), font=list,
+             fn=list, fontFace=list, ff=list, fullPathName=bool(), fpn=bool(), height=int(), h=int(),
+             hideButtons=bool(), hb=bool(), highlightColor=list, hlc=list, highlite=list, hl=list, highliteColor=list,
+             hc=list, ignoreButtonClick=list, ibc=list, image=list, i=list, insertItem=list, ii=list,
+             isItemExpanded=str(), iie=str(), isLeaf=str(), il=str(), isObscured=bool(), io=bool(), item=str(),
+             it=str(), itemAnnotation=list, ia=list, itemDblClickCommand=str(), idc=str(), itemDblClickCommand2=str(),
+             dc2=str(), itemExists=str(), iex=str(), itemIndex=str(), idx=str(), itemParent=str(), ip=str(),
+             itemRenamedCommand=str(), irc=str(), itemSelected=str(), isl=str(), itemVisible=list, iv=list,
+             labelBackgroundColor=list, lbc=list, manage=bool(), m=bool(), noBackground=bool(), nbg=bool(),
+             numberOfButtons=int(), nb=int(), numberOfPopupMenus=bool(), npm=bool(), ornament=list, ornamentColor=list,
+             orc=list, parent=str(), p=str(), popupMenuArray=bool(), pma=bool(), pressCommand=list, pc=list,
+             preventOverride=bool(), po=bool(), removeAll=bool(), ra=bool(), removeItem=str(), ri=str(),
+             reverseTreeOrder=bool(), rto=bool(), rightPressCommand=list, rpc=list, select=list, sl=list,
+             selectCommand=str(), sc=str(), selectItem=list, si=list, selectionChangedCommand=str(), scc=str(),
+             selectionColor=list, scl=list, showItem=str(), shi=str(), statusBarMessage=str(), sbm=str(),
+             textColor=list, tc=list, useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+             visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), *args, **kwargs):
     pass
 
 
@@ -9646,7 +9912,7 @@ def viewClipPlane(autoClipPlane=bool(), acp=bool(), farClipPlane=float(), fcp=fl
 
 
 def viewFit(allObjects=bool(), all=bool(), animate=bool(), an=bool(), center=bool(), c=bool(), fitFactor=float(),
-            f=float(), namespace=str(), ns=str(), *args, **kwargs):
+            f=float(), namespace=str(), ns=str(), noChildren=bool(), noc=bool(), *args, **kwargs):
     pass
 
 
@@ -9743,19 +10009,21 @@ def warning(noContext=bool(), n=bool(), showLineNumber=bool(), sl=bool(), *args,
 def webBrowser(annotation=str(), ann=str(), back=bool(), bk=bool(), backgroundColor=list, bgc=list,
                defineTemplate=str(), dt=str(), docTag=str(), dtg=str(), dragCallback=str(), dgc=str(),
                dropCallback=str(), dpc=str(), enable=bool(), en=bool(), enableBackground=bool(), ebg=bool(),
-               exists=bool(), ex=bool(), find=str(), f=str(), forward=bool(), fwd=bool(), fullPathName=bool(),
-               fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list, home=bool(), hm=bool(),
-               isObscured=bool(), io=bool(), manage=bool(), m=bool(), matchCase=bool(), mc=bool(),
-               matchWholeWorld=bool(), mww=bool(), noBackground=bool(), nbg=bool(), numberOfPopupMenus=bool(),
-               npm=bool(), openURL=str(), url=str(), parent=str(), p=str(), popupMenuArray=bool(), pma=bool(),
-               preventOverride=bool(), po=bool(), reload=bool(), rl=bool(), searchForward=bool(), sf=bool(),
-               statusBarMessage=str(), sbm=str(), stop=bool(), st=bool(), urlChangedCb=str(), ucc=str(),
-               useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-               width=int(), w=int(), wrap=bool(), wr=bool(), *args, **kwargs):
+               enableKeyboardFocus=bool(), ekf=bool(), exists=bool(), ex=bool(), find=str(), f=str(), forward=bool(),
+               fwd=bool(), fullPathName=bool(), fpn=bool(), height=int(), h=int(), highlightColor=list, hlc=list,
+               home=bool(), hm=bool(), isObscured=bool(), io=bool(), manage=bool(), m=bool(), matchCase=bool(),
+               mc=bool(), matchWholeWorld=bool(), mww=bool(), noBackground=bool(), nbg=bool(),
+               numberOfPopupMenus=bool(), npm=bool(), openURL=str(), url=str(), parent=str(), p=str(),
+               popupMenuArray=bool(), pma=bool(), preventOverride=bool(), po=bool(), reload=bool(), rl=bool(),
+               searchForward=bool(), sf=bool(), statusBarMessage=str(), sbm=str(), stop=bool(), st=bool(),
+               urlChangedCb=str(), ucc=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+               visibleChangeCommand=str(), vcc=str(), width=int(), w=int(), wrap=bool(), wr=bool(), *args, **kwargs):
     pass
 
 
-def webView(urlAddress=str(), url=str(), windowHeight=int(), wh=int(), windowWidth=int(), ww=int(), *args, **kwargs):
+def weightsColor(colorRamp=str(), cr=str(), deformer=str(), dfm=str(), falseColor=bool(), fc=bool(),
+                 outOfRangeColor=list, orc=list, rampMaxColor=list, rxc=list, rampMinColor=list, rmc=list,
+                 useColorRamp=bool(), ucr=bool(), useMaxMinColor=bool(), umc=bool(), *args, **kwargs):
     pass
 
 
@@ -9794,7 +10062,7 @@ def wire(after=bool(), af=bool(), afterReference=bool(), ar=bool(), before=bool(
          gi=bool(), groupWithBase=bool(), gw=bool(), holder=list, ho=list, ignoreSelected=bool(),
          includeHiddenSelections=bool(), ihs=bool(), localInfluence=float(), li=float(), name=str(), n=str(),
          parallel=bool(), par=bool(), prune=bool(), pr=bool(), remove=bool(), rm=bool(), split=bool(), sp=bool(),
-         wire=str(), w=str(), wireCount=int(), wc=int(), *args, **kwargs):
+         useComponentTags=bool(), uct=bool(), wire=str(), w=str(), wireCount=int(), wc=int(), *args, **kwargs):
     pass
 
 
@@ -9825,12 +10093,13 @@ def workspaceControl(checksPlugins=bool(), cp=bool(), close=bool(), cl=bool(), c
                      exists=bool(), ex=bool(), floating=bool(), fl=bool(), height=bool(), h=bool(),
                      heightProperty=str(), hp=str(), horizontal=bool(), hr=bool(), initCallback=str(), ic=str(),
                      initialHeight=int(), ih=int(), initialWidth=int(), iw=int(), label=str(), l=str(),
-                     loadImmediately=bool(), li=bool(), minimumWidth=int(), mw=int(), r=bool(), requiredControl=str(),
-                     rc=str(), requiredPlugin=str(), rp=str(), resizeHeight=int(), rsh=int(), resizeWidth=int(),
-                     rsw=int(), restore=bool(), rs=bool(), retain=bool(), rt=bool(), stateString=str(), ss=str(),
-                     tabPosition=list, tp=list, tabToControl=list, ttc=list, uiScript=str(), ui=str(),
-                     useTemplate=str(), ut=str(), visible=bool(), vis=bool(), visibleChangeCommand=str(), vcc=str(),
-                     width=bool(), w=bool(), widthProperty=str(), wp=str(), *args, **kwargs):
+                     loadImmediately=bool(), li=bool(), minimumHeight=int(), mh=int(), minimumWidth=int(), mw=int(),
+                     r=bool(), requiredControl=str(), rc=str(), requiredPlugin=str(), rp=str(), resizeHeight=int(),
+                     rsh=int(), resizeWidth=int(), rsw=int(), restore=bool(), rs=bool(), retain=bool(), rt=bool(),
+                     stateString=str(), ss=str(), tabPosition=list, tp=list, tabToControl=list, ttc=list,
+                     uiScript=str(), ui=str(), useTemplate=str(), ut=str(), visible=bool(), vis=bool(),
+                     visibleChangeCommand=str(), vcc=str(), width=bool(), w=bool(), widthProperty=str(), wp=str(),
+                     *args, **kwargs):
     pass
 
 
